@@ -1,0 +1,45 @@
+from django.db import models
+from django.contrib.auth.models import User
+
+class BaseModel(models.Model):
+
+    '''
+    Base Model that includes id, creator, updated and created fields which are
+    automatically saved
+    '''
+    class Meta:
+        app_label = 'server'
+        abstract = True
+    
+    id = UUIDField(primary_key=True)
+    creator = models.ForeignKey(User, null=True, blank=True)
+    updated = models.DateTimeField(auto_now=True)
+    created = models.DateTimeField(auto_now_add=True)
+
+    def save(self, *args, **kwargs):
+        if 'request' in kwargs and self.pk is None:
+            self.creator = kwargs['request'].user
+        super(BaseModel, self).save(*args, **kwargs)
+
+
+class Article(BaseModel):
+    text = models.TextField()
+    tags = models.ManyToManyField(Tag, related_name='articles')
+    
+    
+class Tag(models.Model):
+    name = models.models.CharField(max_length=40)
+    
+class Item(BaseModel):
+    name = models.CharField(max_length=80)
+    article = models.ForeignKey(Article)
+    recipes = models.ManyToManyField(Recipe, related_name='items')
+    
+class Recipe(BaseModel):
+    instructions = TexField()
+    
+    
+    
+    
+
+    

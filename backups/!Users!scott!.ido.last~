@@ -1,0 +1,54 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/scott/Documents/clojure-noob/src/" . "clojure_noob/")
+ ("/Users/scott/Documents/clojure-noob/" . "src/")
+ ("/Users/scott/Documents/" . "clojure-noob/")
+ ("/Users/scott/" . "Documents/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/scott/Documents/"
+ "/Users/scott/"
+ "/"
+ "/Users/scott/.emacs.d/"
+ "/Users/scott/Documents/clojure-noob/src/clojure_noob/"
+ "/Users/scott/Documents/clojure-noob/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "AquariusOne.org"
+ "places2visit.txt"
+ "init.el"
+ "journal.txt"
+ "core.clj"
+ "todo.org"
+ "CHANGELOG.md"
+ "project.clj"
+ "abbrev_defs"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/scott/" (22409 43966 0 0) "vagrantfile" "using_skip_sort.py" "using_insert.py" "using_find.py" "using_dot_notation.py" "Untitled0.ipynb" "timeclient.py" "StringCount.ipynb" "SerialKiller.ipynb" "Serial_Graph.ipynb" "Run_Test.ipynb" "read_reddit.py" "quicklisp/" "Public/" "Project_Euler.ipynb" "places2visit.txt" "Pictures/" "nutrition_sql.txt" "News/" "Music/" "Movies/" "mortgage.py" "Modbus_Master.ipynb" "Map_function.ipynb" "Mail/" "lisp/" "Library/" "journal.txt~" "journal.txt" "iTunes_Cleanup.ipynb" "House_profit.ipynb" "helloworld.py" "getting_started_pymongo.py" "FSTConfig.xml" "energy_usage.ipynb" "emacs_notes~" "emacs_notes" "Downloads/" "Doors.ipynb" "Documents/" "Desktop/" "DataFrame.ipynb" "Data_Graph.ipynb" "Current Calc.ipynb" "create_student_collection.js" "Config_Defaults.ipynb" "ClassComposition.ipynb" "Calibre Library/" "BTSync/" "bin/" "Applications/" "Algorithms.ipynb" ".xfwqumarc" ".Xcode/" ".Xauthority" ".wireshark-etc/" ".wireshark/" ".viminfo" ".vim/" ".vagrant.d/" ".vagrant/" ".Trash/" ".swp" ".subversion/" ".ssh/" ".sqlite_history" ".slime-history.eld" ".slime/" ".sbclrc" ".recently-used.xbel" ".python26_compiled/" ".profile" ".pip/" ".oracle_jre_usage/" ".octave_hist" ".newsrc.eld" ".newsrc" ".netrc" ".mysql_history" ".mongorc.js" ".matplotlib/" ".m2/" ".lesshst" ".lein/" ".kdyefxnn" ".ipython/" ".ipynb_checkpoints/" ".inkscape-etc/" ".ido.last" ".idlerc/" ".heroku/" ".gnus" ".gnupg/" ".gnome2/" ".gitconfig" ".ghc/" ".gem/" ".gdb_history" ".fonts/" ".fontconfig/" ".enstaller4rc" ".emacs.d/" ".eaglerc" ".dvdcss/" ".DS_Store" ".dropbox/" ".distlib/" ".dbshell" ".cups/" ".crash_reportrc" ".crash_report_preview" ".crash_report_frames" ".crash_report_checksum" ".config/" ".CFUserTextEncoding" ".canopy/" ".cache/" ".bash_sessions/" ".bash_profile.save" ".bash_profile.pysave" ".bash_profile.macports-saved_2012-11-20_at_18:56:57" ".bash_profile" ".bash_history" ".authinfo" ".AndroidStudio2.1/" ".android/" ".#*scratch*" "*scratch*" "#*scratch*#" "../" "./")
+
+ ("/Users/scott/.emacs.d/" (22372 15627 0 0) "themes/" "projectile-bookmarks.eld" "places" "osx-say.el" "init.el~" "init.el" "elpa/" "customizations/" "column-marker.el" "cider-history" "backups/" "auto-save-list/" "abbrev_defs" ".smex-items" ".recentf" "../" "./")
+
+ ("/Users/scott/Documents/clojure-noob/src/clojure_noob/" (22352 27286 0 0) "core.clj" "../" "./")
+
+ ("/Users/scott/Documents/clojure-noob/" (22343 61317 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "LICENSE" "doc/" "CHANGELOG.md" ".lein-repl-history" ".hgignore" ".gitignore" "../" "./")
+
+ ("/Users/scott/Documents/" (22344 42413 0 0) "vishnu-frontend/" "vishnu-backend/" "velcro.jpg" "thinkstats2.pdf" "thinkpython.pdf" "thinkos.pdf" "thinkbayes.pdf" "test.html" "test/" "tempotest_ScottGarrison/" "Tables.html" "suggestions_insert.sql" "suggestions1.csv" "suggestions.xls" "suggestions.py" "stained_glass_barcelona.png" "sscanf_notes.txt" "Slate/" "SimpleBook/" "shopsmith/" "sensor-sea-cache-backend/" "sensor-sea-backend/" "security_system_user_guide.pdf" "scrabble/" "runes.org" "resume.pdf" "resume/" "raspeye-ffmpeg/" "raspeye-daemon/" "Raspberry_Pie/" "PythonSerialArduinoExample.py" "Purchase.txt" "psivt09-lbh-draft.pdf" "Provident Funding_ The Mortgage Price Leader!.pdf" "plants_commonly_eaten.org~" "plants_commonly_eaten.org" "pig.py" "pi_estimator.py" "parents-ui/" "Optimized_Class_Algorithm.txt" "ops-ui/" "NDA.txt" "My Drawings/" "music_to_checkout.txt" "mpltut _1_.tgz" "mononoki/" "models/" "Market.xls" "mapestry_notes.txt" "MakeISOfiles.txt" "madefromscratch/" "LTspice/" "LokiAndTheDragon.rtfd/" "Loki_And_The_Dragon.txt" "Loki.jpg" "linearSystems.pdf" "linalg_jordan_86.pdf" "leastSquares.pdf" "Learning_Postgres.txt" "LandD_outline.rtfd/" "KVA_Emotion.jpg" "KS_100kW/" "job_links.txt" "InventoryManagement/" "Ideas.txt" "icon.png" "HouseExpenses.csv" "House_Expenses.cts" "House_Expenses.bak" "hollow-ring-P096.gif" "heroku-buildpack-python/" "heatmap-geocoding/" "HAM_notes.txt" "gunshot-spotter.lisp" "Geometric_LinAlg.pdf" "GCU_testin.xlt" "Free_as_in_Freedom.pdf" "FCC_HAM_license.pdf" "ember-models/" "emacs_refcard.pdf" "eagle/" "Dynamic_Update_Procedure.doc" "dynamic-rest/" "downey08semaphores.pdf" "DailyAppreciation.txt" "CSS_Secrets_sample-3.pdf" "Complete Robotics and Mechatronics Books Collection/" "CO2_PPM_vs_mV.ods" "clojure-noob/" "check_url/" "CheatSheets/" "cheap-seats/" "CHARON.jpg" "Charon.html" "CHARON.dot" "challenge/" "breakout.py" "AVR_fuse_setting.txt" "AVR/" "AUXFOG_21_November_2013_PDA_sized.pdf" "Arduino/" "AquariusOne.org~" "AquariusOne.org" "Anki/" "AltSchool.cts" "AltSchool.bak" "4_1.py" "3_1.py" "2015 tax/" "2014 Tax without (sent)/" "2014 Tax with House/" "2013 Tax/" "2012 Tax/" "2011 Tax/" "2010_Tech_Study_Guide.pdf" "2010 Tax Forms/" "2009 Tax forms/" ".localized" ".DS_Store" ".#music_to_checkout.txt" ".#Loki_And_The_Dragon.txt" ".#algorithms.py" "#Loki_And_The_Dragon.txt#" "#algorithms.py#" "../" "./")
+
+ ("/Users/scott/Documents/clojure-noob/src/" (22337 9444 0 0) "clojure_noob/" "../" "./")
+
+ ("/Users/" (22131 39527 0 0) "Shared/" "scott/" "PortDetect.log" ".localized" "../" "./")
+
+ ("/Users/scott/Downloads/" (22340 59521 0 0) "WSEPrescreenWorksheet.docx" "woman_w_spirits.jpg" "Wim Hof Method - Extraordinary in everyone/" "Uberti_1866_Rifleschem.jpg" "Tumbleweed.gif" "TPIC6B595N.pdf" "The_Linux_Command_Line.pdf" "The.Flash.Season.1.720p.BluRay.x264.ShAaNiG/" "The.Danish.Girl.2015.720p.BRRip.x264.AAC-ETRG/" "The Vital Question - Why Is Life the Way It Is - Nick Lane/" "The Looking Glass Wars - Hatter M (01 - 04 + extras)/" "The Looking Glass Wars/" "The Complete Android Guide[Team Nanban][TPB]/" "target1.dxf" "Tame Impala  Currents [2015] 320/" "table5_a.xls" "sun2.jpg" "sun.jpg" "suggestions.py" "Sufjan Stevens - Carrie & Lowell (2015)/" "SparkFun-Eagle-Libraries-master/" "Scott_Garrison_recommendation.pdf" "scott_garrison.html" "sbcl-1.1.6-x86-darwin/" "RunTest_20130830.png" "Run_Test (1).py" "RelayBoard-Large-v17/" "RelayBoard-Large-v11.zip" "Relay Board_rev2.doc" "Red_Axes-Ballad_Of_The_Ice-PROMO-CD-FLAC-2014-DCRD/" "randhtml.cgi" "qrc-jm-v3-part2.png" "pythonCheatSheet.png" "Puppy_Loki_in_Woods.jpg" "pspics/" "Programming Your Home - Automate with Arduino, Android, and Your Computer 2012 (Pdf ,Epub) -Mantesh/" "practicals-1.0.3/" "PID_FrontEnd_v03.zip" "pictures/" "photo.JPG" "Perky_Loki_Pup.jpg" "PCUoutputvalues.docx" "PCU_relay_board_2_0.zip" "PCU_relay_board_2_0/" "PCU.png" "Parmy Olson-We Are Anonymous_ Inside the Hacker World of LulzSec, Anonymous, and the Global Cyber Insurgency-Little, Brown and Company (2012).mobi" "paip/" "opencv2.framework/" "On_A_Duck.jpg" "Nina Simone/" "Muscle Logic -  Escalating Density Training -Mantesh/" "MPXV7002.pdf" "Monk, Simon/" "modbusonthedse8610/" "MIT Introduction to Algorithms 3rd Edition 2009 RETAiL eBOOk-rebOOk/" "Mental_Health_Hotline.txt" "Maend & Hons Men & Chicken 2015 English Movies 720p HDRip XviD AAC ~ ☻rDX☻/" "machine-learning-ex1/" "Lucifer.Season.1.720p.HDTV.x265.ShAaNiG/" "LokiAndTheDragon-Phaeton.png" "Loki_DressUp2.jpg" "Loki_DressUp.jpg" "Loki_and_tamara.jpg" "Loki-and-the-Dragon-Logo-2.gif" "Loki-and-the-Dragon-Final-Banner.gif" "LispCheatSheet.txt" "LastRB.pdf" "LaoMonkeyBaby.jpg" "KS_PowerTest.zip" "KM6ACW_FCC_License.pdf" "Kendrick_Lamar-Good_Kid_M.A.A.D_City-(Deluxe_Edition)-(RapGodFathers.info)/" "Kendrick Lamar -To Pimp a Butterfly (2015) [WEB]/" "kelley sxs_12.jpg" "How To Answer Interview Questions + Cracking the Coding Interview 150 Programming Questions and Solutions - Mantesh/" "house.xls" "hollowband.jpg" "Hexbright-Samples/" "hexbright-master/" "GridTie.zip" "GridTie.sch" "gcu3.03.brd" "g1bclist.xls" "fwdonceuponatime3entitiessharedtimeandspacefora/" "finalgenerator/" "Fetty Wap - Fetty Wap (Deluxe) [Explicit] 2015 {MP3 Album}~{VBUc}/" "fastest_scrabble_algorithm.pdf" "Erik_the_Red's_Saga.ogg" "empty.zip" "DeathlyHallowsEarrings1.jpg" "DAT00042.CSV" "CONJUGATE S&C.xlsx" "Captain Carrot - Oz Wonderland War/" "canbus_shield-v12.zip" "calendar.ics" "Building the Gymnastic Body/" "Biodico_GridTie_DSE8610_Pinout.xlsx" "Big Grams-Lights On.mp3" "Beirut/" "Becoming the Iceman - Pushing Past Perceived Limits - Wim Hof.pdf" "BECK.Steinar.2016.E06E02.SWEDiSH.Swesub.720p.x264.ac3-314r/" "Beardedaxetutorial.doc" "Baby_Loki.jpg" "Aww_Loki.jpg" "Attenboroughs.Passion.Projects.1of4.A.Blank.On.The.Map.720p.HDTV.x264.AAC.MVGroup.org.mp4" "apt-calculator-template7.xls" "Anthony Tony Robbins - Awaken The Giant Within - Full Audio Book 90 min.mp3" "Anna Von Hausswolff - Ceremony 2012 Indie 320kbps CBR MP3 [VX] [P2PDL]/" "Alabama Shakes-Boys & Girls (2012) 320Kbit(mp3) DMT/" "[2002] Anthropological Theory - Bourdieu and phenomenology – A critical assessment.pdf" "2013 Aclima NDA.pdf" "2011-FinancialSummary.pdf" "167510_10100198948133153_5512825_n.jpg" ".localized" ".DS_Store" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

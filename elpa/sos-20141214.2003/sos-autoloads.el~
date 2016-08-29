@@ -1,0 +1,13 @@
+;;; sos-autoloads.el --- automatically extracted autoloads
+;;
+;;; Code:
+
+
+(provide 'sos-autoloads)
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; no-update-autoloads: t
+;; coding: utf-8
+;; End:
+;;; sos-autoloads.el ends here

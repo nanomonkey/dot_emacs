@@ -1,0 +1,411 @@
+-=[ Journal}=-
+
+[ Wed Nov 18 19:18:59 2015 ]
+I'm teaching myself LISP and Emacs along with some basic AI techniques.  Hopefully this will prove to be fruitful, both as a means of improving my programming capabilities but also to inspire future projects.  I plan on keeping this journal as a free write to manage my thoughts and inspirations.  It also gives me a means ot practice using Emacs and ELISP.
+
+Some ideas that I have about it's usefulness include transforming a raspberry pi into a LISP machine where I can have a personal assistant in the form of a evolving AI of functionality that I find useful as I progress.  Possibilities include the ability to record all of my daily sights and sound and process them for later use.  In the least, between the capabilities of Emacs as an textual "OS" should come in handy.
+
+On second thought, a raspberry pi might not be the most compact mobile setup...perhaps using my iPhone with a bluetooth keyboard would be better.  Or just a cheap laptop with linux installed.  The pi can run the household.
+
+[ Wed Nov 18 20:01:07 2015 ]
+Just testing the (journal-entry) elisp functionality.
+
+[ Wed Nov 18 21:57:39 2015 ]
+Checking out Emacs Rocks! again and finding some good stuff...some of it is way out of my needs but still, gives me ideas about how extensible emacs really is.  Emacs Rocks!
+
+
+[ Fri Nov 20 22:13:15 2015 ]
+Updated (journal-entry) to find this file instead of opening a buffer named journal.txt...didn't really expect that there would be a difference.  Buffers are strange like that.  Still getting used to how to think in emacs.  Still, have to say, I'm impress. I did kill a whole bunch of notes by using C-s to find a piece of text, must have hit a C-k in there as it was in the kill ring.
+
+
+[ Fri Dec 11 21:23:50 2015 ]
+At some point I would like to figure out how to encrypt this file upon saving it.  A quick internet search suggested MailCrypt, but my emacs foo is too week and I've been unable to get it to work correctly.  Regardless, it should be helpful to write here more often.  I feel like I spend far too much time reading Hacker News or doing internet searches on interests than I probably should.  It is my wish to utilize journal writing to kick start a synthesis mode where I'm creating far more than I'm digesting.  Perhaps I need to take on an intermitten fasting approach to the internet.  If I spend the majority of the day obstaining from the free information that is out there than I'll be forced to work on projects such as writing fiction, creating useful programs and iterating through problems instead of just reading about technologies that I'd like to be working on.
+
+Some projects that I'd like to tackle include writing a piece of fiction.  I've been meaning to work more on the Loki and the Dragon children's novel that I started so long ago.  The idea is still fairly worked out in my mind.  The Aquarius novel is also something that should be persued.  Building a robot, and a tiny house or finishing up the garage are also ideal.  So far I've been more consumed with building a more mobile emacs platform.  This is despite the fact that I have a working laptop, not to mention a couple of raspberry pi's and a monitor.  All of which are decent emacs environments.
+
+Uses for AI that I'd like to persue...a robot servant that can recognize objects in my house and organize them or clean them.  This would include cleaning the floor or furniture of dust and dog hair.  As a general purpose robot it may be useful for it to have a display (thus standing desk for the living room and kitchen).  It should be able to vacuum and brush items if not recognize moop.  Thus a rotating brush with a vacuum attachment and a container for the vacuumed debris.  Two independent wheels and a camera, a lidar and what ever other sensors are necessary to determine it's surroundings.  A mic and perhaps a radio transmitter (seperate arduino module for dealing with transmission, etc.) can talk to a hanset that can be used for transmitting "follow me" signals or what ever interface commands are thought up.
+
+
+
+[ Sat Dec 12 10:51:23 2015 ]
+It is interesting that I bounce between wanting to set up as much surveilance cameras and microphones as I can and feeling that the effort is futile if I don't plan on staying in Oakland.  I guess if I keep the house the security cameras won't hurt.  Keeping the house means forgoing a huge payout which would be useful when purchasing a better piece of property.
+
+Ideal living environments...mostly involve peace, nature and the ability to build.  Build robots, a garden, a family, a working love life.  Not sure why I struggle with that so much here.  I have all the resources I need, except maybe freedom from outside distractions.  The dogs, the street life, the pressures of the city all seem to weigh down on me as cliche as that sounds. There are almost too many resources here, so no need to build anything myself.  The idea of building simply out of interest seems a bit of a waste.  If I were building for the need of tools to keep me living I feel that I'd have some sort of push to do so.  I guess I could force myself to live off my current savings and situation...raise my own food. I'm not sure that I would want to eat food that was raised hydroponically, perhaps intensive soil or aquaculture.  Vertical gardens with a tank in the middle.  
+
+Created a org table of all the plants that I commonly eat: ~/Documents/plants_commonly_eaten.org
+
+
+[ Mon Dec 14 20:57:22 2015 ]
+Prototyping system that uses ribbon (metal/paper/carbon fiber), a beam cutter (laser/electron/plasma) and a beam welder (tig/laser) to create a variety of mostly hollow shapes. The concept is similar to how modern gutters are created on a trailer at the house.  A progressive bending head could create tube from the ribbon, expanded screen or any number of components.  The profiles for the bending head could be made from stacked layers of the "ribbon" material, each layer cut into the evolving profile of the bending head.  Therefore tubes would transition from flat to half circle on each side of the bending head.  These laminated bending heads might even be left in place, like screw nuts or fillet welts for 90 degree transitions.  Cutting/ablation could be used to induce folds to take advantage of oragami like folds.
+
+A proof of concept could be made with paper, utilizing a sprayable glue, uv sensitive epoxy or something that would allow welding of surfaces. I believe there is a simmilar concept using packing tape and spirals.  Likely this would be most useful for metals which can work harden and maintain regidity, although with uv hardening epoxy the resultant composite would be quite strong.
+
+While thinking about the uses of such a rapid prototyper and whether to use laser welding/cutting or plasma I did some reading up on laser guided electric discharge (lightning/arcs), plasma discharges, electron guns (cathode ray tubes from tvs), laser ablation, plasma and vapor layer deposition and a variety of plasma physics that could be useful for rapid prototyping.  These seam specially suited for rapid prototyping in space. One could imagine building circuitry within crystal walls insulated from space micrometeors and cosmic rays using aerogel created in the vacuum of space.  A lot of the difficulty of doing laser ablation and deposition would be made much easier in hard vacuum.  One could build vast solar arrays in place and transform the electricity (or light or whatever we use for energy) into manipulating atoms into greater structures.  With a laser and an electron gun one can do spectroscopy for identifying materials, plasma propulsion, weld, cut, fuse.
+
+I wonder if it isn't sufficient to just make tubes.
+
+
+[ Tue Dec 15 11:30:23 2015 ]I
+I  had a minor panic attack last night.  Not overwhelming, just a mental state that wasn't all that comfortable.  I had just smoked a rolled cigerrette, a habit that I've picked up for no apparent reason except that I have free time these days.  I came to the realization that I was going to die one day and that it wouldn't be painless, or escapable.  That feeling of not being in control cornered me like I haven't felt in ages if ever.  Very strange.  I find that whatever tv shows I'm watching tend to have an effect on my mental state.  I just started watching "You Better Call Saul".  The lead character is delving into gariactrics law, so he spending a lot of time with old people.  Perhaps that brought this up, or perhaps all this thought of space travel and engineering.  I read an article about AI and the evolution of the human mind.  What is our recourse?  Freeze our brains?  Live extremely clean lives and eat tons of vitamins in hopes that a solution comes up before our bodies start to fall apart?  Is it futile?  I used to think I was on the right track...but looking back it was easy to overlook a lot.  Simply not eating meat wasn't the solution that is for sure.  In fact it may prove to be as much of a problem as not.
+
+Time keeps on ticking. What does it mean to live?  Am I living life (to the fullest) now?  Or how I'd like?
+
+
+[ Wed Dec 16 14:46:00 2015 ]
+All doors should have an internet enabled computer with a outward facing camera.  This would allow them to be locked and unlocked remotely, keys removed and the party entering verified.  Bolts wouldn't need to be mechanically attached to the key mechanism so they could be dispersed throughout the frame.  Alternates to an outward facing camera would be to turn the whole surface into a sensor.  Doors could be faraday cages that only communicate via fiber optics with the outside world.  Energy could be harvested from solar cells located at the end of the fiber optics or through sipping from the faraday cage itself?
+
+Fiber optics would be a good way of isolating the computer and make it "hardened".  All outside sensors could have adacs that convert the sensor signal into a optical signal utilizing cheap plastic fiber optics and diodes (as apposed to lasers and more expensive fiber optics).
+
+A backpack with this technology would be something.  Each fiber optic could terminate at some point on the backpack, allowing the user to connect outside sensors or components, or just use the light for the light itself (rear facing red light for signalling traffic when biking, etc).
+
+
+
+[ Thu Dec 17 22:42:12 2015 ]
+The idea of an electrically isolated computer in a backback has been on my mind.  Fiber optics are used to send data from the computer and external modules (keyboard, screen, sdr antenae, lights, etc).  These would, I imagine, all have to be powered externally.  Some would have their own batteries and be electrically isolated from the world allowing them to be emp hardened (keyboard definitely, screen and lights???). Not sure if a screen can be sufficiently shielded and still work.  I'm curious if their is a way to supply power through a faraday cage and still be isolated?  Diodes or fuses?
+
+
+[ Tue Jul 12 21:19:54 2016 ]
+I went out a few weeks ago with Brett to a club in East Oakland.  The music was Jungle which Brett is apparently still very much into.  It was good to dance.  I feel that I should be doing more of that.  I definitely miss it.  
+
+I also miss cooking for others.  I wish I could make breakfast for people more.  Trying to maintain a Ketogenic diet, so I've been making Hollendaise sauce, to put over asparagus or cauliflour.  Tasty stuff.  Also purchased a caste iron waffle maker.  I came up with an excellent sour dough waffle recipe that uses up the bran siftings from making whole wheat flour.  
+
+From memory:
+  20-60 grams sourdough starter
+  400-600 grams bran siftings
+          add these together and let ferment for a day
+  2 tbs sugar
+  dash of Kefir milk (4 tbs?)
+  2 tbs butter melted
+  1/4 tsp baking soda mixed with water
+  vanilla extract
+  1/4 tsp salt (?)
+
+  
+Had some success using rosemary in the butter and removing the sugar to make a savory version.  Have to be careful to not add too much salt.
+
+
+[ Wed Jul 13 21:38:04 2016 ]
+Made the mistake of drinking tincture.  Two teaspoons was enough to mess with my evening, unable to make food or maintain core body temperature to my satisfaction.  Not sure what the interest is when I make these experiments...I mean by now I should know it won't be productive.  Too much processing, and I'm never quite sure if the troubles I'm processing are even real, or necessary to consume.  Self doubt induced by chemicals hadly constitutes a positive use of time, in fact it might better described as an uncordinated waste of time.  
+
+
+[ Thu Jul 14 20:25:18 2016 ]
+So far using habitica (HabitRPG) has worked quite well as an insentive to getting tasks done.  And it feels like the habits are taking.  Interesting.
+
+I've been working out the specifics of the Aquarius novel.  The hard unknow parts are how to deal with the two from the underwater community.  At first, with the idea of a full blown AI with robot helpers, and possibly nanotechnology, it was hard for me to put limits on what was possible.  I've had to set more limits on what has been accomplished...and with those limits I'm able to imagine the societies and unleash some sort of creativity.  
+
+Today I feel better about my sister and mother moving in.  I'm sure there will be moments when they are uncomfortable, and perhaps scared by the city.  Hopefully the other aspects will shine through.  Stern grove festival, museums, underground tunnels and what ever else I can conjure.  I'll start a list.
+
+
+[ Fri Jul 15 20:23:26 2016 ]
+It's interesting to think about the ideal model economy.  Ideal in that each person can create or obtain a job and thus a means of maintaining their needs within the economy.  The current zietgeist is that AI and automation via robotics will slowly, or quickly erode away all of the tradition jobs that people have held.  Interestingly enough, most of these jobs are products of the last 100 years of industrialization and hold very little resemblance to the jobs of the past.  Perhaps within this realization is some clue as to where we will go as a society, perhaps not.  Perhaps only our self interest in eachother's lives will be of any value.  The common thought is that creativity will always have some value and people will just learn to utilize technology to be more creative.  Sharing their experiences or visions through new media such as VR, etc.  It's unlikely that can scale, or what is to be done about those that are uninteresting or simply just consumers...without any abilities to create.  Are they the welfare recipients or basic income floaters?  
+
+Each of us has a different Utopia to some extent, but there are certain desires that are shared amongst us all.  Food, water, shelter, family, love...can we fall for someone that has no real purpose?  Can we enjoy life without the drive that obtaining these things provide?  Would we ever allow a society to have this level of sufficiency, or will we always create a level of imbalance, scarcity and taxation that always pushes the populace towards labor.  There seems to be a lot of systematic drains upon the populace that would disallow one to simply get by via sustainable practices.  It seems broken in a way.  
+
+I wonder if the Amish or some group has a loop hole around this.  Should look into it.  Perhaps I need to create my own religion as loop hole.
+
+
+[ Sat Jul 16 17:57:23 2016 ]
+I wish that I understood my aversion to starting a new relationship, or starting any new projects.  I assume it's due to the commitment and uncertainty of how much longer I'll be in this town. Regarless, it seems counter productive to not do anything productive or long term.
+
+Going dancing feels like a good way of meeting women and getting in some excercise.  Working on the house would be a great idea for the later.  Altough getting a job and refinancing the house might be better.  I wish there were more companies that I wanted to work for.
+
+
+[ Sun Jul 17 17:09:33 2016 ]
+Human augmentation it would seem is the  key to relevance.  Intelligence, knowledge, physical capabilities, all can be augmented with technology.  The way we work with our technology to shorten the resources, time being the most finite of resources, it takes to create a desired outcome creates the efficiencies to compete in the market.  Tools augment our abilities.
+
+It seems to me that the key to more productive information tools is a better means of interacting.  Keyboards and screens are difficult to apply to a mobile situation, and thus don't allow mobile augmentation.  Mobile phones are too locked down for true flexibility.  It has been my continuous thought that a handheld device that could understand vocal commands and respond in kind, while also augmenting the vision of the user would be ideal.  Perhaps a bluetooth headset and mobile phone is the most appropriate method, but it definitely limits the sensors, battery technology capabilities of the tool.  I think a staff or a backpack would be useful in this regards.
+
+Perhaps what I hope for is more fieldwork.  Being out in nature but still productive, if not solving problems that have yet to be attacked, such as climate change, classifying species or finding novel resources.  One can imagine the staff working as a large antannae, using sdr one could communicate on a variety of wavelengths.  Also it could have sensors on the end that sample the soil or water.  It could also have an array of cameras facing different directions, used for capturing activity around you and classifying it. Using machine learning it could let you know when an animal is near from sight, sound and chemical sensors.  The movement of the staff could generate energy. Lasers could be used to point out objects or even paint pictures right onto the users eyes.  The whole system could be built to be "curious" about the world, asking questions about features it can't identify.
+
+
+
+[ Mon Jul 18 23:07:17 2016 ]
+I've gotten interested in the idea of Syntropy again.  I think that it will work out well as an underlying theme for the book that I'm writing, as a religion of sorts for the Techno Druid.  
+
+Beyond bing a religion it also could be a source for advanced technology.  Syntropic programming, AR and circuitry could all be used as plot devices to describe the staff's technology.  Perhaps also why the druid remains "unagmented" physically.  It would be unharmonious to his nature to be rewired.
+
+On a side note, I found a telescope yesterday while walking the dogs.  It was a full moon tonight so I quickly set it up and was able to get a pretty good look at the surface.  Not bad.  I'll have to read up on how best to use the telescope...cleaning lenses and what not.  Exciting and just in time for Zephen showing up.  
+
+
+[ Tue Jul 19 20:04:17 2016 ]
+The more I read of Syntropy written by others, the more it seems like quack science. Perhaps I shouldn't make any reference to the word itself, but only the components that make sense to me, such as the negative time solutions to the quantum energy equations.
+
+Next topic:  loosing weight.  What a drag.  Just when it feels like I'm making progress, all of a sudden signs point toward there being no progress.  So slow and demoralizing for all of the pain.  It does feel like it would be worth it once I get "in shape".  But until then, it's a huge commitment and I never feel like I have a handle on what is the beth methodology.  Don't eat, but make sure you eat to trick your body into having a high enough metabolism.  It's only calories in calories out...no, no...it's what you eat.  Uggg...so difficult.
+
+Anyways, I look forward to being proud of my physic again.  It would be nice to date and feel like I can go somewhere with it all.  A few months ago I did not feel comfortable being naked.  As of now, I feel a little better.  
+
+Like I said, it will be worth it.
+
+
+[ Wed Jul 20 20:49:13 2016 ]
+For the last week and a half, Josh and I have been writing at Black Spring Coffee for a few hours each weekday.  I've seen quite an improvement in my ability to get words out and on paper.  My methodology has gone from writing about concepts that I want to cover and the characters, to actual dialogue. Strangely enough writing the dialogue is a great way to introduce topics and work out how those concepts will work.  Unfortunatley it means I have to figure out the details and commit to them. 
+
+Josh and I talked briefly about therapy, specifically due to my having been shot at, and how that may have caused me PTSD.  I think it's definitely something to consider, just not sure how to go about getting a therapist that I trust.  Honestly, journaling and talking to friends and family feels effective.
+
+I picked up a ton of paint, and paint supplies free off of nextdoor.  It's nice that Jacob isn't here so that I don't have to hide my hording ways </sarcasm>.
+
+
+[ Thu Jul 21 20:58:55 2016 ]
+My mind wanders to a variety of topics that never seem worthwhile to put down into text.  Some concepts are thought provoking, but don't necesitate the laborious linear process that text requires.  I wish that I could write eloquently as quickly as my mind worked. Oftentiese the act of putting thoughts into words actually distracts from the thoughts themselves.  Perhaps there is a certain amount of familiarity necessary to construct thoughts into text coherently.  I know I often loose track of my intent while working out the words that I'll use.  The simple stumble of missing one word or phrase can trainwreck a thougtht.
+
+Perhaps spoken thought would be more constructive.  I guess then one has to get over the distraction of the sound of ones own words.  
+
+
+[ Fri Jul 22 21:03:13 2016 ]
+I've been drawn to the idea of Hedges as of late.  I started getting fascinated by copicing, the act of cutting a tree to a stump that then grows back in several smaller shoots.  These shoots are harvested for forage for sheep and goats along with thicker sections for burning.
+
+Also of interest is that the hedge is linked with magic, Hedge Witches and hedge magic being a reference in many European groups as a wild magic.  It's interesting how an interest that I had, out of strickly ecological reasons, mostly from my interest in Permaculture...which I try to apply to a need for symbology and a greater story, ends up already being a part of older culture.
+
+Anyways, now I'm super stoked on working with hedges, making a labrynth full of edible and usable plants and animals.  Hedges and Orchards feel like the natural means of corraling animals, creating intimate environments and biodiversity.
+
+
+[ Sat Jul 23 23:43:56 2016 ]
+Today I'm grateful that I have a roof over my head.  There is currently at least a woman and her son sleeping in their car outside on the street.  As annoying as it is that they throw all their trash outside of the car and that drugs are being sold out of the car, I have to acknowledge that my situation is much more fortunate.  
+
+I'm also grateful for the amazing food that I'm able to eat.  Today was a cheat day, so I ate a whole loaf of bread, two baskets of figs, and a bag of cherries.  Not to mention perhaps 8 eggs, crispy potatoes and jam, butter, dark chocolate, olive oil and sea salt on the bread.  Quite decadent...and now that I've written it down...quite crazy.
+
+Like I said, cheat day.
+
+
+[ Sun Jul 24 21:43:28 2016 ]
+Today I'm grateful for emacs.  Seriously it's a slick program.  I wish I'd taken the plunge earliear and used it while on the job.
+
+Here is a thought, writing lisp by voice commands and a minimal amount of buttons only.  One button for literal text, same button left off for symbolic text. One button for open paren, same button shifted for close paren, or perhaps slurp and slip or whatever it's called to move in and out of a list.  One could probably use the same setup to write in non lisp languages too.  For example python one would need one for indent and parenthesis, and perhaps hold down a button when saying a key word to simplify the possible outcomes and reduce errors.  Perhaps there is an atom button, that you hold down as your saying an atom, any spaces are replaced with underscores, dashes or camelcase until you let up, making it all one word.  Hell, the language could use some sort of color coding or markup to identify things that go together, thus allowing names of atoms to have actual spaces and be more readible.  Sort of a three dimensional text.
+
+If the input device was something like a small wand, one could describe three dimensional shaps in the air, giving out dimensions and characteristics parametrically.  Such as, "Add a straight line here of length half meter, connecting to these two vertices.  Create a cone of hight one cm and width this wide here."  Notice there could be a mix of eyeballing it and giving exact dimensions and coordinates.  Of course one would need some sort of visual feedback, perhaps light could be fed directly into the user's eyes via laser, and eye tracking.  Or perhaps special glasses, or even a hood with a curved screen.  Even something like what the asian ladies wear, the see through plastic visors that are so big that they cover your face and you end up looking through them.
+
+Ah the future.
+
+
+[ Mon Jul 25 17:40:48 2016 ]
+Today I'm greatful for new friends, mainly Josh.  I meet Josh a couple of weeks ago when he was walking Wallace, a english bulldog that he walks for friends.  The second time we ran into each other we started talking and realized we were both not working full time and that we both wanted to work on writing.  We've been meeting during the week days at Black Spring coffee shop to motivate eachother into working.  I've been writing the A9 book, and he's been working on a comic strip.  While I'm sure looking for a job would be a better use of time, this feels more fulfilling and I am actually being productive.  
+
+
+[ Tue Jul 26 20:16:29 2016 ]
+Today I'm grateful for the ability to give my family a place to live.  I'm grateful for the chance to experience a three generational household.  I'm grateful for the abundance that I'm able to build and for a future that feels full once again.  I look forward to learning new things about life, love and family.
+
+I think I will also need to allow my family to be a source of new inspiration, and solutions to my current problem, as I hope to also be for them.  I hope that they allow me new means of interacting with the drug dealers that hang out in the neighborhood, along with reasons to perhaps break free from the city.  That decision is definitely hard for me to contemplate right now.  Mainly because I have no good pull toward any other location. This is a constant frustration, as I'm not exactly independantly wealthy, so wherever I went I would need a job, but for what I do, this is a hot spot.  Then again, there is the option of just working the land, in which case I would need enough money to cover property taxes, heating and whatever food and maintenence that could not be produced by the land...but that is quite the leap.  It has it's appeal, no less.
+
+As woowoo as the syntropy stuff feels, or at least some of the writing that I've found, there is something about the idea of utilizing energy to build order that appeals to me.  I need to work on some base tenants regarding what it is to live a better life through syntropy and then see if I can't apply them to situations.
+
+Could I come up with a syntropic solution to the dealers?  To homeless?  Can reaching out and caring solve the problem?  Often times we seem to be speaking different languages.  There is definitely a difference of culture.  Some times I think even moral difference, but I'm not sure I can say that I haven't driven fast or sold illegal substances in my day.  I think the difference is that I've always tried to limit my impact on others, selling only to friends that I knew didn't have a problem.  And only because I was using at the same time.  Now I see the error in that lifestyle or at least the effort it takes to gain anything from the experience.
+
+One key aspect of delving int syntropy, is that it only a component of a larger whole.  One cannot disregard entropy.  It has to be observed and used in conjunction with ones syntropic aims.  I'm not sure what license this gives me, can one morally wield entropic forces or is the idea that one realized that they will always be there disapating ones energies?  The yin to syntropy's yang.  The two live together in harmony.  But if one tries to act syntropicly, do you also have to act entropicly?  Not that one can escape it.  With every breath, bite and movement one causes entropy.  But should it be harnessed, or is that a mute question.  Every action builds upon entropic processes, it is only ones intentions and the systems that one builds that are syntropic?  Or can syntropy be tapped and sourced.  Are some actions more syntropic than others?  If so, one can strive for a greater balance of syntropy in one's actions.
+
+Is syntropy just another name for good?  Or love?  Or higher morality?  Is a sunflower moral?  If one agrees that it has consciousness, then it's actions can concievably be of a moral level.
+
+The diversity of conscious experiences something I can't concieve at this time.  Where are the boundaries to conciousness.  Is there planetary consciousness?  Solar?  How about the other direction, do bacteria have conscoius experience?
+
+
+[ Wed Jul 27 17:09:21 2016 ]
+Today I am thankful for the Sun.  Without it's constant outpouring of energy life would be difficult if not non existant on earth.  It definitely is something to be appreciative of.
+
+I have been recently reequanting myself with the Dirac equation and other physics equations and concepts.  It's frightening how much I've forgotten.  I'm curious what sort of practice I would have to keep up to maintain such knowledge.  I guess, in the least I'd have to use it on a regular basis.  Sort of a "Use it or lose it" example.  It's sad and rediculous that there isn't a taught methodology for increasing one's knowledge instead of cramming and then forgetting on a continous basis.  Perhaps journaling and work are the methods.  Are there others?
+
+Speaking of work.  I really need to figure out what sort of job I want to start looking for.  Or if not looking for work at an existing company, I should at least start building up a company for myself.  Josh and I were talking about starting a media company.  For awhile I thought it would be a good idea to create educational material, and children's stories.  One could even utilize the ability for family members in other places to read record and read bedtime stories.
+
+There is also the idea of creating an os for outdoor productivity.  I would want it to be completely open source, bootload and all, have voice control and an interface that it is effective to use without sitting down or staring at a screen the whole time.
+
+
+[ Thu Jul 28 22:54:55 2016 ]
+It's strange how useful Habitica has been for getting things done.  It really is true, that if you do something repeatedly it becomes a habit.  For example I've been making my bed, excercising, journaling, and cleaning the house every day because they are all tasks in Habitica.  Strangely enough, I don't always do them becasue they are tasks that I see there...it's just become second nature.  I wake up, and make the bed as I head off to the shower.  
+
+For a good while I was taking ice baths every day.  Unfortunately, as to not waste water, that meant I had to leave a bath full of water.  I wasn't sure how hygenic that was to reuse the water.  Definitely wish that there was a better way.  Thought about making a stainless steel vessel, that has just the shape to cover my legs, with a seat and the rest of my body.  Then I could use the minimum amount of water, put a chiller and perhaps some ozone or ultraviolet light for water purification.  Also some insulation to maintain the temperature too.  Could be a nice product.
+
+Hmm...come to think of it you could use it to chill other things, like food, wine and what not.  Maybe I should build one under the house.  It would definitely be useful for losing weight, and if there were ever an emergency, you'd have drinking water, if not a filtration/sterilization system already on hand.
+
+If you connected it to a heat pump, and ran some pex throughout your house, you could also use the system to heat and cool your house.  So, during the winter, it would be a mini hot tub and radiant heating system.  During the summer it would be an ice bath and house cooling system.  And of course, emergency water source.  
+
+
+[ Fri Jul 29 21:23:57 2016 ]
+A bit frazzled, this is the last day before my family show up.  So many small pointless things that I want to accomplish.  Some are stupid, like burning documents that I don't want to throw in the trash.  Some are a little more appropriate, such as painting over bullet holes or fixing the window where said bullet went through.  I guess I'm not going to get that done in time.  Nervous about the gang that hangs out, hoping that having a family in the house will give them more reason to leave us alone and tend to boundaries.  We'll see.
+
+I'm currently using binaural beats to help out with meditation and writing.  I had a good experience with it while working at AltSchool, it is definitely a good way to tune out outside noise and get in a singular mindset.  Never quite sure what frequency of beat to be utilizing.  Or if a transition from one frequency to another is in order.  I guess I could always start meditating...utilizing a meditative range, and transition to a more alert range prior to creating.  That way I would release and then rise up to a creative state.
+
+Also of interest is a tutorial on Reactive programming in Clojure.  I was looking for a "framework" or library for web development in Clojure but the whole idea of a functional programming language is that you don't have the normal Objects of a MVC framework.  This is where Reactive programming comes in, Rx is like signal processing, there is a stream of asynchronous data and then layers of filters, maps, transforms, etc. created by functions on the stream.  The original data remains stateless and uneffected by the processes as all functional variables are immutable.  This speaks to me and I see it's something that I tried to accomplish in a lot of my embedded code.
+
+Probably the best project for me to apply this to would be the Madefromscrat.ch website, or perhaps an Inventory Management system.  Or combine the two.  Actually, that's not a bad idea.  Each inventory item could have articles and recipes on how to create it, along with Supplier sources.  With your login, you can view your actual inventory count, etc.  People that read the article would be aware of the software aspect of it and could then contact me for information on implimenting it for their company.  The whole thing would be open source, and thus improvements from the community would be forthcoming, not to mention no one user would worry about losing their functionality or data, but I could also host anyone that doesn't want to go through the hassle.
+
+I wonder if I should get a clojure mentor, or dive in on my own and see where that takes me?   
+
+
+[ Sat Jul 30 23:11:24 2016 ]
+Today I'm grateful that my family is alive.  Last night, after not hearing from Ayrin or Mom all afternoon, I finally got word from them at 1:30 in the morning that they got stuck in a dust storm with lightning, high winds and sand.  This morning, Mom said that she would keep me updated whenever they stopped, but then I didn't hear from them for eight hours.  Needless to say I was a bit agitated, as the drive was only supposed to take 8 1/2 hours.  When I did finally hear from them, they were still in the LA area, around Ventura.  Aparently they got caught in traffic in LA instead of going north around LA straight to the 5.  
+
+There is not much that I can do here, and it's annoying with today's technology that one would drive an extra long route.  It's curious how out of touch with technology those two are.  Not that I envy their situation, two adults trying to get three vehicles full of stuff along with two kids through the desert and up through CA.  Not fun, I probably would have made equivelant mistakes.
+
+
+[ Tue Aug  2 22:37:51 2016 ]
+Ayrin, Mom, Zephen and Kelten showed up Sunday night, at around ten.  We then spent the next four hours unloading all three vehicles (the moving truck, Mom's car and Ayrin's jeep which was being towed behind).  The house was completely FULL afterwards.  Over the last few days we've been slowly arranging everything where it needs to be, and getting them situated.  It's has been an interesting transition.  I have to say quite positive.  Testing, yes, it's hard for me to get used to having so many new people in the house.  Not to mention getting used to having children around with there own agendas.  Similar to dogs in that you have to watch them constantly because they push the boundaries of safety and social constraints, but more nuanced because when you tell them to stop you have to verbalize exactly what and why they are overstepping their boundaries.  There are more communication oportunities, but also a less of a feeling that your the leader, and more the guardian and teacher.  Not that I don't also try and teach the dogs...but it's often a kin to talking to yourself with them.
+
+Definitely grateful to have them in my life.  I'm sure they are happy to be in mine...the adults now out number the children which is probably a blessing.
+
+During our weekday writing session, Josh and I were talking about starting up a media company.  The idea would be to create a place for stories to be submitted, and artwork for said stories, along with readings of the stories.  I think it would be interesting to any combination there-of.  One could start with a photo or illistration, and other's could supply written text, or even oral stories about the photos.  It would be interesting to see how each direction changes the creative process.  I'd originally thought a written story would be then be illustrated by an artist and later the story would be read by a family member, celebrity or what not.  But I see how releasing the limitations of this work flow could create totally new ways to entertain and get community engagement.  Imagine submitting a recording of someone telling a story, or joke (perhaps around the campfire) and having automatically transcribed, and then that that transcription improved upon by non machines...then photos or illustrations added by others.  Or someone could take photos of a children's book and then add grandma's reading.  Not a bad way to take notes for a meeting, or for yourself even.  Also a great way to share information with a variety of people with disabilities (the blind, hard of hearing, etc.).
+
+ 
+[ Wed Aug  3 23:44:27 2016 ]
+My patience has been sadly running thin today.  Mom wanted to use a different bed in her room then queensize futon that is already in there.  I let her know that there wasn't a good place to put it, but she kept bringing it up in long drawn out ways.  Sometimes it's really hard to wait out her explainations, as she doesn't seem to get to the point, and the point that she appears to be shooting for will be exactly the opposite of what was just mentioned...or exactly the point that I already agreed to.  After agreeing to take apart the bed and asking her if the bed that she planned on replacing it with was going to be firm enough for her, she went off on a tangent about how the futon took up too much space and that she didn't know that it had to remain in the bedroom.  Frustrating, and really because she started getting on my nerves, I don't think I handled it too well.
+
+All this "stuff" seems kind of pointless and more trouble than it's worth at times.  I can definitely see why some people pair down to just a kitchen and bed and little beyond that.  Looking at my wall of books, the random stuffed animals and art supplies from my childhood, and all of my electronics (including this computer), I wonder what exactly of this all I really need. A stable linux computer, kindle, well stocked kitchen and a comfortable bed.  Tools are always nice when working on cars, working in metal or doing other projects.  Get rid of the car and work on projects in wood and you could get away with an axe or hammer, a saw and hand drill?  Or just a nice bushcraft knife.
+
+I don't know, this is a hard thought process to follow as each time I list out items, I think of more things I'd find essential given the oportunity.
+
+
+[ Thu Aug  4 23:20:08 2016 ]
+Today I went to the city for a Clojure meetup (technically it was a LISP meetup but apparently the community has been taken over by Clojure enthusiast).  The main talk was by a guy that is writing a book on closure (Elements of Clojure).  Strangely enough the second half of his talk was all about graphs vs. trees and rhisomes vs hiarchies in structures.  There were a lot of corilations with the two city-states from my book.  One is completely democratic, the Hedge labrynth...where each person has the ability to discourse with other through their Agents.  And the other is this managed society where the finite resources are maintained by on central AI.  He also touched upon _A Pattern Language_ and and System thinking, along with some Post Modern thinking.  Even more resources to pull in.
+
+
+
+[ Fri Aug  5 22:16:21 2016 ]
+Breakfast, lunch, grocery store and dog walk at the cemetery.  It's funny how little will get done when you have kids en tow.  It's also funny that you'll go to a pizza place (in this case Arezmendi's) for the kid's benefit, and then they won't eat it. Hrmmm.
+
+Then again, what is there really necessary in life beyond food, family and excercise in nature.  I guess I can't complain.
+
+
+[ Sat Aug  6 23:12:53 2016 ]
+Today I got rid of some extra furniture (my old couch and a hutch that Ayrin brought) in San Leandro.  I also made some chicken stock and hummus.  Later I went to a picnic at Samantha Gaw's place.  The dogs came along and were a hit as always.  I had to go home at 8ish when it got too cold to be wearing shorts and the sun had gone down.
+
+
+[ Sun Aug  7 23:50:01 2016 ]
+Margie and Wes were in town so we went out to eat at Bacheeso's (all you can eat mediteranian).  Ate to much, as expected.  We then walked around Lake Merrit and Zephen played with some kids at the park.
+
+The house is starting to look livable.  We've gotten most of their stuff put away.  I still need to make some shelves in the closet so that we can arrange bulk foods and get some of Ayrin's cooking gear situated.  There are lots of boxes in Ayrin's room, so I don't know what that is all about.  Perhaps Zephen's stuff?  Lots of empty boxes lying around which makes it feel like there is a lot more stuff that needs to be put away.  
+
+
+[ Mon Aug  8 23:30:06 2016 ]
+Today Ayrin and I painted the wood portions of the new bunny cage.  Lots of backyard cleaning. I also did some writing with Josh.  I need to figure out what work I'm going to do for madefromscrat.ch and set up some time and projects to get that on the road.  I'm not sure if I want to write it in Python or clojure.  Python would be easier as I already know it, but I'm not to modivated to do so.  Clojure would be good because it would be a project that I coudl use to learn it.  But it would go slower and there are so many components that I would have to decide upon.  I guess that is the learning process...figuring out how to impliment things in a new paradigm.  Alternately I could do the backend in Python and the frontend in clojure, although I'm not sure what the point of using clojure is if I don't reuse models between the two sides.
+
+I'm tired...I should probably start working on the computer before I get too sleepy.  
+
+[ Wed Aug 10 21:36:45 2016 ]
+Yesterday's journal entry was lost as the computer unexpectedly died.  Sadly I feel this battery is on it's last days.  Who knows maybe the battery being drained completely will help it recalibrate.  
+
+Not sure what I wrote about.  I'm sure that there is a saved buffer somewhere that I can obtain it from.  Still learning about emacs and how to use it effectively.  Damn, just checked...nothing saved.
+
+I need to spend more time on Clojure and LISP in general if I'm going to get back in to programming.  I'm thinking that I need to set aside some time during the middle of the day to program, like I set aside time to write.  
+
+Sadly it may be necessary to spend less time writing.  Or set up my tools to be more helpful.  I know that I need to set up some git repositories for madefromscrat.ch and my writing, so that I can write on the tablet when out and have what I've written be accessable on this laptop.  Same goes for my emacs files too.
+
+On that note, perhaps I'll set up a productivity notebook where I can write out my notes and how to get things done.
+
+
+[ Thu Aug 11 22:57:53 2016 ]
+I'm thankful for innocent accidents.  Today Mom's car got hit by a moving truck.  Her bumper is destroyed and a decent mashed up part of her back quarter panel.  The bumper is easily replaced.  Fortunately no one was in the car, it was parked.
+
+Beyond that, it was a pretty uneventful day.  Wrote with Josh and Wally at Black Spring.  
+
+
+[ Fri Aug 12 23:36:01 2016 ]
+I talked to the neighbor who drove his moving truck into Mom's car and he claimed responcibility and gave me his insurance papers.  I'm grateful that some people are decent and own up to their responcibilities.
+
+Josh and I were talking about journaling, and I ended up telling him the story about how I saw a man get stabbed while working at a pizza place in Berkeley.  And the story about the guy that pissed all over the BART.  I should definitely write out those stories here some time.
+
+So far my journal writing and the writing that I'm doing with Josh is very unstructured.  I need to figure out a way to have prompts, or specific pieces that I'd like to write for both scenarios.  I kow that some of the process is figuring exactly this stuff out...how to manage myself as a writer.  I'd like to be productive though and it sure would be nice to just jump into having that down.  
+
+The one nice part about writing on a laptop is that you can quickly jot down a thought and then expand upon it later, slowly filling in components.  With pen and paper one cannot add in new details to existing text easily.  This is both a good and bad thing, as it makes you just write, but it means that you have to cross reference other papers for material and that everything becomes much more linear.  Then again, that is the nature of text.
+
+As much as writing on a laptop sounds more effecient, I don't like sitting in front of them in public.  It's too bad really, but there is too much involved with sitting down, finding an outlet and then working away on a laptop.  Feels rude or doochey.  Strangely enough writing on paper feels noble.  Writing on a typewriter feels pretentious, so that's out, plus there are no benefits over paper, unless your handwriting is abismal.
+
+
+[ Sun Aug 14 23:50:47 2016 ]
+Today Zephen and I went to the park with the rest of the family.  Velcro later jumped into Zephen and Ayrin's bed and burrowed under the covers.  I think that she is warming up to them.  Zephen is watching as I write this so what I'm saying is what I'm writing.  Now that he has left I can continue on in a normal voice.
+
+Mom and I had a bit of an argument about the insurance adjustor.  I find that a lot of her conversations don't have much to do with the point that I'm trying to make but some explanation of why she did something or her original thinking.  It feels like she is living in the past, or in defense of her inaction.
+
+I always wonder if I should stick to my guns and try and work out what I'm seeing with her, or try for a conversational tone that I know that she will be able to handle.  Sadly I don't always see how to do the later, which makes me feel like a lot of the problem is mine.
+
+
+[ Mon Aug 15 22:38:57 2016 ]
+Finished up the bunny hutch today, also got quite a bit done on my story at the coffee shop with Josh.  I was having some difficulty with continuity in my writing.  One day I would work on outlining the story, the next I would jump in to a specific scenario.  Today I tried to just write the beginning of the story and start sewing all the pieces together.  Never quite sure what I'll keep but at least now I have a tone of voice and a place to pick up after.  I also noticed that I had used up most of the pages of paper that I'd put in the clipboard, I believe I'm on page 23.  I should probably start typing up what I've written and see what it looks like the second time through.  
+
+While I've carved out time for writing, the family, cooking, excercise and cleaning, I still need to find time to work on madefromscrat.ch and storytime/illuminated text.  Not to mention learning git, clojure and anything else that needs to be done to start making an income stream.
+
+I guess all the housework is productive in it's own way.  
+
+
+[ Tue Aug 16 22:47:48 2016 ]
+The process of learning a new skill is difficult, the process of teaching a person a new skill when they don't see the need for it is tremendously so.  Zephen spends so much of his time bouncing around and not listening to all of us asking him to pay more attention and treat others with respect.  Having been thrown in with him, I'm feeling completely out of place trying to guide him to doing simple things.  At times I don't even know if what I'm doing is right or if it's just me trying to exert my will.  It definitely seems repetitive and to be going no where.  Is it madness to be continueing on, or is it madness to give in and let him do whatever he wants?  Is it boyhood, or his own unique defiance.  I'm having a hard time remembering being this out of control.  
+
+On the same topic, teaching myself new skills of writing along with some productive habits is also proving to be equally difficult.  In this case I have to work out methodology on my own with very little mentorship.
+
+
+
+[ Thu Aug 18 00:23:24 2016 ]
+I wasn't happy with my writing today.  I think I need to start writing on the computer soon.  Or at least transcribing what I've alread written.  This should make it fresher in my head and allow me to move on to the next piece.  
+
+Zephen and I made some tortillas, this was fun.  I didn't eat any as I'm still trying to lose fat on a ketosis diet.  So far I've lost something like 15 pounds.  Pretty nice.  My waist is slimming down and I'm starting to get some vascularity on my forearms.  I could stop now and maintain this weight and be happy, but I think I'll see how far I can go with this for another month or so.
+
+Making more progress learning clojure.  Going back over the brave clojure website. It's pretty effective if you follow along.  It's a little kooky so I'm not sure how well it will work as a reference, so this time around I'm writing down what I've learned.  I need to get to a productive state where I can create projects.
+
+
+[ Thu Aug 18 22:12:19 2016 ]
+Today I was able to get a ton of writing done.  The main difference was today I focused on the character's situation, instead of trying to describe the environment and technology.  So mostly dialogue.  Which is funny because prior, I had been worried about writing dialogue and thought that it would lead to inconsistancies or be contrived because I would try and describe to the reader through their dialogue.
+
+Anyway, it seemed to work.  Who knows how it will read later when I come back to it.
+
+Zephen continues to push boundaries.  Hitting me in the stomach when I'm holding the baby, or barging in on me when I'm meditating.  For the most part he seems to be learning but his disinterest in taking other people's feelings into consideration is considerable.  And astounding.  One would think that he would want to please me a bit and try.  I understand mistakes, but he just doesn't seem to care.
+
+
+[ Fri Aug 19 22:53:01 2016 ]
+Today wasn't quite as productive as I would have liked it.  Too many tasks it would seem to complete everything I normally do, and go shopping and meet up with friends.  Or perhaps I just wasn't on task.  There was definitely enough time in the morning.  I wanted to type up some of my pages and perhaps get github set up for my writing along with set up on the android devices.  Still not sure if I should do a paid account or host it myself somewhere.  
+
+I definitely see why 99% of companies have physical offices where you're expected to go...it's definitely hard to get stuff done at home when your family is running around being noisy, wanting to be fed and what not.
+
+
+[ Sat Aug 20 23:21:17 2016 ]
+Today we made pies.  A cherry pie (with apple and cranberries for tartness) and 5 pizza pies.  I tried to make the pies at the park at the beach in Alemeda, but I forgot to bring any extra flour for the peel and the dough was thus too sticky.  Don't worry, I made them later when we got home.  
+
+We invited Jeremy, Elon and Rebecca also.  Always a pleasure to see them.  I did get to grill up a bunch of veggies and they brought hummus and bread. As it was my cheat day, I ate a ton of bread.
+
+Speaking of which...also made french toast with Challah for breakfast.  Thinking back to all of that, what the hell was I thinking?!  Perhaps I should stick to cheat meals once a week instead of a whole crazy day.
+
+
+[ Sun Aug 21 22:55:46 2016 ]
+The septic system backed up today, so I had to clean up a bunch of crap and toilet paper.  Fun fun.
+
+I gave Zephen my old gameboy advance so that he could play some new games, almost all of them involve lots of reading though which means that he doesn't get far without needing help.  He can read, he just doesn't bother to figure out what people are saying, just skips along.
+
+Velcro was acting sick last night, she wanted to stay outside instead of coming in to sleep.  Today she was barfing and acting sick during the morning.  I gave her some activated charcoal mixed with peanut butter and she seems to be doing better.  A bit of throw up on a blanket.  I guess she ate something at the park yesterday.
+
+Trying to decide if I want to set up a git server on my own hardware, say a raspberry pi, or a new linux box, or just pony up the $7 a month to pay for a private account.  I guess I could try serving it up on this computer as it's just meant to be shared with my android device...then make backups.
+
+
+[ Mon Aug 22 20:15:14 2016 ]
+It's so tempting to reread the beginning of books that I love to figure out how others write.  For example, _Zen and the Art of Motorcycle Maintenaince_, how did Persig go about weaving the story and covering so many topics?  How did he start his journey?  I'm never sure what tone, or means of telling a story to take.  You want to leave some up to the reader, but still tell a compelling story that paints a vivid picture.  How to tell your story, how to draw in the reader, what to leave out and what to spin is a task I have to teach myself.  
+
+While Hemmingway may have been concise, others use rambling prose.  The ways in which a writer strings along the reader is part of the charm of the story.  To tell my story I have to become a great storyteller.  What type of storyteller do I want to become?
+
+
+[ Wed Aug 24 00:43:18 2016 ]
+I have read that in Norse tradition magic is the ability through will to change one's conciousness.  Unlike popular definition, magic does not effect the physical world or alter the laws of physics, but instead only changes one's concious perception of the world.  This is an amazing thought to me, and something that I've seen allusion to in ton's of writings about magic if not the way in which people relate to magic when they are dealing with it seriously.  A step further would be to contemplate rune magic or the magic of text.  Runes are said to have been obtained by Odin himself by hanging upside down from the tree of life, wounded by his own spear for eight nights (if memory serves me). If they are indeed imbued with magical abilities, they must have symbolic meaning to the conciousness that is to be manipulated.  Does that come from familiarity and embued symbols, or are they inherent in their shape, perhaps even born out of some primal symbolism.  I'm laughing a bit here, but to be truethful, some shapes are neurally significant.  But it is more than likely that by learning the shapes, one is learning their tradition and giving them meaning.  Much the way that language shapes one's thoughts.
+
+Hmmm...an interesting thought is to take the power of symbols, and then hone that with symbolic computation.  To apply multiplicative effects on these symbols that have concious control to achieve even greater magical powers.
+
+
+[ Wed Aug 24 23:07:08 2016 ]
+Dead laptop battery.  The power cord for this computer gets slightly off and it stopped charging fully.  The light is green but then, perhaps while it'soffline it begins to drain, or perhaps it's draining slowly the whole time.  Who knows.
+
+Perhaps I should look into a new computer.  Nothing out there calls to me unfortunately and I don't exactly have a huge flow of income.  Or perhaps I'll just use a rasperry pi or built a portable that uses only vocal commands.  I guess the tablet is still more powerful then the raspberry pi.
+
+
+[ Thu Aug 25 21:46:12 2016 ]
+I took the family to Inspiration Point today.  It was a nice walk.  More and more I realize how nice it would be to have some land with them.  I feel less of a draw away from the city now that they are here, but am reminded on occasion how good it would be to be able to grow more vegetables and have animals.  Plus, it's always a drag to have to drive to nature instead of step out your back door.  
+
+Sigh...ok.  Get the house ready to sell for the Spring and have a location lined up (or pack up everything and go on a road trip).  Of course, road trips with babies aren't quite as fun as adults alone.
+
+Anyways.  Nature calls.  It always has, but for this family it's a bit more of a necessity then not.  Its so funny to hear people say that cities are more sustainable then living out in the 'burbs.  For some things yes, but if you know how to make things from scratch...perhaps not so much.
+
+
+[ Sat Aug 27 00:25:43 2016 ]
+Today, today was a day like any other day.  It was a day in which I couldn't quite figure out what to write in my journal, so I just started off writing anything.  Such as this, and that.  
+
+Mom wrote me and Ayrin a letter chastizing us for jumping on Zephen's case when he dumped water all over the table yesterday.  She didn't want to dampen his exuberence.  I think Ayrin and I just want him to take responsibility for his actions, especially since he doesn't have too many things that he is responsible for these days.  Her and I cook and clean for the most part, leaving very little much else.  
+
+I should make a list of things that he can be responsible for in the house.  And maybe a list of actions that we are worried about.  Then we as a group, Zephen especially can decide upon how to proceed with those concerns.  
+
+
+[ Sat Aug 27 23:58:01 2016 ]
+We just finished watching The Legend of Tarzan in the living room.  Terrible movie, all of the tropes from the books and animated movie made no sense in a live action movie.  Or at least not how they tried to pull it off.
+
+It was also my cheat day, so I at rediculous foods.  Like pizza and eggs for breakfast, and paella and bread for dinner...of course topped it all off with icecream for desert.  I may want to reign in cheat days soon, it's just too crazy.
+
