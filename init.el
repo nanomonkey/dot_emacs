@@ -68,6 +68,13 @@
     ;; git integration
     magit))
 
+;; Remove bytecomp warning messages at start-up by defining free variables
+(defvar predicate nil)
+(defvar inherit-input-method nil)
+(defvar ido-cur-item nil)
+(defvar ido-default-item nil)
+(defvar ido-cur-list nil)
+
 ;; On OS X, an Emacs instance started from the graphical user
 ;; interface will have a different environment than a shell in a
 ;; terminal window, because OS X does not run a shell during the
@@ -178,8 +185,8 @@
 ;; initial window
 (setq initial-frame-alist
       '(
-        (width . 102) ; character
-        (height . 54) ; lines
+        (width . 85) ; character
+        (height . 41) ; lines
         ))
 
 ;; default/sebsequent window
@@ -208,6 +215,10 @@
 (if (file-exists-p abbrev-file-name)
     (quietly-read-abbrev-file))
 
+;; MobileOrg Requirements
+(setq org-directory "~/org")
+(setq org-mobile-inbox-for-pull "~/org/flagged.org")
+(setq org-mobile-directory "~/Dropbox/Apps/MobileOrg")
 
 ;; M-x eval-buffer
 ;; to reload this buffer

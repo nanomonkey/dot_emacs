@@ -1,17 +1,56 @@
 
 ;; ----- smex-history -----
 (
- cider-jack-in
- cd
- 5x5
- arp
- dbx
- dig
- erc
+ ssb-eww-patchfoo
+ magit-push
+ magit-commit
+ ssb-stop-patchfoo
+ ssb-start-patchfoo
+ ssb-stop-server
+ list-processes
 )
 
 ;; ----- smex-data -----
 (
  (cider-jack-in . 1)
  (org-info . 1)
+ (toggle-word-wrap . 1)
+ (magit-status . 3)
+ (magit-push . 11)
+ (line-number-mode . 1)
+ (visual-line-mode . 6)
+ (lunar-phases . 1)
+ (dunnet . 1)
+ (gomoku . 1)
+ (morse-region . 1)
+ (calendar . 2)
+ (erc . 1)
+ (version . 1)
+ (dired . 2)
+ (eval-buffer . 3)
+ (org-mobile-push . 2)
+ (org-mode . 1)
+ (paredit-mode . 1)
+ (lpr-buffer . 1)
+ (eww . 6)
+ (ispell . 1)
+ (lisp-mode . 1)
+ (eww-open-file . 5)
+ (ssb-message . 6)
+ (ssb-message-buffer . 1)
+ (magit-commit . 12)
+ (magit-add-remote . 1)
+ (magit-rebase-step . 1)
+ (magit-merge . 1)
+ (ssb-quick-message . 2)
+ (ssb-start-server . 2)
+ (ssb-whoami . 3)
+ (ssb-display-last . 7)
+ (ssb-stop-server . 2)
+ (browse-url-w3 . 3)
+ (ssb-start-patchfoo . 2)
+ (ssb-eww-patchfoo . 5)
+ (ssb-stop-patchfoo . 4)
+ (list-processes . 2)
+ (info . 1)
 )

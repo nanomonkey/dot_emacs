@@ -1,1 +1,1 @@
-("~/Documents/clojure-noob/" "~/Documents/madefromscratch/")
+("~/.emacs.d/" "~/git/ssb_emacs/" "~/Documents/vishnu-backend/" "~/warren/" "~/Documents/resume/" "~/canyonfall/" "~/Documents/AquariusNine/" "~/Documents/clojure-noob/" "~/Documents/madefromscratch/")
