@@ -22,12 +22,12 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/scott/.ssb/"
  "/Users/scott/git/ssb_emacs/"
  "/Users/scott/git/"
  "/Users/scott/Documents/vishnu-backend/parent_portal/"
  "/Users/scott/.ssb/blobs/tmp/"
  "/Users/scott/.ssb/db/"
- "/Users/scott/.ssb/"
  "/192.168.1.86:"
  "/192.168.1.74:"
  "/Users/scott/org/"
@@ -49,8 +49,9 @@
 
 ;; ----- ido-work-file-list -----
 (
- "README.md"
+ "ssb_names.el"
  "ssb_emacs.el"
+ "README.md"
  "ssb_emacs"
  "forms.py"
  "1493586135818-85"
@@ -58,22 +59,21 @@
  "gossip.json"
  "House.org"
  "MeshNetwork.org"
- "Operating_Manual_for_Earth.org"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/scott/.ssb/" (22813 9370 0 0) "ssb_names.el" "secret" "query/" "private/" "node_modules/" "manifest.json" "gossip.json" "db/" "blobs_push/" "blobs/" "../" "./")
+
+ ("/Users/scott/git/" (22802 15942 0 0) "ssb_emacs copy.el" "ssb_emacs/" "ssb-simple-whois/" "makenode/" ".DS_Store" "../" "./")
+
+ ("/Users/scott/" (22810 29110 0 0) "websites/" "warren/" "vagrantfile" "using_skip_sort.py" "using_insert.py" "using_find.py" "using_dot_notation.py" "Untitled0.ipynb" "timeclient.py" "StringCount.ipynb" "SerialKiller.ipynb" "Serial_Graph.ipynb" "Run_Test.ipynb" "read_reddit.py" "quicklisp/" "Public/" "Project_Euler.ipynb" "places2visit.txt" "Pictures/" "org/" "nutrition_sql.txt" "node_modules/" "News/" "Music/" "Movies/" "mortgage.py" "Modbus_Master.ipynb" "Map_function.ipynb" "Mail/" "lisp/" "Library/" "journal.txt~" "journal.txt" "iTunes_Cleanup.ipynb" "House_profit.ipynb" "helloworld.py" "git/" "getting_started_pymongo.py" "FSTConfig.xml" "energy_usage.ipynb" "emacs_notes~" "emacs_notes" "Downloads/" "Doors.ipynb" "Documents/" "Desktop/" "DataFrame.ipynb" "Data_Graph.ipynb" "Current Calc.ipynb" "Config_Defaults.ipynb" "ClassComposition.ipynb" "canyonfall/" "Calibre Library/" "BTSync/" "bin/" "Applications/" "Algorithms.ipynb" ".xfwqumarc" ".Xcode/" ".Xauthority" ".wireshark-etc/" ".wireshark/" ".wget-hsts" ".viminfo" ".vim/" ".vagrant.d/" ".vagrant/" ".Trash/" ".swp" ".subversion/" ".ssh/" ".ssb/" ".sqlite_history" ".slime-history.eld" ".slime/" ".sbclrc" ".rnd" ".python26_compiled/" ".profile" ".pip/" ".oracle_jre_usage/" ".octave_hist" ".npm/" ".node-gyp/" ".newsrc.eld" ".newsrc" ".netrc" ".mysql_history" ".mongorc.js" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".lein/" ".kdyefxnn" ".ipython/" ".ipynb_checkpoints/" ".inkscape-etc/" ".ido.last" ".idlerc/" ".heroku/" ".gnus" ".gnupg/" ".gnome2/" ".gitconfig" ".ghc/" ".gem/" ".gdb_history" ".fonts/" ".fontconfig/" ".enstaller4rc" ".emacs.d/" ".eaglerc" ".dvdcss/" ".DS_Store" ".dropbox/" ".distlib/" ".dbshell" ".cups/" ".crash_reportrc" ".crash_report_preview" ".crash_report_frames" ".crash_report_checksum" ".config/" ".CFUserTextEncoding" ".canopy/" ".cache/" ".bash_sessions/" ".bash_profile.save" ".bash_profile.pysave" ".bash_profile.macports-saved_2012-11-20_at_18:56:57" ".bash_profile" ".bash_history" ".authinfo" ".AndroidStudio2.1/" ".android/" ".#*scratch*" "*scratch*" "#*scratch*#" "../" "./")
+
  ("/Users/scott/.ssb/blobs/tmp/" (22799 44866 0 0) "1494199141870-153" "1494199089196-128" "1494199074995-127" "1494189101237-126" "1494189021302-124" "1494189017168-123" "1494188962003-122" "1494188950518-121" "1494188947999-120" "1494188934958-119" "1494188508321-117" "1494188493041-116" "1494188483818-114" "1494188482029-113" "../" "./")
 
  ("/Users/scott/.ssb/blobs/" (22799 20268 0 0) "tmp/" "sha256/" "../" "./")
 
- ("/Users/scott/.ssb/" (22799 44939 0 0) "secret" "query/" "private/" "node_modules/" "manifest.json" "gossip.json" "db/" "blobs_push/" "blobs/" "../" "./")
-
  ("/Users/scott/git/ssb_emacs/" (22799 33774 0 0) "ssb_emacs.el" "README.md" "LICENSE" ".git/" "../" "./")
-
- ("/Users/scott/" (22799 33774 0 0) "websites/" "warren/" "vagrantfile" "using_skip_sort.py" "using_insert.py" "using_find.py" "using_dot_notation.py" "Untitled0.ipynb" "timeclient.py" "StringCount.ipynb" "SerialKiller.ipynb" "Serial_Graph.ipynb" "Run_Test.ipynb" "read_reddit.py" "quicklisp/" "Public/" "Project_Euler.ipynb" "places2visit.txt" "Pictures/" "org/" "nutrition_sql.txt" "node_modules/" "News/" "Music/" "Movies/" "mortgage.py" "Modbus_Master.ipynb" "Map_function.ipynb" "Mail/" "lisp/" "Library/" "journal.txt~" "journal.txt" "iTunes_Cleanup.ipynb" "House_profit.ipynb" "helloworld.py" "git/" "getting_started_pymongo.py" "FSTConfig.xml" "energy_usage.ipynb" "emacs_notes~" "emacs_notes" "Downloads/" "Doors.ipynb" "Documents/" "Desktop/" "DataFrame.ipynb" "Data_Graph.ipynb" "Current Calc.ipynb" "Config_Defaults.ipynb" "ClassComposition.ipynb" "canyonfall/" "Calibre Library/" "BTSync/" "bin/" "Applications/" "Algorithms.ipynb" ".xfwqumarc" ".Xcode/" ".Xauthority" ".wireshark-etc/" ".wireshark/" ".wget-hsts" ".viminfo" ".vim/" ".vagrant.d/" ".vagrant/" ".Trash/" ".swp" ".subversion/" ".ssh/" ".ssb/" ".sqlite_history" ".slime-history.eld" ".slime/" ".sbclrc" ".rnd" ".python26_compiled/" ".profile" ".pip/" ".oracle_jre_usage/" ".octave_hist" ".npm/" ".node-gyp/" ".newsrc.eld" ".newsrc" ".netrc" ".mysql_history" ".mongorc.js" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".lein/" ".kdyefxnn" ".ipython/" ".ipynb_checkpoints/" ".inkscape-etc/" ".ido.last" ".idlerc/" ".heroku/" ".gnus" ".gnupg/" ".gnome2/" ".gitconfig" ".ghc/" ".gem/" ".gdb_history" ".fonts/" ".fontconfig/" ".enstaller4rc" ".emacs.d/" ".eaglerc" ".dvdcss/" ".DS_Store" ".dropbox/" ".distlib/" ".dbshell" ".cups/" ".crash_reportrc" ".crash_report_preview" ".crash_report_frames" ".crash_report_checksum" ".config/" ".CFUserTextEncoding" ".canopy/" ".cache/" ".bash_sessions/" ".bash_profile.save" ".bash_profile.pysave" ".bash_profile.macports-saved_2012-11-20_at_18:56:57" ".bash_profile" ".bash_history" ".authinfo" ".AndroidStudio2.1/" ".android/" ".#*scratch*" "*scratch*" "#*scratch*#" "../" "./")
-
- ("/Users/scott/git/" (22799 24264 0 0) "ssb_emacs copy.el" "ssb_emacs/" "makenode/" ".DS_Store" "../" "./")
 
  ("/Users/scott/org/" (22794 7616 0 0) "Operating_Manual_for_Earth.org" "MeshNetwork.org" "House.org" "../" "./")
 

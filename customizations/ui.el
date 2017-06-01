@@ -67,3 +67,7 @@
 
 ;; no bell
 (setq ring-bell-function 'ignore)
+
+;; winner mode
+(when (fboundp 'winner-mode)
+      (winner-mode 1))

@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- ssb-eww-patchfoo
- magit-push
- magit-commit
+ ssb-stop-server
+ ssb-start-server
  ssb-stop-patchfoo
  ssb-start-patchfoo
- ssb-stop-server
- list-processes
+ eval-buffer
+ magit-push
+ magit-commit
 )
 
 ;; ----- smex-data -----
@@ -27,7 +27,7 @@
  (erc . 1)
  (version . 1)
  (dired . 2)
- (eval-buffer . 3)
+ (eval-buffer . 6)
  (org-mobile-push . 2)
  (org-mode . 1)
  (paredit-mode . 1)
@@ -43,14 +43,14 @@
  (magit-rebase-step . 1)
  (magit-merge . 1)
  (ssb-quick-message . 2)
- (ssb-start-server . 2)
+ (ssb-start-server . 5)
  (ssb-whoami . 3)
  (ssb-display-last . 7)
- (ssb-stop-server . 2)
+ (ssb-stop-server . 4)
  (browse-url-w3 . 3)
- (ssb-start-patchfoo . 2)
+ (ssb-start-patchfoo . 3)
  (ssb-eww-patchfoo . 5)
- (ssb-stop-patchfoo . 4)
+ (ssb-stop-patchfoo . 5)
  (list-processes . 2)
  (info . 1)
 )

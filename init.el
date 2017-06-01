@@ -145,6 +145,7 @@
 
 ;;Journal
 (defun journal-entry ()
+  (interactive)
   (find-file "~/journal.txt")
   (goto-char (point-max))
   (insert "\n\n[ " (current-time-string) " ]\n"))
