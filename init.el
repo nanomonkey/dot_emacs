@@ -221,8 +221,36 @@
 (setq org-mobile-inbox-for-pull "~/org/flagged.org")
 (setq org-mobile-directory "~/Dropbox/Apps/MobileOrg")
 
+;; Org-mode 
+(setq org-default-notes-file (concat org-directory "/notes.org"))
+(define-key global-map "\C-cc" 'org-capture)
+
+;; have EWW use Chromium
+(setq shr-external-browser "chromium-browser")
+
+;session.el
+(require 'session)
+(add-hook 'after-init-hook 'session-initialize)
+
+
 ;; M-x eval-buffer
 ;; to reload this buffer
 
 ;; C-h e
 ;; to see if there was a problem loading
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(coffee-tab-width 2)
+ '(package-selected-packages
+   (quote
+    (cider-decompile json-mode 4clojure ag htmlize luarocks markdown-mode markdown-mode+ lua-mode tagedit sos solarized-theme smex rainbow-delimiters projectile paredit magit ipython ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking cider)))
+ '(session-use-package t nil (session)))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:inherit nil :stipple nil :background "#000000" :foreground "#eaeaea" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 110 :width normal :foundry "nil" :family "Fira Code")))))
