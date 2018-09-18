@@ -23,3 +23,14 @@
    (sh . t)
    (python . t)
    ))
+
+(defun nolinum ()
+  (interactive)
+  (message "Deactivated linum mode")
+  (global-linum-mode 0)
+  (linum-mode 0)
+)
+
+(global-set-key (kbd "<f6>") 'nolinum)
+
+(add-hook 'org-mode-hook 'nolinum)

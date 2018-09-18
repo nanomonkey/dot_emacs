@@ -2,4 +2,53 @@
 ;; Automatically written history of CIDER REPL session
 ;; Edit at your own risk
 
-nil
+("(integer? \"no\")" "(pos? \"no\")" "(primes 1)" "(-main)" "(ns prime-times-table.core)" "(ns)" "(-main)" "(-main 9)" "(number? (read-string \"9\"))" "(pos-int? (read-string \"9\"))" "(pos-int? 1)" "(pos-int? (read-string \"9\"))" "(read-string \"9\")" "(stop)" "
+(ns overtone-clj-toys.binaural
+  (:use [overtone.live]))
+
+;;
+;; Binaural Beat Synthesis:
+;; Generates binaural beats given the provided carrier and desired
+;; frequency. Brown noise is used to soften the background and
+;; block out outside noise.
+
+;; freq    effect
+;;   < 4   Delta, Sleep
+;; 3 - 7   Theta, relaxation, meditation
+;; 7 - 13  Alpha, Relaxation while Awake
+;;
+(defsynth bbeat [amp 0.3
+                 carrier 440
+                 freq 4.5]
+  (let [freq-a carrier
+        freq-b (+ carrier freq)
+        left (* 0.8 (sin-osc freq-a))
+        right (* 0.8 (sin-osc freq-b))]
+    (out 0 (* amp left))
+    (out 1 (* amp right))))
+
+(defcgen snare-drum
+  \"basic synthesised snare drum\"
+  [bpm {:default 120 :doc \"tempo of snare in beats per minute\"}]
+  (:ar
+   (let [snare (* 3 (pink-noise [1 1]) (apply + (* (decay (impulse (/ bpm 240) 0.5) [0.4 2]) [1 0.05])))
+         snare (+ snare (bpf (* 4 snare) 2000))]
+     (clip2 snare 1))))
+
+(defcgen kick-drum
+  \"basic synthesised kick drum\"
+  [bpm {:default 120 :doc \"tempo of kick in beats per minute\"}
+   pattern {:default [1 0] :doc \"sequence pattern of beats\"}]
+  (:ar
+   (let [kickenv (decay (t2a (demand (impulse:kr (/ bpm 30)) 0 (dseq pattern INF))) 0.7)
+         kick (* (* kickenv 7) (sin-osc (+ 40 (* kickenv kickenv kickenv 200))))]
+     (clip2 kick 1))))
+
+(definst drums [bpm 120]                                             
+(let [kick (kick-drum bpm :pattern [1 0 0 0 0 0 1 0 1 0 0 1 0 0 0 0])
+       snare (snare-drum bpm)]                                       
+   (clip2 (+ kick snare) 1)))
+
+;;(bbeat 0.2 440 3)
+;;(stop)" "(demo (sin-osc 200))" "(demo (kick))" "(demo (sin-osc))" "(demo 7 (lpf (mix (saw [50 (line 100 1600 5) 101 100.5]))
+                   (lin-lin (lf-tri (line 2 20 5)) -1 1 400 4000)))" "(demo (sin-osc))" "(use 'overtone.live)" "(demo (sin-osc))" "(< \"one\" \"three\")" "(apply str (map #(format \" aka %s\" alia)))" "(apply str (map #(str \"aka \" %) alia))" "(apply str (map #(str \"aka \" %s) alia))" "(apply st (map #(str \"aka \" %s) alia))" "(reduce #(str \"aka \" %) alia)" "(join \", \" alia)" "(apply str alia)" "(map str alia)" "(str alia)" "(map #(str \" aka \" %s) alia)" "(apply #(str %) alia)" "(apply str alia)" "alia" "(apply #(str \"aka\" %) alia)" "(apply str #(format \" aka %s\" %) alia)" "(apply #(format \" aka %s\" %) alia)" "(format \"aka %s\" \"1\")" "(apply #(format \" aka %s\" %) alia)" "(def alia [\"1\" \"2\" \"3\"])" "(cons (last coll) '())" "(cons coll '())" "(cons col '())" "(first [1])" "(last [1])" "(cons (last coll))" "(cons last coll)" "(last coll)" "(def coll [1 2 3 4 5])" "(subs \"Hello World\" \" \" 2)" "(str \"Cool\" \"right?\")" "(cell)" "(print-multiplication-table! [1 2 3 4 5 6 7 8 9 10])" "(macroexpand (test-print-stdout [(print-multiplication-table! [1]) \" 1\\n 1 1\"]))" "(slurp \"/tmp/lein-trampoline-HwG8Zg65Ce4KV\")" "(print-multiplication-table! [1])" "(print-multiplication-table! 1)" "(cell 0 1)" "(cell 1 1)" "(is (= (primes 0) ()))                            " "(primes 10)" "(prime 10)" "(run-tests)" "(run-all-tests)" "(primes 1)" "(primes 0)" "(prime 10)" "(prime 1)" "(prime 0)" "(primes 10)" "(-main 1000)" "(-main 15)" "(-main 2)" "(-main 1)" "(-main 20)" "(-main 10)" "(-main 20)" "(-main)" "(apply str b)" "(str b)" "(-main)" "(apply print b)" "(print b)" "b" "(def b '(1 2 3 4 5))" "(def b (1 2 3 4 5))" "a" "(-main)" "(cell 5 5)" "(-main)" "(apply str cell 5 a)" "(apply str a)" "(str a)" "(apply print a)" "a" "(pprint a)" "(print-table a)" "(use 'clojure.pprint)" "(print-table a)" "a" "(-main)" "(cell 5 \"s\")" "(cell 5 12345)" "(cell 1 25)" "(cell 7 5)" "(-main)" "(cell 5 \" \")" "(format \"%7s\" \".\")" "(cell 5 \" \")" "(number? \" \")" "(cell 5 \" \")" "(create-row (cell 5 3) a )" "(create-row (cell 5 3) (apply cell 5 a))" "(create-row \"b\" [1 2 3 4])" "(apply cell 5 a)" "(/ 123 10)" "(mod 10 100)" "(mod 100 10)" "(apply #(cell 5 %) a)" "(def a [1 2 3 4])" "(iterate inc 2)" "(time (take 10000 (sieve (iterate inc 2))) )" "(time (take 1000 (sieve (iterate inc 2))))" "(time (take 100 (sieve (iterate inc 2))))" "(time (take 10 (sieve (iterate inc 2))))" "(time (take 10 sieve (iterate inc 2)))")

@@ -2,7 +2,55 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/Users/scott/git/" . "ssb_emacs/")
+ ("/Users/scott/Downloads/EditableInvoice/" . "css/")
+ ("/Users/scott/Downloads/" . "EditableInvoice/")
+ ("/Users/scott/git/vocoder/src/" . "vocoder/")
+ ("/Users/scott/git/vocoder/" . "example/")
+ ("/Users/scott/git/scratch/resources/public/" . "js/")
+ ("/Users/scott/git/scratch/resources/" . "public/")
+ ("/Users/scott/git/re-frame/examples/simple/src/" . "simple/")
+ ("/Users/scott/git/re-frame/examples/simple/" . "src/")
+ ("/Users/scott/git/re-frame/examples/" . "simple/")
+ ("/Users/scott/git/re-frame/" . "examples/")
+ ("/Users/scott/git/building-re-frame-components/src/building_re_frame_components/" . "inline_editable_field/")
+ ("/Users/scott/git/building-re-frame-components/src/" . "building_re_frame_components/")
+ ("/Users/scott/git/building-re-frame-components/" . "src/")
+ ("/Users/scott/git/understanding-re-frame/src/cljs/" . "understanding_re_frame/")
+ ("/Users/scott/git/understanding-re-frame/src/" . "cljs/")
+ ("/Users/scott/git/understanding-re-frame/" . "src/")
+ ("/Users/scott/git/scratch/src/cljs/" . "scratch/")
+ ("/Users/scott/git/scratch/src/" . "cljs/")
+ ("/Users/scott/git/scratch/" . "src/")
+ ("/Users/scott/git/ssb-recipes/src/" . "ssb_recipes/")
+ ("/Users/scott/git/ssb-recipes/" . "src/")
+ ("/Users/scott/git/ssb-cljent/src/" . "ssb-cljent/")
+ ("/Users/scott/git/ssb-cljent/" . "src/")
+ ("/Users/scott/git/disaster-radio/hardware/lora-wemos-hat/" . "DisasterRadio.pretty/")
+ ("/Users/scott/git/disaster-radio/hardware/" . "lora-wemos-hat/")
+ ("/Users/scott/git/ssb-clj/src/" . "server/")
+ ("/Users/scott/git/ssb-clj/" . "src/")
+ ("/Users/scott/git/madefromscratch/src/" . "madefromscratch/")
+ ("/Users/scott/git/madefromscratch/" . "src/")
+ ("/Users/scott/git/namaste-noises/target/classes/META-INF/maven/namaste-noises/" . "namaste-noises/")
+ ("/Users/scott/git/namaste-noises/target/classes/META-INF/maven/" . "namaste-noises/")
+ ("/Users/scott/git/namaste-noises/target/classes/META-INF/" . "maven/")
+ ("/Users/scott/git/namaste-noises/target/classes/" . "META-INF/")
+ ("/Users/scott/git/namaste-noises/target/" . "classes/")
+ ("/Users/scott/git/namaste-noises/src/" . "namaste_noises/")
+ ("/Users/scott/git/namaste-noises/" . "src/")
+ ("/Users/scott/git/lora-to-nodemcu-circuit/" . "DisasterRadio.pretty/")
+ ("/Users/scott/git/clojure-koans/src/" . "koans/")
+ ("/Users/scott/git/clojure-koans/" . "src/")
+ ("/Users/scott/git/warren/src/" . "warren/")
+ ("/Users/scott/git/warren/" . "src/")
+ ("/Users/scott/git/prime-times-table/test/" . "prime_times_table/")
+ ("/Users/scott/git/prime-times-table/src/" . "prime_times_table/")
+ ("/Users/scott/git/prime-times-table/" . "test/")
+ ("/Users/scott/git/disaster-radio/web/" . "bin/")
+ ("/Users/scott/git/disaster-radio/" . "hardware/")
+ ("/Users/scott/websites/" . "Programming in Lua/")
+ ("/Users/scott/.emacs.d/" . "customizations/")
+ ("/Users/scott/git/" . "scratch/")
  ("/Users/scott/.ssb/blobs/" . "tmp/")
  ("/Users/scott/.ssb/" . "blobs/")
  ("/Users/scott/Documents/2015 tax/" . "letter_to_IRS.txt/")
@@ -17,65 +65,264 @@
  ("/Users/scott/Documents/clojure-noob/src/" . "clojure_noob/")
  ("/Users/scott/Documents/clojure-noob/" . "src/")
  ("/Users/scott/Documents/" . "2015 tax/")
- ("/Users/scott/" . ".ssb/")
+ ("/Users/scott/" . "org/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/Users/scott/.ssb/"
+ "/Users/scott/git/scratch/src/cljs/scratch/"
+ "/Users/scott/git/scratch/"
+ "/Users/scott/git/scratch/resources/public/js/"
+ "/Users/scott/org/"
+ "/Users/scott/Downloads/EditableInvoice/css/"
+ "/Users/scott/.emacs.d/customizations/"
+ "/Users/scott/git/scratch/resources/public/css/"
+ "/Users/scott/Documents/APL/KS_PowerPallet/"
+ "/Users/scott/git/vocoder/example/"
+ "/Users/scott/git/vocoder/src/vocoder/"
+ "/Users/scott/.emacs.d/"
+ "/Users/scott/git/building-re-frame-components/src/building_re_frame_components/inline_editable_field/"
+ "/Users/scott/git/re-frame/examples/simple/src/simple/"
+ "/Users/scott/git/understanding-re-frame/src/cljs/understanding_re_frame/"
+ "/Users/scott/git/ssb-recipes/src/ssb_recipes/"
+ "/Users/scott/git/ssb-clj/src/server/"
+ "/Users/scott/git/ssb-cljent/src/ssb-cljent/"
+ "/Users/scott/Documents/"
+ "/Users/scott/git/ssb-clj/"
+ "/Users/scott/git/ssb-cljent/src/ssb-example/"
+ "/Users/scott/git/ssb-cljent/"
  "/Users/scott/git/ssb_emacs/"
+ "/Users/scott/git/ssb-clj/src/ssb_clj/"
+ "/Users/scott/git/madefromscratch/src/madefromscratch/"
+ "/Users/scott/"
+ "/Users/scott/git/namaste-noises/src/namaste_noises/"
+ "/Users/scott/git/lora-to-nodemcu-circuit/"
+ "/Users/scott/git/madefromscratch/"
+ "/Users/scott/git/.git/"
+ "/Users/scott/git/prime-times-table/test/prime_times_table/"
+ "/Users/scott/git/prime-times-table/src/prime_times_table/"
+ "/Users/scott/git/prime-times-table/"
+ "/Users/scott/git/disaster-radio/"
+ "/Users/scott/git/disaster-radio/hardware/lora-wemos-hat/DisasterRadio.pretty/"
+ "/Users/scott/git/disaster-radio/hardware/lora-wemos-hat/"
+ "/Users/scott/git/lora-to-nodemcu-circuit/DisasterRadio.pretty/"
+ "/Users/scott/git/warren/src/warren/"
+ "/Users/scott/git/namaste-noises/"
+ "/Users/scott/git/clojure-koans/src/koans/"
+ "/Users/scott/git/warren/"
+ "/Users/scott/git/prime-times-table/doc/"
+ "/Users/scott/git/disaster-radio/web/bin/"
+ "/Users/scott/git/disaster-radio/web/"
+ "/Users/scott/.ssb/"
+ "/Users/scott/websites/Programming in Lua/"
+ "/Users/scott/git/freifunk-open-mppt/"
  "/Users/scott/git/"
  "/Users/scott/Documents/vishnu-backend/parent_portal/"
  "/Users/scott/.ssb/blobs/tmp/"
  "/Users/scott/.ssb/db/"
- "/192.168.1.86:"
- "/192.168.1.74:"
- "/Users/scott/org/"
- "/Users/scott/Documents/2015 tax/letter_to_IRS.txt/"
- "/Users/scott/.emacs.d/"
- "/Users/scott/warren/"
- "/Users/scott/warren/src/warren/"
- "/Users/scott/Downloads/"
- "/Users/scott/Documents/"
- "/Users/scott/canyonfall/src/canyonfall/"
- "/Users/scott/canyonfall/"
- "/Users/scott/Documents/bread.org/"
- "/Users/scott/Documents/AquariusNine/"
- "/Users/scott/"
- "/"
- "/Users/scott/Documents/clojure-noob/src/clojure_noob/"
- "/Users/scott/Documents/clojure-noob/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "ssb_names.el"
- "ssb_emacs.el"
+ "svg.cljs"
  "README.md"
- "ssb_emacs"
- "forms.py"
- "1493586135818-85"
- "001666.ldb"
- "gossip.json"
- "House.org"
- "MeshNetwork.org"
+ "showdown.min.js"
+ "notes.org"
+ "Notes.org"
+ "core.cljs"
+ "style.css"
+ "ui.el"
+ "misc.el"
+ "editing.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/scott/.ssb/" (22813 9370 0 0) "ssb_names.el" "secret" "query/" "private/" "node_modules/" "manifest.json" "gossip.json" "db/" "blobs_push/" "blobs/" "../" "./")
+ ("/Users/scott/git/scratch/resources/public/js/" (23321 23975 0 0) "showdown.min.js.map" "showdown.min.js" "compiled/" ".DS_Store" "../" "./")
 
- ("/Users/scott/git/" (22802 15942 0 0) "ssb_emacs copy.el" "ssb_emacs/" "ssb-simple-whois/" "makenode/" ".DS_Store" "../" "./")
+ ("/Users/scott/git/scratch/" (23321 23975 0 0) "target/" "src/" "resources/" "README.md" "project.clj" "Notes.org" "figwheel_server.log" ".gitignore" ".git/" "../" "./")
 
- ("/Users/scott/" (22810 29110 0 0) "websites/" "warren/" "vagrantfile" "using_skip_sort.py" "using_insert.py" "using_find.py" "using_dot_notation.py" "Untitled0.ipynb" "timeclient.py" "StringCount.ipynb" "SerialKiller.ipynb" "Serial_Graph.ipynb" "Run_Test.ipynb" "read_reddit.py" "quicklisp/" "Public/" "Project_Euler.ipynb" "places2visit.txt" "Pictures/" "org/" "nutrition_sql.txt" "node_modules/" "News/" "Music/" "Movies/" "mortgage.py" "Modbus_Master.ipynb" "Map_function.ipynb" "Mail/" "lisp/" "Library/" "journal.txt~" "journal.txt" "iTunes_Cleanup.ipynb" "House_profit.ipynb" "helloworld.py" "git/" "getting_started_pymongo.py" "FSTConfig.xml" "energy_usage.ipynb" "emacs_notes~" "emacs_notes" "Downloads/" "Doors.ipynb" "Documents/" "Desktop/" "DataFrame.ipynb" "Data_Graph.ipynb" "Current Calc.ipynb" "Config_Defaults.ipynb" "ClassComposition.ipynb" "canyonfall/" "Calibre Library/" "BTSync/" "bin/" "Applications/" "Algorithms.ipynb" ".xfwqumarc" ".Xcode/" ".Xauthority" ".wireshark-etc/" ".wireshark/" ".wget-hsts" ".viminfo" ".vim/" ".vagrant.d/" ".vagrant/" ".Trash/" ".swp" ".subversion/" ".ssh/" ".ssb/" ".sqlite_history" ".slime-history.eld" ".slime/" ".sbclrc" ".rnd" ".python26_compiled/" ".profile" ".pip/" ".oracle_jre_usage/" ".octave_hist" ".npm/" ".node-gyp/" ".newsrc.eld" ".newsrc" ".netrc" ".mysql_history" ".mongorc.js" ".matplotlib/" ".m2/" ".local/" ".lesshst" ".lein/" ".kdyefxnn" ".ipython/" ".ipynb_checkpoints/" ".inkscape-etc/" ".ido.last" ".idlerc/" ".heroku/" ".gnus" ".gnupg/" ".gnome2/" ".gitconfig" ".ghc/" ".gem/" ".gdb_history" ".fonts/" ".fontconfig/" ".enstaller4rc" ".emacs.d/" ".eaglerc" ".dvdcss/" ".DS_Store" ".dropbox/" ".distlib/" ".dbshell" ".cups/" ".crash_reportrc" ".crash_report_preview" ".crash_report_frames" ".crash_report_checksum" ".config/" ".CFUserTextEncoding" ".canopy/" ".cache/" ".bash_sessions/" ".bash_profile.save" ".bash_profile.pysave" ".bash_profile.macports-saved_2012-11-20_at_18:56:57" ".bash_profile" ".bash_history" ".authinfo" ".AndroidStudio2.1/" ".android/" ".#*scratch*" "*scratch*" "#*scratch*#" "../" "./")
+ ("/Users/scott/git/scratch/src/cljs/scratch/" (23315 12546 0 0) "widgits.cljs" "views.cljs" "svg.cljs" "subs.cljs" "schema.cljs" "events.cljs" "db.cljs" "core.cljs" "config.cljs" "../" "./")
+
+ ("/Users/scott/" (23312 9703 0 0) "websites/" "vagrantfile" "twiddler/" "Sites/" "quicklisp/" "Python/" "Public/" "Pictures/" "package.json" "org/" "node_modules/" "News/" "Music/" "Movies/" "Mail/" "Lotto_Numbers.txt" "lisp/" "Library/" "journal.txt" "git/" "emacs_notes.el" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "cjdroute.conf" "Calibre Library/" "BTSync/" "bin/" "Applications/" ".xfwqumarc" ".Xcode/" ".Xauthority" ".wireshark-etc/" ".wireshark/" ".wget-hsts" ".viminfo" ".vim/" ".vagrant.d/" ".vagrant/" ".twiddlerconf" ".Trash/" ".swp" ".subversion/" ".stack/" ".ssh/" ".ssb-test/" ".ssb/" ".sqlite_history" ".slime-history.eld" ".slime/" ".sbclrc" ".rnd" ".python26_compiled/" ".profile" ".pip/" ".overtone/" ".oracle_jre_usage/" ".octave_hist" ".npm/" ".node-gyp/" ".newsrc.eld" ".newsrc" ".netrc" ".mysql_history" ".musikcube/" ".mongorc.js" ".matplotlib/" ".m2/" ".lumo_history" ".local/" ".lesshst" ".lein/" ".kdyefxnn" ".jackdrc" ".ipython/" ".ipynb_checkpoints/" ".inkscape-etc/" ".ido.last" ".idlerc/" ".heroku/" ".gnus" ".gnupg/" ".gnome2/" ".gnaural/" ".gitconfig" ".ghc/" ".gem/" ".gdb_history" ".fonts/" ".fontconfig/" ".enstaller4rc" ".emacs.d/" ".electrum/" ".electron/" ".eaglerc" ".dvdcss/" ".DS_Store" ".dropbox/" ".distlib/" ".dbshell" ".dat-desktop/" ".cups/" ".crash_reportrc" ".crash_report_preview" ".crash_report_frames" ".crash_report_checksum" ".config/" ".CFUserTextEncoding" ".canopy/" ".cache/" ".bash_sessions/" ".bash_profile.save" ".bash_profile.pysave" ".bash_profile.macports-saved_2012-11-20_at_18:56:57" ".bash_profile" ".bash_history" ".authinfo" ".AndroidStudio2.1/" ".android/" ".#*scratch*" "../" "./")
+
+ ("/Users/scott/org/" (23302 58412 0 0) "webcomics.org" "Walking_Computer.org" "twiddler.org" "Todo.org" "templates/" "state_machine.lua" "ssh.org" "self_sufficiency.org" "Scuttlebutt.org" "SCICP_notes.org" "RFM95_layout.png" "resistor_color_codes_chart.png" "record_structure.png" "recipes.png" "Recipes.org" "recipe_table.png" "recipe_structure.png" "raspberry_pi.org" "Quantum_Computation.org" "Problems.org" "Primes.org" "places2visit.org" "Pattern_Language.org" "out.png" "orgcard.org" "Offline.org" "notes.org" "Nomadic.org" "NodeMCU__v1.0_pinout.jpg" "MeshNetwork.org" "MadeFromScratch_DesignDocs.org" "MadeFromScratch.org" "MadeFromScratch.json" "Lua.org" "list_of_books.org" "LearningHowToLearn.txt" "ketogenic_diet.org" "ideas.org" "humidity.org" "House.org" "Haskell.org" "hash_table.png" "graphname.png" "flagged.org" "FFVII Chocobo Wark - Download!-bhUKuxlHYts.mp3" "electronics.org" "DRF1276G_pin_functions.png" "CSP.org" "command_line.org" "Clojure.org" "Category_Theory.org" "Carriage_House.org" "bread.org" "books/" "bookmarks.org" "Blacksmithing.org" "Android.org" "Algorithms.org" ".DS_Store" "../" "./")
+
+ ("/Users/scott/Downloads/EditableInvoice/css/" (19230 23094 0 0) "style.css" "print.css" "../" "./")
+
+ ("/Users/scott/Downloads/EditableInvoice/" (22892 17640 0 0) "js/" "index.html" "images/" "css/" "../" "./")
+
+ ("/Users/scott/Downloads/" (23307 24574 0 0) "WSEPrescreenWorksheet.docx" "Wraps.jpg" "Wonder 2017 1080p WEB-DL DD5 1 H264-CMRG/" "woman_w_spirits.jpg" "WirelessNetworkingDevelopingWorld.pdf" "Wemos_D1_Mini_pinout.png" "websockets.pdf" "Uberti_1866_Rifleschem.jpg" "two_halves_heart.jpg" "Twiddler_0.15u.hex" "Tumbleweed.gif" "TPIC6B595N.pdf" "Thor.Ragnarok.2017.720.mkv" "Thelema/" "The_Linux_Command_Line.pdf" "The.Breadwinner.2017.720p.mkv" "The-Dome-Builder-s-Handbook-No-1.pdf" "The Marlene Dietrich  Collection - Blonde Venus (1932) Xvid 1cd - Cary Grant, Herbert Marshall [DDR]/" "test.css" "TDD in Clojure Reference Sheet - PurelyFunctional.tv.pdf" "tarpit.pdf" "target1.dxf" "table5_a.xls" "sun2.jpg" "sun.jpg" "Steven Pinker - Enlightenment Now The Case for Reason, Science, Humanism, and Progress (Unabridged)/" "Steven Pinker (Epub)The Better Angels Of Our Nature  [Qwerty80]/" "Steven Pinker/" "sterling_shaping_things.pdf" "statecharts.pdf" "spinning_mask.gif" "SparkFun-Eagle-Libraries-master/" "Solar_LiIon_Battery_Charger_CN3791.pdf" "sleipnir.jpg" "SevenSketchesinCompositionality_AnInvitationtoAppliedCategoryTheory.pdf" "searchicon.png" "Scott_Garrison_recommendation.pdf" "scott_garrison.html" "Ring Spec - PurelyFunctional.tv.pdf" "RFM95_96_97_98W.pdf" "RelayBoard-Large-v17/" "RelayBoard-Large-v11.zip" "Relay Board_rev2.doc" "React Lifecycle Reference for Re-frame.pdf" "Re-frame Reference Sheet.pdf" "Re-frame Components Reference Sheet.pdf" "Range Rover files/" "randhtml.cgi" "Quantum Computation And Quantum Information - 10th Anniversary Edition.pdf" "qrc-jm-v3-part2.png" "pythonCheatSheet.png" "Puppy_Loki_in_Woods.jpg" "pspics/" "problem_glyphs/" "Practical_Quantum_Instruction_Set.pdf" "pictures/" "photo.JPG" "Peter.Rabbit.2018.720p.BRRip.900MB.MkvCage.Com.mkv" "Perky_Loki_Pup.jpg" "PCUoutputvalues.docx" "PCU_relay_board_2_0/" "PCU.png" "paredit-refcard.pdf" "org_mode_cheat_sheet.pdf" "openwrt-ar71xx-generic-mynet-n600-squashfs-factory.bin" "On_A_Duck.jpg" "Notes On The Synthesis of Form.pdf" "MPXV7002.pdf" "mouse.svg" "MIT6_NetworkFlow_lec13.pdf" "MIT6_046JS12_Notes.pdf" "Microbial_building_material_patent.pdf" "Mental_Health_Hotline.txt" "Matrix_Cookbook.pdf" "mathematics_of_morality.pdf" "LokiAndTheDragon-Phaeton.png" "Loki_DressUp2.jpg" "Loki_DressUp.jpg" "Loki_and_tamara.jpg" "Loki-and-the-Dragon-Logo-2.gif" "Loki-and-the-Dragon-Final-Banner.gif" "loading.gif" "LispCheatSheet.txt" "LispCast/" "lego_voodoo_face.svg" "lego_explorer_face.svg" "LD1117V33.pdf" "LaoMonkeyBaby.jpg" "lambda-calculus.pdf" "La.La.Land.2016.1080p.WEB-DL.6CH.ShAaNiG.mkv" "KS_PowerTest.zip" "KM6ACW_FCC_License.pdf" "kelley sxs_12.jpg" "Jewel_Beetle.jpg" "iur.jpeg" "invoice/" "Intro to Clojure Reference.pdf" "IndianRecipes.txt" "IMG_2633.JPG" "IMG_2180.JPG" "idealhashtrees.pdf" "hollowband.jpg" "hoare_1978.pdf" "Hexbright-Samples/" "GridTie.zip" "gcu3.03.brd" "g1bclist.xls" "fwdonceuponatime3entitiessharedtimeandspacefora/" "fold.pdf" "Ferdinand.2017.720p.BluRay.H264.AAC-RARBG/" "extract.py" "Enlightenment Now - The Case for Reason, Science, Humanism, and Progress by Steven Pinker.epub" "Emacs Cheat Sheet.pdf" "EditableInvoice/" "DRF1276G.pdf" "dotguide.pdf" "Dino-rider.png" "Digraphs Theory, Algorithms and Applications.pdf" "Designing_Distributed_Systems.pdf" "DeathlyHallowsEarrings1.jpg" "DC_MicroGrids.pdf" "dav_convert.sh" "Dark.SEASON.01.S01.COMPLETE.DUAL-AUDIO.GER-ENG.720p.10bit.WEBRip.2CH.x265.HEVC-PSA/" "CRTS.pdf" "CONJUGATE S&C.xlsx" "Conflict_FreeJSON_datatype.pdf" "ConceptualMathematics_Lawvere.pdf" "Communicating_Sequencial_Processes.pdf" "Common Clojure Expression Flashcards (Anki CSV)- PurelyFunctional.tv.csv" "coffee.jpg" "Coco 2017 1080p HDRip x264 AC3-M2Tv/" "Clojure.test Cheatsheet - PurelyFunctional.tv.pdf" "clojure-cheatsheet.pdf" "Clojure Macroexand Reference - PurelyFunctional.tv.pdf" "Clojure Macro Sigils Reference - PurelyFunctional.tv.pdf" "Clojure Macro Patterns Reference - PurelyFunctional.tv.pdf" "Clojure core.async Reference - PurelyFunctional.tv.pdf" "clj-refactor Cheatsheet - PurelyFunctional.tv.pdf" "cheatsheet_default.pdf" "Category_Theory.pdf" "canbus_shield-v12.zip" "Call Her Savage.mp4" "Beardedaxetutorial.doc" "Baby_Loki.jpg" "Aww_Loki.jpg" "Atlanta Season 2 Mp4 1080p/" "armstrong_thesis_2003.pdf" "apt-calculator-template7.xls" "AO_Spare_Earth_Inferno.pdf" "68b.pdf" "2480.jpg" "2013 Aclima NDA.pdf" "2011-FinancialSummary.pdf" "2010-Chevrolet-HHR.pdf" "167510_10100198948133153_5512825_n.jpg" "11._Erwin_Schrodinger_-_What_is_Life__1944_.pdf" "08-network-flow-problems.pdf" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/scott/.emacs.d/customizations/" (23204 6492 0 0) "ui.el" "shell-integration.el" "setup-js.el" "setup-clojure.el" "session.el" "navigation.el" "misc.el" "elisp-editing.el" "editing.el" "../" "./")
+
+ ("/Users/scott/.emacs.d/" (23304 43311 0 0) "url/" "tramp" "timelog" "thumbs/" "themes/" "README.md" "projectile-bookmarks.eld" "places" "osx-say.el" "network-security.data" "init.el" "image-dired/" "idlwave/" "eshell/" "elpa/" "customizations/" "column-marker.el" "cider-history" "backups/" "auto-save-list/" "abbrev_defs" ".smex-items" ".session" ".recentf" ".git/" ".emacs.desktop" "../" "./")
+
+ ("/Users/scott/git/" (23276 52384 0 0) "wiki/" "widget_demo.el" "warren/" "vocoder/" "USB-DC-Solar-Lithium-Ion-Polymer-charger/" "understanding-re-frame/" "Twiddler/" "Trout/" "state_machine.lua" "ssb_valueflows/" "ssb_emacs/" "ssb-simple-whois/" "ssb-recipes/" "ssb-minimal/" "ssb-cljent/" "ssb-clj/" "soiled_mesh/" "secretary/" "scratch/" "RFM95W-Breakout/" "Reagent-Example/" "reagent-cookbook/" "re-frame-modal/" "re-frame/" "prime-times-table/" "patchfoo/" "patchbay/" "novic_ssb/" "nodemcu-pyflasher/" "namaste-noises/" "minbay/" "minbase/" "meshy-garden-toolshed/" "memory-hole/" "makenode/" "madefromscratch/" "luatool/" "lora-to-nodemcu-circuit/" "learnxinyminutes-docs/" "kicad-lib/" "kicad-ESP8266/" "hexbright-master/" "gardenmesh/" "freifunk-open-mppt/" "esp8266_probe_sniffer/" "esp-open-sdk/" "esp-lisp/" "emagicians-starter-kit/" "disaster-radio-nodemcu/" "disaster-radio-circuit/" "disaster-radio/" "disaster-ping-pong/" "d1_mini_kicad/" "clojure-koans/" "clojure-cookbook/" "cap-soil-moisture-v2/" "canyonfall/" "building-re-frame-components/" "boodle/" "bio.commons.institute/" "accountant/" ".DS_Store" "../" "./")
+
+ ("/Users/scott/git/scratch/resources/public/" (23297 44074 0 0) "js/" "index.html" "icons/" "css/" ".DS_Store" "../" "./")
+
+ ("/Users/scott/Documents/APL/KS_PowerPallet/" (20864 13022 0 0) "Test.pde" "Servo.pde" "SerialIn.pde" "SD.pde" "Relay.pde" "Reactor.pde" "Pressure.pde" "Modbus.pde" "Lambda.pde" "KS_PowerPallet.pde" "Hertz.pde" "Grate.pde" "Flow.pde" "Filter.pde" "Engine.pde" "EnergyMonitoring.pde" "Display.pde" "Datalogging.pde" "ControlInputs.pde" "Auger.pde" "Alarm.pde" ".gitignore" "../" "./")
+
+ ("/Users/" (22131 39527 0 0) "Shared/" "scott/" "PortDetect.log" ".localized" "../" "./")
+
+ ("/Users/scott/git/vocoder/" (23237 33146 0 0) "test/" "target/" "src/" "README.md" "project.clj" "LICENSE" "example/" "doc/" ".gitignore" ".git/" "#README.md#" "../" "./")
+
+ ("/Users/scott/git/vocoder/src/vocoder/" (23061 6062 0 0) "core.clj" "../" "./")
+
+ ("/Users/scott/git/vocoder/src/" (23061 6062 0 0) "vocoder/" "../" "./")
+
+ ("/Users/scott/git/vocoder/example/" (23237 30656 0 0) "vocoder_example.clj" "../" "./")
+
+ ("/Users/scott/.emacs.d/url/" (23022 13271 0 0) "cookies" "../" "./")
+
+ ("/Users/scott/git/scratch/resources/public/css/" (23177 50216 0 0) "main.css" "../" "./")
+
+ ("/Users/scott/git/scratch/resources/" (23176 37300 0 0) "public/" "../" "./")
+
+ ("/Users/scott/.fontconfig/" (21173 61931 0 0) "ffe516cbf74804039ca323edff7ddd6c-ppc64.cache-2" "ffe516cbf74804039ca323edff7ddd6c-le64.cache-3" "fde37821cbdb1159b4eac7aa64d92051-ppc64.cache-2" "fde37821cbdb1159b4eac7aa64d92051-le64.cache-3" "f22309b238134d3cca63435f528976cd-x86.cache-3" "f22309b238134d3cca63435f528976cd-x86-64.cache-2" "f22309b238134d3cca63435f528976cd-ppc64.cache-2" "f22309b238134d3cca63435f528976cd-le64.cache-3" "f0f76015ef54ea3f0895465d59f141ef-x86.cache-3" "f0f76015ef54ea3f0895465d59f141ef-x86-64.cache-2" "f0f76015ef54ea3f0895465d59f141ef-ppc64.cache-2" "f0f76015ef54ea3f0895465d59f141ef-le64.cache-3" "dff97e17f0a16753982c22213791434a-ppc64.cache-2" "dff97e17f0a16753982c22213791434a-le64.cache-3" "df8bbb140e8d98fd9ee7f6749a06f202-x86.cache-3" "df8bbb140e8d98fd9ee7f6749a06f202-x86-64.cache-2" "df8bbb140e8d98fd9ee7f6749a06f202-le64.cache-3" "ddbd7b13a6107d9809ee2e9bda1eeb71-ppc64.cache-2" "ddbd7b13a6107d9809ee2e9bda1eeb71-le64.cache-3" "d67f60e970c6378deca460e2d4a106e9-ppc64.cache-2" "d67f60e970c6378deca460e2d4a106e9-le64.cache-3" "d48774f8c79c4ec74ba4bcd2a4c592e2-ppc64.cache-2" "d48774f8c79c4ec74ba4bcd2a4c592e2-le64.cache-3" "cc6c6793c2dbdf216ae048773988aad6-ppc64.cache-2" "cc6c6793c2dbdf216ae048773988aad6-le64.cache-3" "c5f5d66d15c24edc3e863c27139db87e-x86.cache-3" "c5f5d66d15c24edc3e863c27139db87e-x86-64.cache-2" "c5f5d66d15c24edc3e863c27139db87e-ppc64.cache-2" "c5f5d66d15c24edc3e863c27139db87e-le64.cache-3" "c29b45c0b175bd96c37f111e1cf4898f-ppc64.cache-2" "c29b45c0b175bd96c37f111e1cf4898f-le64.cache-3" "bc06c1eea3e636f72101cafc3fb39508-x86.cache-3" "bc06c1eea3e636f72101cafc3fb39508-x86-64.cache-2" "bc06c1eea3e636f72101cafc3fb39508-ppc64.cache-2" "bc06c1eea3e636f72101cafc3fb39508-le64.cache-3" "ba022efc551c75e21c690774bbcf5304-x86.cache-3" "ba022efc551c75e21c690774bbcf5304-x86-64.cache-2" "ba022efc551c75e21c690774bbcf5304-ppc64.cache-2" "ba022efc551c75e21c690774bbcf5304-le64.cache-3" "b0a71e6bf6a8a1a908413a823d76e21f-x86-64.cache-2" "b0a71e6bf6a8a1a908413a823d76e21f-ppc64.cache-2" "b0a71e6bf6a8a1a908413a823d76e21f-le64.cache-3" "a41773bb9c1075c03118b435e940f148-ppc64.cache-2" "a41773bb9c1075c03118b435e940f148-le64.cache-3" "a1a78d9c18cd095d3829c724810e6ffb-x86.cache-3" "a1a78d9c18cd095d3829c724810e6ffb-x86-64.cache-2" "a1a78d9c18cd095d3829c724810e6ffb-ppc64.cache-2" "a1a78d9c18cd095d3829c724810e6ffb-le64.cache-3" "84c0f976e30e948e99073af70f4ae876-x86.cache-3" "84c0f976e30e948e99073af70f4ae876-x86-64.cache-2" "84c0f976e30e948e99073af70f4ae876-ppc64.cache-2" "84c0f976e30e948e99073af70f4ae876-le64.cache-3" "79652363633577d7d713baab7f54ad8c-x86.cache-3" "79652363633577d7d713baab7f54ad8c-x86-64.cache-2" "79652363633577d7d713baab7f54ad8c-ppc64.cache-2" "79652363633577d7d713baab7f54ad8c-le64.cache-3" "770cb17d3a3afad2d28d6aaa2867debb-ppc64.cache-2" "770cb17d3a3afad2d28d6aaa2867debb-le64.cache-3" "5dc9fcf026e07a49c5f91c19054b9930-x86.cache-3" "5dc9fcf026e07a49c5f91c19054b9930-x86-64.cache-2" "5dc9fcf026e07a49c5f91c19054b9930-ppc64.cache-2" "5dc9fcf026e07a49c5f91c19054b9930-le64.cache-3" "59b40543e1dc03aa7a992c959743b9d2-x86.cache-3" "59b40543e1dc03aa7a992c959743b9d2-x86-64.cache-2" "59b40543e1dc03aa7a992c959743b9d2-ppc64.cache-2" "558352270fb122ca08359d23b5a778d4-x86.cache-3" "558352270fb122ca08359d23b5a778d4-ppc64.cache-2" "558352270fb122ca08359d23b5a778d4-le64.cache-3" "4acaa6198935dcc30460b9903cee0008-ppc64.cache-2" "4acaa6198935dcc30460b9903cee0008-le64.cache-3" "49aa604a5ac92994756d3008e408245c-x86.cache-3" "49aa604a5ac92994756d3008e408245c-x86-64.cache-2" "49aa604a5ac92994756d3008e408245c-ppc64.cache-2" "49aa604a5ac92994756d3008e408245c-le64.cache-3" "480b001d1ab99a92ee52aee96868b317-ppc64.cache-2" "480b001d1ab99a92ee52aee96868b317-le64.cache-3" "1487dd4aecf3164c4a11193169052443-x86.cache-3" "1487dd4aecf3164c4a11193169052443-x86-64.cache-2" "1487dd4aecf3164c4a11193169052443-ppc64.cache-2" "1487dd4aecf3164c4a11193169052443-le64.cache-3" "0f0db7876307790c19e1f91eb9095080-x86.cache-3" "0f0db7876307790c19e1f91eb9095080-x86-64.cache-2" "0f0db7876307790c19e1f91eb9095080-ppc64.cache-2" "0f0db7876307790c19e1f91eb9095080-le64.cache-3" "../" "./")
+
+ ("/Users/scott/git/scratch/src/cljs/" (23176 37300 0 0) "scratch/" "../" "./")
+
+ ("/Users/scott/git/scratch/src/" (23176 37300 0 0) "cljs/" "clj/" "../" "./")
+
+ ("/Users/scott/git/re-frame/examples/simple/src/simple/" (23175 35925 0 0) "core.cljs" "../" "./")
+
+ ("/Users/scott/git/re-frame/examples/simple/src/" (23175 35925 0 0) "simple/" "../" "./")
+
+ ("/Users/scott/git/re-frame/examples/simple/" (23175 35925 0 0) "src/" "resources/" "README.md" "project.clj" "../" "./")
+
+ ("/Users/scott/git/re-frame/examples/" (23175 35925 0 0) "todomvc/" "simple/" "../" "./")
+
+ ("/Users/scott/git/re-frame/" (23175 35925 0 0) "test/" "SUPPORT.md" "src/" "README.md" "project.clj" "license.txt" "karma.conf.js" "images/" "examples/" "docs/" "CONTRIBUTING.md" "CITATION.md" "circle.yml" "CHANGES.md" "book.json" "bin/" ".idea/" ".gitignore" ".gitattributes" ".git/" ".editorconfig" "../" "./")
+
+ ("/Users/scott/git/building-re-frame-components/src/building_re_frame_components/inline_editable_field/" (23175 2336 0 0) "teacher.cljs" "student.cljs" "../" "./")
+
+ ("/Users/scott/git/building-re-frame-components/src/building_re_frame_components/" (23175 2336 0 0) "username_box/" "username_and_password_refactoring/" "user_registration_3/" "user_registration_2/" "user_registration_1/" "user_password_further_refactoring/" "tag_editor/" "sortable_table_in_the_database/" "sortable_table/" "progress_bar/" "password_box/" "markdown_preview/" "inline_editable_field/" "filterable_list/" "externally_managed_components/" "expanding_table/" "draggable_list/" "core.cljs" "collapsible_panel/" "accordion_component/" "../" "./")
+
+ ("/Users/scott/git/building-re-frame-components/src/" (23175 2336 0 0) "building_re_frame_components/" "../" "./")
+
+ ("/Users/scott/git/building-re-frame-components/" (23175 2336 0 0) "src/" "resources/" "README.md" "project.clj" "dev/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/scott/git/understanding-re-frame/src/cljs/understanding_re_frame/" (23175 3153 0 0) "views.cljs" "subscriptions.cljs" "subs.cljs" "shopping_cart.cljs" "routes.cljs" "re_frame_events.cljs" "naming.cljs" "interceptors.cljs" "hiccup.cljs" "forms.cljs" "events.cljs" "db.cljs" "database_structure.cljs" "core.cljs" "config.cljs" "components.cljs" "atoms.cljs" "../" "./")
+
+ ("/Users/scott/git/understanding-re-frame/src/cljs/" (23175 3153 0 0) "understanding_re_frame/" "../" "./")
+
+ ("/Users/scott/git/understanding-re-frame/src/" (23175 3153 0 0) "cljs/" "clj/" "../" "./")
+
+ ("/Users/scott/git/understanding-re-frame/" (23175 3153 0 0) "test/" "src/" "resources/" "README.md" "project.clj" "Procfile" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/scott/git/ssb-recipes/src/ssb_recipes/" (23162 33221 0 0) "core.cljs" "../" "./")
+
+ ("/Users/scott/git/ssb-recipes/" (23162 31333 0 0) "target/" "src/" "resources/" "README.md" "project.clj" "dev/" ".gitignore" "../" "./")
+
+ ("/Users/scott/git/ssb-recipes/src/" (23138 43800 0 0) "ssb_recipes/" "../" "./")
+
+ ("/Users/scott/git/ssb-clj/src/server/" (23084 45105 0 0) "core.cljs" "../" "./")
+
+ ("/Users/scott/git/ssb-cljent/src/ssb-cljent/" (23085 41688 0 0) "core.cljs" "../" "./")
+
+ ("/Users/scott/git/ssb-cljent/" (23085 41688 0 0) "src/" "README.md" "project.clj" "package.json" "build.clj" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/scott/git/ssb-cljent/src/" (23085 41688 0 0) "ssb-cljent/" "../" "./")
+
+ ("/Users/scott/Documents/" (23014 39447 0 0) "vishnu-frontend/" "vishnu-backend/" "velcro.jpg" "tw.py" "To Do.txt" "thinkstats2.pdf" "thinkpython.pdf" "thinkos.pdf" "thinkbayes.pdf" "test_plot.py" "sscanf_notes.txt" "Slate/" "shopsmith/" "sensor-sea-cache-backend/" "sensor-sea-backend/" "security_system_user_guide.pdf" "scrabble/" "Scott_Garrison_resume.pdf" "runes.org" "rpispy-video-capture-unit/" "rfm95.lib" "rfm95.dcm" "resume.pdf" "resume/" "Requisition Website/" "real-estate-calculator.xls" "raspeye-ffmpeg/" "raspeye-daemon/" "python/" "plants_commonly_eaten.org~" "plants_commonly_eaten.org" "pig.py" "parents-ui/" "Org Mode - Organize Your Life In Plain Text!_files/" "Org Mode - Organize Your Life In Plain Text!.htm" "Optimized_Class_Algorithm.txt" "ops-ui/" "ObjC_Notes.rtf" "NDA.txt" "MusicToCheckOut.txt" "music_to_checkout.txt" "MumbleAutomaticCertificateBackup.p12" "MorningRitual.txt" "models/" "Market.xls" "MakeISOfiles.txt" "madefromscratch/" "LTspice/" "LokiAndTheDragon.rtfd/" "Loki_And_The_Dragon.txt" "Loki.jpg" "linearSystems.pdf" "leastSquares.pdf" "Learning_Postgres.txt" "KS_100kW/" "InventoryManagement/" "Ideas.txt" "icon.png" "HouseExpenses.csv" "House_Expenses.cts" "House_Expenses.bak" "House Expenses.ods" "hollow-ring-P096.gif" "heroku-buildpack-python/" "heatmap-geocoding/" "HAM_notes.txt" "gunshot-spotter.lisp" "Geometric_LinAlg.pdf" "fractals.el" "FCC_HAM_license.pdf" "ember-models/" "emacs_refcard.pdf" "emacs cheat sheet.pdf" "eagle/" "Dynamic_Update_Procedure.doc" "dynamic-rest/" "DisasterRadio.lib" "DisasterRadio.dcm" "CO2_PPM_vs_mV.ods" "Clojure_notes.txt" "check_url/" "CheatSheets/" "cheap-seats/" "CHARON.jpg" "CHARON.dot" "challenge/" "case-sensitive.dmg" "AVR_fuse_setting.txt" "Arduino/" "AquariusNine/" "APL/" "AltSchool.cts" "AltSchool.bak" "algorithms.py" "2015 tax/" "2014 Tax without (sent)/" "2014 Tax with House/" "2013 Tax/" "2012 Tax/" "2011 Tax/" "2010 Tax Forms/" "2009 Tax forms/" ".localized" ".DS_Store" ".#music_to_checkout.txt" ".#Loki_And_The_Dragon.txt" ".#algorithms.py" "../" "./")
+
+ ("/Users/scott/git/ssb-clj/src/" (23084 42591 0 0) "ssb_clj/" "server/" "../" "./")
+
+ ("/Users/scott/git/ssb-cljent/src/ssb-example/" (23084 28982 0 0) "core.cljs" "../" "./")
+
+ ("/Users/scott/git/ssb-clj/src/ssb_clj/" (23081 48662 0 0) "core.cljs" "../" "./")
+
+ ("/Users/scott/git/namaste-noises/src/namaste_noises/" (23080 17842 0 0) "core.clj" "../" "./")
+
+ ("/Users/scott/git/lora-to-nodemcu-circuit/" (23079 37318 0 0) "wemos_mini.lib" "wemos_mini.dcm" "sym-lib-table" "rfm95.lib" "rfm95.dcm" "README.md" "lora_nodemcu.xml" "lora_nodemcu.sch" "lora_nodemcu.pro" "lora_nodemcu.net" "lora_nodemcu.kicad_pcb-bak" "lora_nodemcu.kicad_pcb" "lora_nodemcu.bak" "lora_nodemcu-rescue.lib" "lora_nodemcu-cache.lib" "lm1117.pdf" "gerber.zip" "gerber/" "DisasterRadio.pretty/" "disaster_radio.dcm" "_saved_lora_nodemcu.pro" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/scott/git/madefromscratch/src/madefromscratch/" (23067 795 0 0) "web.clj" "../" "./")
+
+ ("/Users/scott/git/.git/" (23067 17290 0 0) "refs/" "objects/" "logs/" "info/" "index" "hooks/" "HEAD" "description" "config" "COMMIT_EDITMSG" "../" "./")
+
+ ("/Users/scott/git/prime-times-table/" (23071 40354 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "prime-times-table-0.1.0-SNAPSHOT-standalone.jar" "LICENSE" ".nrepl-port" ".lein-failures" ".hgignore" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/scott/git/namaste-noises/" (23068 17438 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "LICENSE" "doc/" "CHANGELOG.md" ".nrepl-port" ".hgignore" ".gitignore" ".DS_Store" "../" "./")
+
+ ("/Users/scott/git/ssb-clj/" (23060 34493 0 0) "target/" "src/" "resources/" "README.md" "project.clj" "figwheel_server.log" "dev/" ".gitignore" "../" "./")
+
+ ("/Users/scott/git/disaster-radio/hardware/" (23052 43096 0 0) "rfm95/" "lora_wemos_hat/" "../" "./")
+
+ ("/Users/scott/git/disaster-ping-pong/" (22919 47769 0 0) "upload.sh" "recipe.md" "README.md" "init.lua.old" "init.lua" "images/" "firmware/" ".git/" "../" "./")
+
+ ("/Users/scott/git/disaster-radio/hardware/lora-wemos-hat/" (23052 43034 0 0) "wemos_mini.lib" "wemos_mini.dcm" "rfm95.lib" "rfm95.dcm" "README.md" "lora_nodemcu.xml" "lora_nodemcu.sch" "lora_nodemcu.pro" "lora_nodemcu.net" "lora_nodemcu.kicad_pcb-bak" "lora_nodemcu.kicad_pcb" "lora_nodemcu.bak" "lora_nodemcu-cache.lib" "lm1117.pdf" "gerber.zip" "gerber/" "DisasterRadio.pretty/" "disaster_radio.dcm" "_saved_lora_nodemcu.pro" ".DS_Store" "../" "./")
+
+ ("/Users/scott/git/disaster-radio/hardware/lora-wemos-hat/DisasterRadio.pretty/" (23013 33951 0 0) "SOIC-16.kicad_mod" "RFM95.kicad_mod" "../" "./")
+
+ ("/Users/scott/git/disaster-radio/" (23052 42811 0 0) "web/" "settings.mk.example" "README.md" "Makefile" "hardware/" "firmware/" "fetch_deps.sh" "enclosure/" "config.mk" ".gitmodules" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/scott/git/disaster-radio/kicad/" (22991 7574 0 0) "rfm95/" "../" "./")
+
+ ("/Users/scott/git/madefromscratch/src/" (22977 43823 0 0) "madefromscratch/" "../" "./")
+
+ ("/Users/scott/git/madefromscratch/" (22977 43964 0 0) "test/" "src/" "resources/" "README.md" "project.clj" "Procfile" ".gitignore" "../" "./")
+
+ ("/Users/scott/git/namaste-noises/target/classes/META-INF/maven/namaste-noises/namaste-noises/" (23042 6721 0 0) "pom.properties" "../" "./")
+
+ ("/Users/scott/git/namaste-noises/target/classes/META-INF/maven/namaste-noises/" (23042 6721 0 0) "namaste-noises/" "../" "./")
+
+ ("/Users/scott/git/namaste-noises/target/classes/META-INF/maven/" (23042 6721 0 0) "namaste-noises/" "../" "./")
+
+ ("/Users/scott/git/namaste-noises/target/classes/META-INF/" (23042 6721 0 0) "maven/" "../" "./")
+
+ ("/Users/scott/git/namaste-noises/target/classes/" (23042 6721 0 0) "META-INF/" "../" "./")
+
+ ("/Users/scott/git/namaste-noises/target/native/" (23042 6786 0 0) "windows/" "macosx/" "linux/" "../" "./")
+
+ ("/Users/scott/git/namaste-noises/target/" (23042 6796 0 0) "stale/" "repl-port" "native/" "classes/" "../" "./")
+
+ ("/Users/scott/git/namaste-noises/src/" (23042 6535 0 0) "namaste_noises/" "../" "./")
+
+ ("/Users/scott/git/lora-to-nodemcu-circuit/DisasterRadio.pretty/" (23013 33951 0 0) "SOIC-16.kicad_mod" "RFM95.kicad_mod" "../" "./")
+
+ ("/Users/scott/git/clojure-koans/" (23032 62779 0 0) "Vagrantfile" "target/" "src/" "script/" "resources/" "README.md" "project.clj" "ideaboard.txt" "epl-v10.html" ".nrepl-port" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/scott/git/clojure-koans/src/koans/" (23031 37831 0 0) "24_macros.clj" "23_meta.clj" "22_group_by.clj" "21_partition.clj" "20_java_interop.clj" "19_datatypes.clj" "18_quote.clj" "17_atoms.clj" "16_refs.clj" "15_destructuring.clj" "14_recursion.clj" "13_creating_functions.clj" "12_sequence_comprehensions.clj" "11_lazy_sequences.clj" "10_runtime_polymorphism.clj" "09_higher_order_functions.clj" "08_conditionals.clj" "07_functions.clj" "06_maps.clj" "05_sets.clj" "04_vectors.clj" "03_lists.clj" "02_strings.clj" "01_equalities.clj" "../" "./")
+
+ ("/Users/scott/git/clojure-koans/src/" (23031 37831 0 0) "koans/" "../" "./")
+
+ ("/Users/scott/git/prime-times-table/test/prime_times_table/" (23023 43991 0 0) "core_test.clj" "../" "./")
+
+ ("/Users/scott/git/warren/" (23022 28432 0 0) "warren_screen_shot.png" "target/" "src/" "resources/" "README.md" "project.clj" "figwheel_server.log" "dev/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/scott/git/warren/src/warren/" (22934 36145 0 0) "core.cljs" "../" "./")
+
+ ("/Users/scott/git/warren/src/" (22663 41545 0 0) "warren/" "../" "./")
+
+ ("/Users/scott/git/prime-times-table/src/prime_times_table/" (23022 13552 0 0) "core.clj" "../" "./")
+
+ ("/Users/scott/git/prime-times-table/test/" (23016 9065 0 0) "prime_times_table/" "../" "./")
+
+ ("/Users/scott/git/prime-times-table/src/" (23016 9065 0 0) "prime_times_table/" "../" "./")
+
+ ("/Users/scott/git/prime-times-table/doc/" (23016 9065 0 0) "intro.md" "../" "./")
+
+ ("/Users/scott/git/disaster-radio/web/bin/" (22961 43237 0 0) "dev.js" "cmd.js" "build.js" "../" "./")
+
+ ("/Users/scott/git/disaster-radio/web/" (22961 43237 0 0) "static/" "src/" "settings.js.example" "README.md" "package.json" "gulpfile.js" "bin/" "../" "./")
+
+ ("/Users/scott/git/disaster-radio-nodemcu/" (22959 17538 0 0) "wifi.lua" "webserver.lua" "upload.sh" "terminal.lua" "serial.lua" "rn2903_setup.lua" "rn2903.lua" "README.md" "random_seed.lua" "package.json" "js/" "interpret.lua" "init.lua" "index.html" "HARDWARE.md" "firmware/" "dnsserver.lua" "Disaster_Radio.sch" "Disaster_Radio.pro" "Disaster_Radio.kicad_pcb" "Disaster_Radio.bak" "Disaster_Radio-cache.lib" "dev.html" "css/" "async.lua" "404.html" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/scott/.ssb/" (22905 7243 0 0) "ssb_names.el" "secret" "query/" "private/" "node_modules/" "manifest.json" "gossip.json" "flume/" "db/" "config" "blobs_push/" "blobs/" "../" "./")
+
+ ("/Users/scott/websites/Programming in Lua/" (22900 13390 0 0) "www.lua.org/" "index.html" "hts-log.txt" "hts-cache/" "fade.gif" "backblue.gif" ".DS_Store" "../" "./")
+
+ ("/Users/scott/websites/" (22900 12933 0 0) "worm/" "SICP/" "SICM/" "Programming in Lua/" "org_mode/" "elisp/" "diatomic/" "Beautiful_Racket/" ".DS_Store" "../" "./")
+
+ ("/Users/scott/git/freifunk-open-mppt/" (22859 21033 0 0) "uC-Sourcecode/" "TODO" "Schematic-and-Board/" "README.md" "README-Flashing-Firmware" "LICENSE" "kavr-bootloader/" "Freifunk-Open-MPPT.odp" "Freifunk-Open-MPPT-English.pdf" "AVR-FUSES/" ".git/" ".DS_Store" "../" "./")
 
  ("/Users/scott/.ssb/blobs/tmp/" (22799 44866 0 0) "1494199141870-153" "1494199089196-128" "1494199074995-127" "1494189101237-126" "1494189021302-124" "1494189017168-123" "1494188962003-122" "1494188950518-121" "1494188947999-120" "1494188934958-119" "1494188508321-117" "1494188493041-116" "1494188483818-114" "1494188482029-113" "../" "./")
 
  ("/Users/scott/.ssb/blobs/" (22799 20268 0 0) "tmp/" "sha256/" "../" "./")
 
  ("/Users/scott/git/ssb_emacs/" (22799 33774 0 0) "ssb_emacs.el" "README.md" "LICENSE" ".git/" "../" "./")
-
- ("/Users/scott/org/" (22794 7616 0 0) "Operating_Manual_for_Earth.org" "MeshNetwork.org" "House.org" "../" "./")
 
  ("/Users/scott/Documents/vishnu-backend/parent_portal/" (22018 60145 0 0) "views.py" "urls.py" "forms.py" "__init__.py" "../" "./")
 
@@ -89,41 +336,7 @@
 
  ("/Users/scott/Documents/2015 tax/" (22782 12104 0 0) "with house/" "MOHELA_tax_info.pdf" "letter_to_IRS.txt/" "i1040gi.pdf" "f1040.pdf" "15_540tt.pdf" "15_540ins.pdf" "15_540ca.pdf" "15_540.pdf" "13_540cains.pdf" ".DS_Store" "../" "./")
 
- ("/Users/scott/Documents/" (22779 36722 0 0) "vishnu-frontend/" "vishnu-backend/" "velcro.jpg" "tw.py" "To Do.txt" "thinkstats2.pdf" "thinkpython.pdf" "thinkos.pdf" "thinkbayes.pdf" "test_plot.py" "sudo_room.org/" "stained_glass_barcelona.png" "sscanf_notes.txt" "Slate/" "SimpleBook/" "shopsmith/" "sensor-sea-cache-backend/" "sensor-sea-backend/" "self_sufficiency.org" "security_system_user_guide.pdf" "scrabble/" "Scott_Garrison_Resume.pdf" "SCICP_notes.org" "runes.org" "rpispy-video-capture-unit/" "resume.pdf" "resume/" "Recipes.org" "real-estate-calculator.xls" "raspeye-ffmpeg/" "raspeye-daemon/" "python/" "Provident Funding_ The Mortgage Price Leader!.pdf" "plants_commonly_eaten.org~" "plants_commonly_eaten.org" "pig.py" "pi_estimator.py" "Pattern_Language.org" "parents-ui/" "Optimized_Class_Algorithm.txt" "ops-ui/" "ObjC_Notes.rtf" "NDA.txt" "My Drawings/" "MusicToCheckOut.txt" "music_to_checkout.txt" "MorningRitual.txt" "models/" "Market.xls" "MakeISOfiles.txt" "madefromscratch/" "LTspice/" "LokiAndTheDragon.rtfd/" "Loki_And_The_Dragon.txt" "Loki.jpg" "linearSystems.pdf" "linalg_jordan_86.pdf" "leastSquares.pdf" "Learning_Postgres.txt" "KS_100kW/" "job_links.txt" "InventoryManagement/" "Ideas.txt" "icon.png" "HouseExpenses.csv" "House_Expenses.cts" "House_Expenses.bak" "hollow-ring-P096.gif" "heroku-buildpack-python/" "heatmap-geocoding/" "HAM_notes.txt" "gunshot-spotter.lisp" "Geometric_LinAlg.pdf" "Free_as_in_Freedom.pdf" "FCC_HAM_license.pdf" "ember-models/" "emacs_refcard.pdf" "emacs cheat sheet.pdf" "eagle/" "Dynamic_Update_Procedure.doc" "dynamic-rest/" "downey08semaphores.pdf" "DailyAppreciation.txt" "CSS_Secrets_sample-3.pdf" "CO2_PPM_vs_mV.ods" "Clojure_notes.txt" "check_url/" "CheatSheets/" "cheap-seats/" "CHARON.jpg" "CHARON.dot" "challenge/" "case-sensitive.dmg" "Carriage_House.org" "Burn Temporary.localized/" "buckminsterfuller-grunchofgiants.pdf" "bread.org" "AVR_fuse_setting.txt" "AUXFOG_21_November_2013_PDA_sized.pdf" "Arduino/" "AquariusNine/" "APL/" "Anki/" "AltSchool.cts" "AltSchool.bak" "Algorithms.org" "2015 tax/" "2014 Tax without (sent)/" "2014 Tax with House/" "2013 Tax/" "2012 Tax/" "2011 Tax/" "2010_Tech_Study_Guide.pdf" "2010 Tax Forms/" "2009 Tax forms/" ".localized" ".DS_Store" ".#music_to_checkout.txt" ".#Loki_And_The_Dragon.txt" ".#algorithms.py" "#Loki_And_The_Dragon.txt#" "#algorithms.py#" "../" "./")
-
- ("/Users/scott/.emacs.d/" (22760 11988 0 0) "url/" "themes/" "README.md" "projectile-bookmarks.eld" "places" "osx-say.el" "init.el~" "init.el" "elpa/" "customizations/" "column-marker.el" "cider-history" "backups/" "auto-save-list/" "abbrev_defs" ".smex-items" ".recentf" ".git/" "../" "./")
-
- ("/Users/scott/Downloads/" (22758 33294 0 0) "WSEPrescreenWorksheet.docx" "woman_w_spirits.jpg" "videoconverter.exe" "Underworld.Blood.Wars.2016.1080p.WEBRip.x264.AAC-ETRG/" "Uberti_1866_Rifleschem.jpg" "Tumbleweed.gif" "TPIC6B595N.pdf" "Thelema/" "The_Linux_Command_Line.pdf" "target1.dxf" "table5_a.xls" "sun2.jpg" "sun.jpg" "suggestions.py" "stat-cookbook.pdf" "Split.2016.1080p.WEB-DL.DD5.1.H264-FGT[EtHD]/" "Spectral 2016 1080p HDRip x264 AC3-JYK/" "SparkFun-Eagle-Libraries-master/" "Scott_Garrison_recommendation.pdf" "scott_garrison.html" "sbcl-1.1.6-x86-darwin/" "RunTest_20130830.png" "Run_Test (1).py" "RelayBoard-Large-v17/" "RelayBoard-Large-v11.zip" "Relay Board_rev2.doc" "randhtml.cgi" "qrc-jm-v3-part2.png" "pythonCheatSheet.png" "Puppy_Loki_in_Woods.jpg" "pspics/" "promethea (moore, williams iii)/" "practicals-1.0.3/" "PID_FrontEnd_v03.zip" "pictures/" "photo.JPG" "Perky_Loki_Pup.jpg" "PCUoutputvalues.docx" "PCU_relay_board_2_0.zip" "PCU_relay_board_2_0/" "PCU.png" "Patterns of Software.pdf" "paip/" "org_mode_cheat_sheet.pdf" "On_A_Duck.jpg" "Muscle Logic -  Escalating Density Training -Mantesh/" "MPXV7002.pdf" "modbusonthedse8610/" "Mike Mignola/" "Mental_Health_Hotline.txt" "Math_for_Computer_Science.pdf" "LokiAndTheDragon-Phaeton.png" "Loki_DressUp2.jpg" "Loki_DressUp.jpg" "Loki_and_tamara.jpg" "Loki-and-the-Dragon-Logo-2.gif" "Loki-and-the-Dragon-Final-Banner.gif" "LispCheatSheet.txt" "lego_voodoo_face.svg" "lego_explorer_face.svg" "LastRB.pdf" "LaoMonkeyBaby.jpg" "lambda-calculus.pdf" "KS_PowerTest.zip" "KM6ACW_FCC_License.pdf" "kelley sxs_12.jpg" "iBoy 2017 720p WEBRip 650 MB - iExTV/" "house.xls" "hollowband.jpg" "Hexbright-Samples/" "hexbright-master/" "GridTie.zip" "GridTie.sch" "gcu3.03.brd" "g1bclist.xls" "fwdonceuponatime3entitiessharedtimeandspacefora/" "Ex Machina/" "empty.zip" "Emacs Cheat Sheet.pdf" "DeathlyHallowsEarrings1.jpg" "CONJUGATE S&C.xlsx" "clojure-cheatsheet.pdf" "canbus_shield-v12.zip" "Bob Marley - Complete Discography From 1967 To 2002 [33 Full Albums] (Mp3 256Kbps)/" "Biodico_GridTie_DSE8610_Pinout.xlsx" "Beardedaxetutorial.doc" "Baby_Loki.jpg" "Aww_Loki.jpg" "apt-calculator-template7.xls" "AO_Spare_Earth_Inferno.pdf" "2013 Aclima NDA.pdf" "2011-FinancialSummary.pdf" "2010-Chevrolet-HHR.pdf" "167510_10100198948133153_5512825_n.jpg" ".localized" ".DS_Store" "../" "./")
-
  ("/Users/scott/warren/src/warren/" (22710 19516 0 0) "core.cljs" "../" "./")
-
- ("/Users/scott/warren/" (22696 40551 0 0) "target/" "src/" "resources/" "README.md" "project.clj" "figwheel_server.log" "dev/" ".gitignore" "../" "./")
-
- ("/Users/scott/warren/src/" (22663 41545 0 0) "warren/" "../" "./")
-
- ("/Users/scott/canyonfall/src/canyonfall/" (22659 49688 0 0) "core.cljs" "../" "./")
-
- ("/Users/scott/canyonfall/src/" (22659 49688 0 0) "canyonfall/" "../" "./")
-
- ("/Users/scott/canyonfall/" (22659 49784 0 0) "target/" "src/" "resources/" "README.md" "project.clj" "figwheel_server.log" "dev/" ".gitignore" "../" "./")
-
- ("/Users/scott/Documents/bread.org/" (22610 64862 0 0) "../" "./")
-
- ("/Users/scott/Documents/madefromscratch/madefromscratch/static/" (22279 22932 0 0) "humans.txt" "../" "./")
-
- ("/Users/scott/Documents/madefromscratch/madefromscratch/" (22450 47909 0 0) "wsgi.py" "urls.py" "static/" "settings.py" "models.py" "__init__.py" ".gitignore" ".env" ".DS_Store" "../" "./")
-
- ("/Users/scott/Documents/madefromscratch/" (22279 22932 0 0) "runtime.txt" "requirements.txt" "README.md" "Procfile" "manage.py" "madefromscratch/" ".git/" ".DS_Store" "../" "./")
-
- ("/Users/scott/Documents/AquariusNine/" (22487 36498 0 0) "README.md" "AquariusNine.org" ".git/" "../" "./")
-
- ("/Users/scott/Documents/clojure-noob/src/clojure_noob/" (22352 27286 0 0) "core.clj" "../" "./")
-
- ("/Users/scott/Documents/clojure-noob/" (22343 61317 0 0) "test/" "target/" "src/" "resources/" "README.md" "project.clj" "LICENSE" "doc/" "CHANGELOG.md" ".lein-repl-history" ".hgignore" ".gitignore" "../" "./")
-
- ("/Users/scott/Documents/clojure-noob/src/" (22337 9444 0 0) "clojure_noob/" "../" "./")
-
- ("/Users/" (22131 39527 0 0) "Shared/" "scott/" "PortDetect.log" ".localized" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

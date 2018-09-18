@@ -1,44 +1,44 @@
 
 ;; ----- smex-history -----
 (
- ssb-stop-server
- ssb-start-server
- ssb-stop-patchfoo
- ssb-start-patchfoo
- eval-buffer
- magit-push
- magit-commit
+ visual-line-mode
+ org-table-recalculate
+ shell
+ rgrep
+ eww-previous-url
+ eww-up-url
+ eww
 )
 
 ;; ----- smex-data -----
 (
- (cider-jack-in . 1)
+ (cider-jack-in . 18)
  (org-info . 1)
  (toggle-word-wrap . 1)
- (magit-status . 3)
- (magit-push . 11)
+ (magit-status . 35)
+ (magit-push . 46)
  (line-number-mode . 1)
- (visual-line-mode . 6)
+ (visual-line-mode . 18)
  (lunar-phases . 1)
  (dunnet . 1)
  (gomoku . 1)
  (morse-region . 1)
- (calendar . 2)
+ (calendar . 3)
  (erc . 1)
  (version . 1)
- (dired . 2)
- (eval-buffer . 6)
+ (dired . 5)
+ (eval-buffer . 18)
  (org-mobile-push . 2)
  (org-mode . 1)
- (paredit-mode . 1)
+ (paredit-mode . 3)
  (lpr-buffer . 1)
- (eww . 6)
- (ispell . 1)
+ (eww . 10)
+ (ispell . 8)
  (lisp-mode . 1)
- (eww-open-file . 5)
+ (eww-open-file . 6)
  (ssb-message . 6)
  (ssb-message-buffer . 1)
- (magit-commit . 12)
+ (magit-commit . 76)
  (magit-add-remote . 1)
  (magit-rebase-step . 1)
  (magit-merge . 1)
@@ -48,9 +48,37 @@
  (ssb-display-last . 7)
  (ssb-stop-server . 4)
  (browse-url-w3 . 3)
- (ssb-start-patchfoo . 3)
+ (ssb-start-patchfoo . 4)
  (ssb-eww-patchfoo . 5)
- (ssb-stop-patchfoo . 5)
+ (ssb-stop-patchfoo . 6)
  (list-processes . 2)
  (info . 1)
+ (rename-file . 1)
+ (load-library . 6)
+ (goto-line . 1)
+ (eww-mode . 1)
+ (package-install . 5)
+ (previous-buffer . 1)
+ (shell . 11)
+ (cider-grimoire . 2)
+ (cider-test-run-test . 3)
+ (ispell-buffer . 2)
+ (flyspell-buffer . 1)
+ (cider-test-run-tests . 9)
+ (magit-init . 1)
+ (magit-ignore-item . 1)
+ (magit-pull . 4)
+ (ispell-change-dictionary . 1)
+ (json-mode . 1)
+ (cider-browse-ns . 1)
+ (image-dired . 1)
+ (desktop-save . 1)
+ (zone . 1)
+ (list-registers . 1)
+ (view-register . 1)
+ (css-mode . 2)
+ (eww-up-url . 1)
+ (eww-previous-url . 1)
+ (rgrep . 1)
+ (org-table-recalculate . 2)
 )
