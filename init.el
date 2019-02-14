@@ -225,6 +225,11 @@
 (setq org-default-notes-file (concat org-directory "/notes.org"))
 (define-key global-map "\C-cc" 'org-capture)
 
+;; Org Agenda
+(setq org-agenda-files (list "~/org/work.org"
+                             "~/org/House.org"))
+
+;; Org babel
 (org-babel-do-load-languages
   'org-babel-load-languages
   '((clojure . t)
@@ -267,7 +272,7 @@
     (org-bbdb org-bibtex org-docview org-gnus org-info org-irc org-mhe org-rmail org-w3m org-drill)))
  '(package-selected-packages
    (quote
-    (org-chef sicp cider-decompile json-mode 4clojure ag htmlize luarocks markdown-mode markdown-mode+ lua-mode tagedit sos solarized-theme smex rainbow-delimiters projectile paredit magit ipython ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking cider)))
+    (calfw-org calfw inf-clojure org-chef sicp cider-decompile json-mode 4clojure ag htmlize luarocks markdown-mode markdown-mode+ lua-mode tagedit sos solarized-theme smex rainbow-delimiters projectile paredit magit ipython ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking cider)))
  '(session-use-package t nil (session)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -305,4 +310,8 @@
 (setq auto-mode-alist (cons '("\\.\\(pde\\|ino\\)$" . arduino-mode) auto-mode-alist))
 (autoload 'arduino-mode "arduino-mode" "Arduino editing mode." t)
 
-
+;;Calendar Framework
+;; from https://github.com/kiwanami/emacs-calfw
+(require 'calfw)
+(require 'calfw-org) ;;M-x cfw:open-org-calendar
+(setq cfw:org-agenda-schedule-args '(:timestamp))
