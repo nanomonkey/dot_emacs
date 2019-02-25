@@ -1,24 +1,24 @@
 
 ;; ----- smex-history -----
 (
- visual-line-mode
- org-table-recalculate
+ magit-status
+ cider-quit
+ package-list-packages
+ eval-buffer
  shell
- rgrep
- eww-previous-url
- eww-up-url
- eww
+ visual-line-mode
+ org-table-insert-column
 )
 
 ;; ----- smex-data -----
 (
- (cider-jack-in . 18)
+ (cider-jack-in . 21)
  (org-info . 1)
  (toggle-word-wrap . 1)
- (magit-status . 35)
- (magit-push . 46)
+ (magit-status . 41)
+ (magit-push . 50)
  (line-number-mode . 1)
- (visual-line-mode . 18)
+ (visual-line-mode . 22)
  (lunar-phases . 1)
  (dunnet . 1)
  (gomoku . 1)
@@ -27,18 +27,18 @@
  (erc . 1)
  (version . 1)
  (dired . 5)
- (eval-buffer . 18)
+ (eval-buffer . 19)
  (org-mobile-push . 2)
  (org-mode . 1)
  (paredit-mode . 3)
  (lpr-buffer . 1)
- (eww . 10)
+ (eww . 11)
  (ispell . 8)
  (lisp-mode . 1)
  (eww-open-file . 6)
  (ssb-message . 6)
  (ssb-message-buffer . 1)
- (magit-commit . 76)
+ (magit-commit . 88)
  (magit-add-remote . 1)
  (magit-rebase-step . 1)
  (magit-merge . 1)
@@ -57,9 +57,9 @@
  (load-library . 6)
  (goto-line . 1)
  (eww-mode . 1)
- (package-install . 5)
+ (package-install . 6)
  (previous-buffer . 1)
- (shell . 11)
+ (shell . 12)
  (cider-grimoire . 2)
  (cider-test-run-test . 3)
  (ispell-buffer . 2)
@@ -67,7 +67,7 @@
  (cider-test-run-tests . 9)
  (magit-init . 1)
  (magit-ignore-item . 1)
- (magit-pull . 4)
+ (magit-pull . 6)
  (ispell-change-dictionary . 1)
  (json-mode . 1)
  (cider-browse-ns . 1)
@@ -81,4 +81,11 @@
  (eww-previous-url . 1)
  (rgrep . 1)
  (org-table-recalculate . 2)
+ (git-commit-cc . 1)
+ (inf-clojure . 1)
+ (figwheel-repl . 1)
+ (org-table-insert-row . 1)
+ (org-table-insert-column . 1)
+ (package-list-packages . 1)
+ (cider-quit . 1)
 )

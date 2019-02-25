@@ -5,7 +5,7 @@
 ;; Define package repositories
 (require 'package)
 (add-to-list 'package-archives
-             '("marmalade" . "http://marmalade-repo.org/packages/") t)
+             '("marmalade" . "https://marmalade-repo.org/packages/") t)
 (add-to-list 'package-archives
              '("tromey" . "http://tromey.com/elpa/") t)
 (add-to-list 'package-archives
@@ -61,7 +61,7 @@
 
     ;; colorful parenthesis matching
     rainbow-delimiters
-
+    
     ;; edit html tags like sexps
     tagedit
 
@@ -222,6 +222,12 @@
 (setq org-mobile-directory "~/Dropbox/Apps/MobileOrg")
 
 ;; Org-mode 
+(require 'org)
+(define-key global-map "\C-cl" 'org-store-link)
+(define-key global-map "\C-ca" 'org-agenda)
+(define-key global-map "\C-ct" 'org-time-stamp)
+
+(setq org-log-done t)
 (setq org-default-notes-file (concat org-directory "/notes.org"))
 (define-key global-map "\C-cc" 'org-capture)
 
