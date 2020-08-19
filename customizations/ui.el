@@ -8,7 +8,7 @@
 (menu-bar-mode -1)
 
 ;; Show line numbers
-(global-linum-mode)
+;;(global-linum-mode)
 
 ;; You can uncomment this to remove the graphical toolbar at the top. After
 ;; awhile, you won't need the toolbar.
@@ -29,7 +29,9 @@
 (load-theme 'tomorrow-night-bright t)
 
 ;; increase font size for better readability
-(set-face-attribute 'default nil :height 110)
+(defun reset-font-size ()
+  (interactive)
+  (set-face-attribute 'default nil :height 200))
 
 ;;Remove bolded text which looks fuzzy at small fonts sizes.
 (mapc
@@ -140,5 +142,4 @@ Version 2017-03-12"
   (font-lock-flush))
 
 (add-hook 'css-mode-hook 'xah-syntax-color-hex)
-(add-hook 'php-mode-hook 'xah-syntax-color-hex)
 (add-hook 'html-mode-hook 'xah-syntax-color-hex)

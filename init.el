@@ -4,16 +4,21 @@
 
 ;; Define package repositories
 (require 'package)
-(add-to-list 'package-archives
-             '("marmalade" . "https://marmalade-repo.org/packages/") t)
-(add-to-list 'package-archives
-             '("tromey" . "http://tromey.com/elpa/") t)
-(add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+;; (add-to-list 'package-archives
+             ;; '("marmalade" . "https://marmalade-repo.org/packages/") t)
+;; (add-to-list 'package-archives
+             ;; '("tromey" . "http://tromey.com/elpa/") t)
 
-;; (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
-;;                          ("marmalade" . "http://marmalade-repo.org/packages/")
-;;                          ("melpa" . "http://melpa-stable.milkbox.net/packages/")))
+;; (add-to-list 'package-archives
+             ;; '("melpa" . "https://melpa.org/packages/") t
+             ;; )
+
+;; (add-to-list 'package-archives
+            ;; '("melpa" . "http://melpa.milkbox.net/packages/") t)
+
+(setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
+                         ("marmalade" . "http://marmalade-repo.org/packages/")
+                         ("melpa" . "http://stable.melpa.org/packages/")))
 
 
 ;; Load and activate emacs packages. Do this first so that the
@@ -137,10 +142,11 @@
 ;; Langauage-specific
 (load "setup-clojure.el")
 (load "setup-js.el")
+(load "setup-scheme.el")
 
 ;; Slime and quicklisp
-(setq inferior-lisp-program "sbcl")
-(load (expand-file-name "~/quicklisp/slime-helper.el"))
+;;(setq inferior-lisp-program "sbcl")
+;;(load (expand-file-name "~/quicklisp/slime-helper.el"))
 
 
 ;;Journal
@@ -208,6 +214,7 @@
 (add-hook 'lisp-interaction-mode-hook #'enable-paredit-mode)
 (add-hook 'scheme-mode-hook           #'enable-paredit-mode)
 
+
 ;; Abbreviations
 (global-set-key (kbd "C-<tab>") 'dabbrev-expand) ;;dynamic abbreviations
 (define-key minibuffer-local-map (kbd "C-<tab>") 'dabbrev-expand)
@@ -239,8 +246,14 @@
 (org-babel-do-load-languages
   'org-babel-load-languages
   '((clojure . t)
+    (scheme . t)
+    (shell . t)
+    (clojurescript . t)
+    (emacs-lisp . t)
     (python . t)
     (calc . t)))
+
+(require 'ob-clojure) ;; necessary with above?
 
 ;; have EWW use Chromium
 (setq shr-external-browser "chromium-browser")
@@ -275,35 +288,54 @@
     ("5ee12d8250b0952deefc88814cf0672327d7ee70b16344372db9460e9a0e3ffc" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "9e54a6ac0051987b4296e9276eecc5dfb67fdcd620191ee553f40a9b6d943e78" "52588047a0fe3727e3cd8a90e76d7f078c9bd62c0b246324e557dfa5112e0d0c" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" default)))
  '(org-modules
    (quote
-    (org-bbdb org-bibtex org-docview org-gnus org-info org-irc org-mhe org-rmail org-w3m org-drill)))
+    (org-bbdb org-bibtex org-docview org-gnus org-info org-irc org-mhe org-rmail org-w3m)))
  '(package-selected-packages
    (quote
-    (calfw-org calfw inf-clojure org-chef sicp cider-decompile json-mode 4clojure ag htmlize luarocks markdown-mode markdown-mode+ lua-mode tagedit sos solarized-theme smex rainbow-delimiters projectile paredit magit ipython ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking cider)))
+    (clojurescript-mode org-babel-eval-in-repl calfw-org calfw org-chef sicp cider-decompile json-mode 4clojure ag htmlize luarocks markdown-mode markdown-mode+ lua-mode tagedit sos solarized-theme smex rainbow-delimiters projectile paredit magit ipython ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking)))
  '(session-use-package t nil (session)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "#000000" :foreground "#eaeaea" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 110 :width normal :foundry "nil" :family "Fira Code")))))
+ '(default ((t (:inherit nil :stipple nil :background "#000000" :foreground "#eaeaea" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 200 :width normal :foundry "nil" :family "Fira Code"))))
+ '(quack-about-face ((t (:inherit font-lock-warning))))
+ '(quack-about-title-face ((t (:inherit font-lock-warning :weight bold :height 2.0))))
+ '(quack-banner-face ((t (:inherit font-lock-warning-face))))
+ '(quack-pltfile-dir-face ((t (:inherit dired-face-directory))))
+ '(quack-pltfile-file-face ((t (:inherit dired-face-file))))
+ '(quack-pltfile-prologue-face ((((class color)) (:inherit dired-face-boring))))
+ '(quack-pltish-class-defn-face ((((class color) (background dark)) (:inherit font-lock-type-face))))
+ '(quack-pltish-colon-keyword-face ((t (:inherit font-lock-keyword-face))))
+ '(quack-pltish-comment-face ((((class color) (background dark)) (:inherit font-lock-comment-face))))
+ '(quack-pltish-defn-face ((t (:inherit font-lock-function-name-face))))
+ '(quack-pltish-keyword-face ((t (:inherit font-lock-keyword-face))))
+ '(quack-pltish-module-defn-face ((((class color) (background dark)) (:inherit font-lock-type-face :weight bold))))
+ '(quack-pltish-paren-face ((((class color) (background dark)) (:inherit font-lock-operator-face))))
+ '(quack-pltish-selfeval-face ((((class color) (background dark)) (:inherit font-lock-string-face))))
+ '(quack-threesemi-h1-face ((t (:inherit font-lock-doc-string-face :weight bold :height 1.4))))
+ '(quack-threesemi-h2-face ((t (:inherit font-lock-doc-string-face :weight bold :height 1.2))))
+ '(quack-threesemi-h3-face ((t (:inherit font-lock-doc-string-face :weight bold))))
+ '(quack-threesemi-semi-face ((((class color) (background dark)) (:inherit font-lock-doc-face))))
+ '(quack-threesemi-text-face ((((class color) (background dark)) (:inherit font-lock-doc-string-face)))))
 
-;; CADET
+;; CEDET
 ;; Load CEDET.
 ;; See cedet/common/cedet.info for configuration details.
 ;; IMPORTANT: For Emacs >= 23.2, you must place this *before* any
 ;; CEDET component (including EIEIO) gets activated by another 
 ;; package (Gnus, auth-source, ...).
-(load-file "~/.emacs.d/vendor/cedet/cedet-devel-load.el")
+;; (load-file "~/.emacs.d/vendor/cedet/cedet-devel-load.el")
 
 ;; Add further minor-modes to be enabled by semantic-mode.
 ;; See doc-string of `semantic-default-submodes' for other things
 ;; you can use here.
-(add-to-list 'semantic-default-submodes 'global-semantic-idle-summary-mode t)
-(add-to-list 'semantic-default-submodes 'global-semantic-idle-completions-mode t)
-(add-to-list 'semantic-default-submodes 'global-cedet-m3-minor-mode t)
+;;(add-to-list 'semantic-default-submodes 'global-semantic-idle-summary-mode t)
+;;(add-to-list 'semantic-default-submodes 'global-semantic-idle-completions-mode t)
+;(add-to-list 'semantic-default-submodes 'global-cedet-m3-minor-mode t)
 
 ;; Enable Semantic
-(semantic-mode 1)
+;(semantic-mode 1)
 
 ;; Enable EDE (Project Management) features
 (global-ede-mode 1)
@@ -321,3 +353,10 @@
 (require 'calfw)
 (require 'calfw-org) ;;M-x cfw:open-org-calendar
 (setq cfw:org-agenda-schedule-args '(:timestamp))
+
+;; Open Scad preview
+(require 'scad-preview)
+
+;;Pomodoro Mode
+(require 'pomodoro) 
+(pomodoro-add-to-mode-line)

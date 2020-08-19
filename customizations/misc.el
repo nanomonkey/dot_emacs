@@ -5,8 +5,9 @@
 (setq-default sh-basic-offset 2)
 (setq-default sh-indentation 2)
 
-;; No need for ~ files when editing
-(setq create-lockfiles nil)
+;; Lockfiles
+;; need for ~ files when editing
+(setq create-lockfiles t)
 
 ;; Go straight to scratch buffer on startup
 (setq inhibit-startup-message t)
@@ -20,16 +21,15 @@
  'org-babel-load-languages
  '((dot . t)
    (clojure . t)
-   (sh . t)
+   (shell . t)
    (python . t)
-   ))
+   (scheme . t) ))
 
 (defun nolinum ()
   (interactive)
   (message "Deactivated linum mode")
   (global-linum-mode 0)
-  (linum-mode 0)
-)
+  (linum-mode 0))
 
 (global-set-key (kbd "<f6>") 'nolinum)
 

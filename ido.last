@@ -1,0 +1,163 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/etc/" . "X11/")
+ ("/home/nanomonkey/git/ssb-cljs-repl/src/" . "server/")
+ ("/home/nanomonkey/git/ssb-cljs-repl/" . "src/")
+ ("/home/nanomonkey/git/sicmutils/src/sicmutils/" . "mechanics/")
+ ("/home/nanomonkey/git/sicmutils/src/" . "sicmutils/")
+ ("/home/nanomonkey/git/sicmutils/" . "src/")
+ ("/home/nanomonkey/git/open-app-graphql-server/" . "example/")
+ ("/" . "etc/")
+ ("/home/nanomonkey/git/adderstanes/src/cljs/" . "adderstanes/")
+ ("/home/nanomonkey/git/adderstanes/src/" . "cljs/")
+ ("/home/nanomonkey/git/adderstanes/" . "src/")
+ ("/home/nanomonkey/.config/" . "i3/")
+ ("/home/nanomonkey/git/animations/src/" . "animations/")
+ ("/home/nanomonkey/git/animations/" . "src/")
+ ("/home/nanomonkey/git/scratch/src/cljs/" . "scratch/")
+ ("/home/nanomonkey/git/scratch/src/clj/" . "scratch/")
+ ("/home/nanomonkey/git/scratch/src/" . "cljs/")
+ ("/home/nanomonkey/git/scratch/resources/public/" . "css/")
+ ("/home/nanomonkey/git/scratch/resources/" . "public/")
+ ("/home/nanomonkey/git/scratch/" . "docs/")
+ ("/home/nanomonkey/git/dot_emacs/" . "customizations/")
+ ("/home/nanomonkey/git/" . "ssb-cljs-repl/")
+ ("/home/nanomonkey/.emacs.d/" . "customizations/")
+ ("/home/nanomonkey/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/nanomonkey/.emacs.d/customizations/"
+ "/home/nanomonkey/.emacs.d/"
+ "/home/nanomonkey/git/ssb-cljs-repl/src/server/"
+ "/home/nanomonkey/git/ssb-cljs-repl/"
+ "/home/nanomonkey/git/scratch/"
+ "/home/nanomonkey/git/scratch/docs/"
+ "/home/nanomonkey/git/ssb-cljs-repl/src/"
+ "/home/nanomonkey/git/adderstanes/"
+ "/home/nanomonkey/git/scratch/src/cljs/scratch/"
+ "/home/nanomonkey/org/"
+ "/home/nanomonkey/.emacs.d/themes/"
+ "/home/nanomonkey/git/adderstanes/src/cljs/adderstanes/"
+ "/home/nanomonkey/git/sicmutils/src/sicmutils/mechanics/"
+ "/home/nanomonkey/git/sicmutils/src/sicmutils/"
+ "/home/nanomonkey/git/sicmutils/"
+ "/home/nanomonkey/git/open-app-graphql-server/example/"
+ "/home/nanomonkey/git/open-app-graphql-server/"
+ "/home/nanomonkey/.config/i3/"
+ "/home/nanomonkey/git/scratch/resources/public/css/"
+ "/home/nanomonkey/git/animations/src/animations/"
+ "/home/nanomonkey/git/AquariusNine/"
+ "/home/nanomonkey/git/scratch/resources/public/"
+ "/home/nanomonkey/git/scratch/src/clj/scratch/"
+ "/home/nanomonkey/git/dot_emacs/customizations/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "misc.el"
+ "shell-integration.el"
+ "init.el"
+ "main.cljs"
+ "ui.el"
+ "package-lock.json"
+ ".gitignore"
+ "shadow-cljs.edn"
+ "README.org"
+ "README.md"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/nanomonkey/.emacs.d/customizations/" (24363 28366 675229 387000) "session.el" "shell-integration.el" "editing.el" "elisp-editing.el" "./" "ui.el" "setup-scheme.el" "misc.el" "setup-clojure.el" "setup-js.el" "navigation.el" "../")
+
+ ("/home/nanomonkey/.emacs.d/" (24363 28304 970146 785000) "osx-say.el" "places" "network-security.data" "auto-save-list/" "request/" ".recentf" "customizations/" "transient/" "column-marker.el" "themes/" "ido.last" "elpa/" "cider-history" ".gitignore" ".recentf~" "./" "projectile-bookmarks.eld" ".emacs.desktop" "session.10452321eb6a04373b153722107610948200000011230079" ".session" "README.md" ".emacs.desktop.lock" ".smex-items" "init.el" ".cache/" ".git/" "vendor/" "tldr/" "../" "backups/" "abbrev_defs")
+
+ ("/home/nanomonkey/" (24356 38551 325572 591000) "Public/" ".nvm/" ".netrc" ".config/" ".local/" ".pki/" "Templates/" "Pictures/" ".emacs~" "Videos/" ".dbus/" "git/" ".gphoto/" "Calibre Library/" "dat/" ".navit/" ".Xresources" ".musikcube/" ".ICEauthority" ".npm/" "Documents/" ".ssh/" ".profile" "examples.desktop" ".bash_logout" "./" ".kismet/" ".ssb/" ".jack34c." "snap/" "Music/" "Audio/" ".gitconfig" ".bash_history" "Desktop/" "org/" ".gnupg/" ".gimp-2.8/" ".audacity-data/" ".cache/" "root/" ".m2/" "websites/" ".bashrc" ".mplayer/" ".lumo_history" ".kde/" ".node-gyp/" ".mozilla/" ".docker/" "../" "Downloads/" ".emacs.d/" ".lein/" ".sudo_as_admin_successful")
+
+ ("/etc/X11/" (23448 17091 871872 302000) "cursors/" "Xreset" "xinit/" "XvMCConfig" "Xreset.d/" "app-defaults/" "rgb.txt" "./" "Xsession.options" "xsm/" "Xwrapper.config" "Xsession" "default-display-manager" "Xsession.d/" "xkb/" "Xresources/" "fonts/" "../")
+
+ ("/etc/" (23775 19649 980049 392000) "services" "init/" "rc6.d/" "zsh_command_not_found" "grub.d/" "binfmt.d/" "sensors.d/" "acpi/" "sensors3.conf" ".java/" "vtrgb" "adduser.conf" "python/" "chatscripts/" "kernel-img.conf" "ifplugd/" "network/" "dhcp/" "apache2/" "avahi/" "default/" "shadow" "lintianrc" "ltrace.conf" "gtk-3.0/" "rmt" "nsswitch.conf" "cron.hourly/" "cracklib/" "gshadow-" "update-manager/" "systemd/" "bash_completion.d/" "ssh/" "environment" "group" "shells" "kerneloops.conf" "machine-id" "cron.d/" "rc5.d/" "newt/" "locale.gen" "rc1.d/" "wireshark/" "rsyslog.d/" ".pwd.lock" "vdpau_wrapper.cfg" "calendar/" "usb_modeswitch.conf" "resolvconf/" "wpa_supplicant/" "xml/" "debconf.conf" "drirc" "perl/" "login.defs" "sysctl.conf" "initramfs-tools/" "rpc" "glvnd/" "gss/" "mailcap.order" "whoopsie" "netplan/" "gdb/" "anacrontab" "popularity-contest.conf" "java-11-openjdk/" "emacs/" "rc3.d/" "cryptsetup-initramfs/" "dkms/" "insserv.conf.d/" "legal" "host.conf" "magic" "fwupd/" "apt/" "dpkg/" "subgid" "dictionaries-common/" "python2.7/" "logcheck/" "update-motd.d/" "magic.mime" "logrotate.d/" "gdm3/" "i3status.conf" "timidity/" "pcmcia/" "securetty" "skel/" "hosts.deny" "groff/" "UPower/" "sgml/" "xdg/" "fuse.conf" "pki/" "geoclue/" "python3/" "networkd-dispatcher/" "openal/" "lighttpd/" "resolv.conf" "dropbear-initramfs/" "java-8-openjdk/" "rc0.d/" "thunderbird/" "mke2fs.conf" "cron.daily/" "rc2.d/" "inputrc" "shadow-" "appstream.conf" "locale.alias" "NetworkManager/" "hostname" "apm/" "iproute2/" "pam.conf" "ImageMagick-6/" "emacs25/" "libnl-3/" "security/" "X11/" "sane.d/" "udisks2/" "rc4.d/" "cron.weekly/" "ssl/" "hosts" "bash.bashrc" "pm/" "mime.types" "sudoers.d/" "terminfo/" "hp/" "apg.conf" "pulse/" "PackageKit/" "cups/" "selinux/" "fstab" "vim/" "ppp/" "depmod.d/" "apparmor/" "sudoers" "gshadow" "rcS.d/" "updatedb.conf" "hdparm.conf" "speech-dispatcher/" "lsb-release" "apparmor.d/" "smi.conf" "update-notifier/" "subgid-" "gai.conf" "localtime" "bluetooth/" "dconf/" "nanorc" "gnome/" "papersize" "apport/" "tmpfiles.d/" "wgetrc" "mtools.conf" "profile" "cron.monthly/" "sysctl.d/" "polkit-1/" "crontab" "console-setup/" "ldap/" "usb_modeswitch.d/" "ucf.conf" "bash_completion" "modules" "libpaper.d/" "ax25/" "subuid" "rsyslog.conf" "debian_version" "subuid-" "pnm2ppa.conf" "bindresvport.blacklist" "logrotate.conf" "opt/" "gtk-2.0/" "group-" "ld.so.conf" "ca-certificates.conf" "ca-certificates/" "ld.so.cache" "modprobe.d/" "manpath.config" "modules-load.d/" "passwd" "issue.net" "deluser.conf" "issue" "mtab" "profile.d/" "protocols" "alternatives/" "networks" "ghostscript/" "libaudit.conf" "ufw/" "brltty.conf" "eclipse.ini" "mysql/" "passwd-" "libao.conf" "kernel/" "ld.so.conf.d/" "thermald/" "firefox/" "libblockdev/" "dbus-1/" "mailcap" "init.d/" "timezone" "hosts.allow" "dropbear/" "fonts/" "brltty/" "brlapi.key" "printcap" "cupshelpers/" "i3/" "udev/" "libreoffice/" "crypttab" "os-release" "pam.d/" "python3.6/" "../" "./")
+
+ ("/home/nanomonkey/.config/" (23679 17913 493039 224000) "gedit/" "gtk-3.0/" "eog/" "user-dirs.dirs" "gnome-initial-setup-done" "transmission/" "ibus/" "kicad/" "./" "configstore/" "pulse/" "evolution/" "goa-1.0/" "update-notifier/" "totem/" "dconf/" "patchbay/" "gtk-4.0/" "enchant/" "nautilus/" "monitors.xml" "mimeapps.list" "autostart/" "user-dirs.locale" "gnome-session/" "yelp/" "OpenSCAD/" "Trolltech.conf" "i3/" "../")
+
+ ("/home/nanomonkey/.config/i3/" (23505 14486 816376 791000) "./" "config" "../")
+
+ ("/home/nanomonkey/git/ssb-cljs-repl/" (23700 1192 664658 330000) "node_modules/" "package.json" "out/" ".gitignore" "package-lock.json" "./" "src/" "README.org" "root/" ".nrepl-port" "shadow-cljs.edn" "../" ".shadow-cljs/")
+
+ ("/home/nanomonkey/git/ssb-cljs-repl/src/server/" (23682 38339 706137 16000) "main.cljs" "./" "../")
+
+ ("/home/nanomonkey/git/scratch/docs/" (23674 9406 497250 154000) "./" "recipe.gif" "../")
+
+ ("/home/nanomonkey/git/scratch/" (23674 8566 483402 599000) "docs/" "target/" "Notes.org" ".gitignore" "resources/" "./" ".rebel_readline_history" "figwheel_server.log" "README.md" "src/" ".git/" "../" "project.clj")
+
+ ("/home/nanomonkey/git/" (23672 52261 415596 630000) "animations/" "node_modules/" "re-frame-10x/" "sudowrt-firmware/" "cljs-tui-test/" "AquariusNine/" "adderstanes/" "package-lock.json" "./" "ssb-cljs-repl/" "scratch/" "dot_emacs/" "sicmutils/" "re-graph/" "disaster-radio/" "open-app-graphql-server/" "../")
+
+ ("/home/nanomonkey/git/ssb-cljs-repl/src/" (23670 2294 402301 694000) "./" "server/" "macros.cljs" "../")
+
+ ("/home/nanomonkey/git/ssb-cljs-repl/node_modules/" (23667 31880 82598 939000) "os-homedir/" "pull-handshake/" "relative-url/" "non-private-ip/" "tweetnacl/" "pull-reader/" "libsodium-wrappers/" "pull-cat/" "deep-extend/" "chloride/" "socks/" "pull-box-stream/" "pull-pushable/" "sbot/" "is-electron/" "safe-buffer/" "pull-goodbye/" ".bin/" "separator-escape/" "ultron/" "sha.js/" "pull-stream/" "node-gyp-build/" "ws/" "options/" "secret-handshake/" "ini/" "rc/" "pull-hash/" "ms/" "ssb-config/" "packet-stream-codec/" "chloride-test/" "sodium-native/" "sodium-chloride/" "explain-error/" "pull-pair/" "tweetnacl-auth/" "./" "stream-to-pull-stream/" "ip/" "nan/" "inherits/" "muxrpc/" "multiserver-scopes/" "ssb-keys/" "increment-buffer/" "ed2curve/" "packet-stream/" "libsodium/" "multicb/" "json-buffer/" "ssb-server/" "strip-json-comments/" "pull-through/" "pull-ws/" "minimist/" "smart-buffer/" "sodium-browserify-tweetnacl/" "private-box/" "ssb-client/" "mkdirp/" "multiserver/" "../" "debug/" "sodium-browserify/" "split-buffer/" "looper/" "deep-equal/")
+
+ ("/home/nanomonkey/git/adderstanes/src/cljs/adderstanes/" (23561 36396 996135 908000) "subs.cljs" "config.cljs" "./" "core.cljs" "db.cljs" "events.cljs" "../" "views.cljs")
+
+ ("/home/nanomonkey/.emacs.d/themes/" (23449 34356 970607 628000) "tomorrow-night-eighties-theme.el" "color-theme-tomorrow.el" "tomorrow-night-bright-theme.el" "./" "tomorrow-night-theme.el" "tomorrow-theme.el" "tomorrow-night-blue-theme.el" "../" "zenburn-theme.el")
+
+ ("/home/nanomonkey/org/" (23531 48884 360714 24000) "humidity.org" "Quad_loop_antenna.png" "list_of_books.org" "orgcard.org" "Problems.org" "DRF1276G_pin_functions.png" "Category_Theory.org" "ideas.org" "Carriage_House.org" "Recipes.org" "recipe_table.png" "ssh.org" "RFM95_layout.png" "MadeFromScratch.org" "SICM.org" "Nomadic.org" "Primes.org" "Todo.org" "MeshNetwork.org" "record_structure.png" ".DS_Store" "flagged.org" "Antenna_Design.org" "ssb.org" "Algorithms.org" "excercise.org" "state_machine.lua" "Walking_Computer.org" "Clojure.org" "resistor_color_codes_chart.png" "LearningHowToLearn.txt" "hash_table.png" "Lua.org" "Pattern_Language.org" "SCICP_notes.org" "Blacksmithing.org" "clojure_npm.org" "MadeFromScratch.json" "biodiversity_challenge.org" "Discone_dimentions.png" "emacs_notes.org" "recipe_structure.png" "Mathematical_Methods.org" "MadeFromScratch_DesignDocs.org" "House.org" "./" "main.org" "bread.org" "command_line.org" "twiddler.org" "Scuttlebutt.org" "Android.org" "bookmarks.org" "templates/" "Offline.org" "ketogenic_diet.org" "places2visit.org" ".git/" "books/" "Quantum_Computation.org" "Haskell.org" "notes.org" "self_sufficiency.org" "raspberry_pi.org" "electronics.org" "webcomics.org" "NodeMCU__v1.0_pinout.jpg" "CSP.org" "Antenna_Design.html" "../")
+
+ ("/home/nanomonkey/git/sicmutils/src/sicmutils/mechanics/" (23478 39577 377910 312000) "./" "hamilton.clj" "rigid.clj" "rotation.clj" "lagrange.clj" "../")
+
+ ("/home/nanomonkey/git/sicmutils/src/sicmutils/" (23478 39577 377910 312000) "euclid.clj" "complex.clj" "calculus/" "numbers.clj" "polynomial.clj" "operator.clj" "mechanics/" "matrix.clj" "repl.clj" "rational_function.clj" "./" "polynomial_factor.clj" "numsymb.clj" "numerical/" "generic.clj" "value.clj" "modint.clj" "env.clj" "function.clj" "examples/" "series.clj" "infix.clj" "simplify.clj" "../" "analyze.clj" "expression.clj" "structure.clj" "rules.clj" "polynomial_gcd.clj")
+
+ ("/home/nanomonkey/git/sicmutils/src/" (23478 39577 373910 359000) "./" "sicmutils/" "pattern/" "../")
+
+ ("/home/nanomonkey/git/sicmutils/" (23478 39854 67606 50000) "target/" "logging.properties" "LICENSE" ".gitignore" "demo.clj" "./" "README.md" "doc/" "src/" "test/" ".lein-failures" ".git/" ".travis.yml" "CONTRIBUTORS.md" "../" "project.clj" "jupyter/")
+
+ ("/home/nanomonkey/git/open-app-graphql-server/example/" (23515 48192 759566 776000) "index.js" "node_modules/" "package.json" "package-lock.json" "./" "npm-debug.log" "../")
+
+ ("/home/nanomonkey/git/open-app-graphql-server/" (23515 48192 819566 872000) "index.js" "node_modules/" "package.json" ".gitignore" "package-lock.json" "./" "README.md" "src/" "example/" ".git/" "npm-debug.log" "../")
+
+ ("/usr/" (23383 59548 0 0) "lib/" "sbin/" "share/" "./" "games/" "src/" "include/" "bin/" "../" "local/")
+
+ ("/home/" (23448 16186 234184 654000) "./" "nanomonkey/" "../")
+
+ ("/home/nanomonkey/git/adderstanes/" (23515 26795 191119 637000) "target/" ".gitignore" "resources/" "./" "figwheel_server.log" "README.md" "src/" "../" "project.clj")
+
+ ("/home/nanomonkey/git/adderstanes/src/cljs/" (23510 9958 84502 542000) "adderstanes/" "./" "../")
+
+ ("/home/nanomonkey/git/adderstanes/src/" (23510 9958 84502 542000) "clj/" "cljs/" "./" "../")
+
+ ("/home/nanomonkey/git/animations/src/animations/" (23457 16913 777962 527000) "./" "core.cljs" "../")
+
+ ("/home/nanomonkey/git/animations/src/" (23457 16913 773962 496000) "animations/" "./" "../")
+
+ ("/home/nanomonkey/git/animations/" (23457 16913 781962 558000) "LICENSE" ".gitignore" "resources/" "./" "README.md" "src/" "../" "project.clj")
+
+ ("/home/nanomonkey/git/AquariusNine/" (23455 6208 232307 988000) "AquariusNine.org" "./" "README.md" ".git/" "../")
+
+ ("/home/nanomonkey/git/scratch/src/cljs/scratch/" (23455 6059 838451 461000) "subs.cljs" "config.cljs" "widgits.cljs" "./" "core.cljs" "db.cljs" "svg.cljs" "schema.cljs" "events.cljs" "../" "views.cljs")
+
+ ("/home/nanomonkey/git/scratch/src/cljs/" (23455 6059 838451 461000) "./" "scratch/" "../")
+
+ ("/home/nanomonkey/git/scratch/src/clj/scratch/" (23455 6059 838451 461000) "./" "core.clj" "../")
+
+ ("/home/nanomonkey/git/scratch/src/clj/" (23455 6059 838451 461000) "./" "scratch/" "../")
+
+ ("/home/nanomonkey/git/scratch/src/" (23455 6059 838451 461000) "clj/" "cljs/" "./" "../")
+
+ ("/home/nanomonkey/git/scratch/resources/public/css/" (23455 6059 834451 418000) "./" "../" "main.css")
+
+ ("/home/nanomonkey/git/scratch/resources/public/" (23455 6059 834451 418000) "icons/" "css/" "index.html" "./" "js/" "../")
+
+ ("/home/nanomonkey/git/scratch/resources/" (23455 6059 834451 418000) "public/" "./" "../")
+
+ ("/home/nanomonkey/git/dot_emacs/customizations/" (23448 30347 6422 985000) "session.el" "shell-integration.el" "editing.el" "elisp-editing.el" "./" "ui.el" "misc.el" "setup-clojure.el" "setup-js.el" "navigation.el" "../")
+
+ ("/home/nanomonkey/git/dot_emacs/" (23448 30442 458864 746000) "places" "auto-save-list/" ".recentf" "customizations/" "themes/" "elpa/" "cider-history" "./" ".smex-items" ".git/" "../" "backups/" "abbrev_defs")
+
+ ("/home/nanomonkey/Pictures/" (23448 16863 210458 408000) "./" "../")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
