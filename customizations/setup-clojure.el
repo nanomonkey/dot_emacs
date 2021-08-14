@@ -30,7 +30,7 @@
 ;;;;
 
 ;; provides minibuffer documentation for the code you're typing into the repl
-;;(add-hook 'cider-mode-hook 'cider-turn-on-eldoc-mode)
+(add-hook 'cider-mode-hook 'eldoc-mode)
 
 ;; go right to the REPL buffer when it's finished connecting
 (setq cider-repl-pop-to-buffer-on-connect t)
@@ -39,7 +39,7 @@
 (setq cider-show-error-buffer t)
 (setq cider-auto-select-error-buffer t)
 
-;; Where to store the cider history.
+;; Where to store the cider history.al
 (setq cider-repl-history-file "~/.emacs.d/cider-history")
 
 ;; Wrap when navigating history.

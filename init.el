@@ -18,7 +18,8 @@
 
 (setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
                          ("marmalade" . "http://marmalade-repo.org/packages/")
-                         ("melpa" . "http://stable.melpa.org/packages/")))
+                         ("melpa-stable" . "http://stable.melpa.org/packages/")
+                         ("melpa" . "https://melpa.org/packages/")))
 
 
 ;; Load and activate emacs packages. Do this first so that the
@@ -72,6 +73,9 @@
 
     ;; git integration
     magit))
+
+;; Authentication
+(setq auth-sources '("~/.netrc"))
 
 ;; Remove bytecomp warning messages at start-up by defining free variables
 (defvar predicate nil)
@@ -254,6 +258,7 @@
     (calc . t)))
 
 (require 'ob-clojure) ;; necessary with above?
+(setq org-babel-clojure-backend 'cider)
 
 ;; have EWW use Chromium
 (setq shr-external-browser "chromium-browser")
@@ -291,7 +296,7 @@
     (org-bbdb org-bibtex org-docview org-gnus org-info org-irc org-mhe org-rmail org-w3m)))
  '(package-selected-packages
    (quote
-    (clojurescript-mode org-babel-eval-in-repl calfw-org calfw org-chef sicp cider-decompile json-mode 4clojure ag htmlize luarocks markdown-mode markdown-mode+ lua-mode tagedit sos solarized-theme smex rainbow-delimiters projectile paredit magit ipython ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking)))
+    (vega-view clojurescript-mode org-babel-eval-in-repl calfw-org calfw org-chef sicp cider-decompile json-mode 4clojure ag htmlize luarocks markdown-mode markdown-mode+ lua-mode tagedit sos solarized-theme smex rainbow-delimiters projectile paredit magit ipython ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking)))
  '(session-use-package t nil (session)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
