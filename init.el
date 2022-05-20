@@ -16,9 +16,7 @@
 ;; (add-to-list 'package-archives
             ;; '("melpa" . "http://melpa.milkbox.net/packages/") t)
 
-(setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
-                         ("marmalade" . "http://marmalade-repo.org/packages/")
-                         ("melpa-stable" . "http://stable.melpa.org/packages/")
+(setq package-archives '(("melpa-stable" . "http://stable.melpa.org/packages/")
                          ("melpa" . "https://melpa.org/packages/")))
 
 
@@ -181,9 +179,9 @@
 
 (global-set-key (kbd "C-x C-r") 'rename-current-buffer-file)
 
+(global-set-key (kbd "C-x t") 'treemacs-select-window) 
 
 (global-set-key "\C-x\C-m" 'execute-extended-command)
-(global-set-key "\C-c\C-m" 'execute-extended-command)
 
 ;;(global-set-key "\C-w" 'backward-kill-word)
 
@@ -257,6 +255,8 @@
     (python . t)
     (calc . t)))
 
+(require 'org-tempo)
+(require 'ob-clojurescript)
 (require 'ob-clojure) ;; necessary with above?
 (setq org-babel-clojure-backend 'cider)
 
@@ -276,12 +276,18 @@
 ;; Add variables to desktop saving
 (add-to-list 'desktop-globals-to-save 'register-alist)
 
+;; Open dired in same buffer
+(put 'dired-find-alternate-file 'disabled nil)
+;; Sort Dired buffers
+(setq dired-listing-switches "-agho --group-directories-first")
 
 ;; M-x eval-buffer
 ;; to reload this buffer
 
 ;; C-h e
 ;; to see if there was a problem loading
+
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -293,10 +299,18 @@
     ("5ee12d8250b0952deefc88814cf0672327d7ee70b16344372db9460e9a0e3ffc" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "9e54a6ac0051987b4296e9276eecc5dfb67fdcd620191ee553f40a9b6d943e78" "52588047a0fe3727e3cd8a90e76d7f078c9bd62c0b246324e557dfa5112e0d0c" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" default)))
  '(org-modules
    (quote
-    (org-bbdb org-bibtex org-docview org-gnus org-info org-irc org-mhe org-rmail org-w3m)))
+    (org-bbdb org-bibtex org-docview org-gnus org-info org-irc org-mhe org-rmail org-w3m org-drill)))
  '(package-selected-packages
    (quote
-    (vega-view clojurescript-mode org-babel-eval-in-repl calfw-org calfw org-chef sicp cider-decompile json-mode 4clojure ag htmlize luarocks markdown-mode markdown-mode+ lua-mode tagedit sos solarized-theme smex rainbow-delimiters projectile paredit magit ipython ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking)))
+    (parseclj parseedn cider deadgrep elpher emms inf-clojure org-drill vega-view clojurescript-mode org-babel-eval-in-repl calfw-org calfw org-chef sicp cider-decompile json-mode 4clojure ag htmlize luarocks markdown-mode markdown-mode+ lua-mode tagedit sos solarized-theme smex rainbow-delimiters projectile paredit magit ipython ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking)))
+ '(pomodoro-break-time 17)
+ '(pomodoro-work-time 57)
+ '(safe-local-variable-values
+   (quote
+    ((cider-shadow-watched-builds ":server" ":client")
+     (cider-shadow-default-options . ":server")
+     (cider-preferred-build-tool . shadow-cljs)
+     (cider-default-cljs-repl . shadow))))
  '(session-use-package t nil (session)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -365,3 +379,6 @@
 ;;Pomodoro Mode
 (require 'pomodoro) 
 (pomodoro-add-to-mode-line)
+
+;; DeadGrep
+(global-set-key (kbd "<f5>") #'deadgrep)
