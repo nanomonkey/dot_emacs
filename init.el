@@ -302,7 +302,7 @@
     (org-bbdb org-bibtex org-docview org-gnus org-info org-irc org-mhe org-rmail org-w3m org-drill)))
  '(package-selected-packages
    (quote
-    (parseclj parseedn cider deadgrep elpher emms inf-clojure org-drill vega-view clojurescript-mode org-babel-eval-in-repl calfw-org calfw org-chef sicp cider-decompile json-mode 4clojure ag htmlize luarocks markdown-mode markdown-mode+ lua-mode tagedit sos solarized-theme smex rainbow-delimiters projectile paredit magit ipython ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking)))
+    (speed-type consult-recoll elfeed async dash parseclj parseedn cider deadgrep elpher emms inf-clojure org-drill vega-view clojurescript-mode org-babel-eval-in-repl calfw-org calfw org-chef sicp cider-decompile json-mode 4clojure ag htmlize luarocks markdown-mode markdown-mode+ lua-mode tagedit sos solarized-theme smex rainbow-delimiters projectile paredit magit ipython ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking)))
  '(pomodoro-break-time 17)
  '(pomodoro-work-time 57)
  '(safe-local-variable-values

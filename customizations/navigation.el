@@ -59,3 +59,12 @@
 
 ;; projectile everywhere!
 (projectile-global-mode)
+
+;; Other Window
+
+(defun other-window-backward ( ) 
+"Select the previous window." 
+(interactive) 
+(other-window -1))
+
+(global-set-key "\C-xp" 'other-window-backward)

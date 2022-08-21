@@ -23,8 +23,18 @@
    (clojure . t)
    (shell . t)
    (python . t)
-   (scheme . t) ))
+   (scheme . t)
+   (sqlite . t)))
 
+;; DOT
+(add-hook 'org-babel-after-execute-hook 'org-redisplay-inline-images)
+
+(defun my-org-confirm-babel-evaluate (lang body)
+  (not (string= lang "dot")))  ; don't ask for dot
+(setq org-confirm-babel-evaluate 'my-org-confirm-babel-evaluate)
+
+
+;; Disable Line Numbers in Org-mode
 (defun nolinum ()
   (interactive)
   (message "Deactivated linum mode")
@@ -34,6 +44,18 @@
 (global-set-key (kbd "<f6>") 'nolinum)
 
 (add-hook 'org-mode-hook 'nolinum)
+
+;; Org-mode tasks
+(setq org-todo-keywords 
+  '((sequence "TODO" "DOING" "BLOCKED" "REVIEW" "|" "DONE" "ARCHIVED")))
+
+(setq org-todo-keyword-faces
+  '(("TODO" . org-warning)
+   ("DOING" . "yellow")
+   ("BLOCKED" . "red")
+   ("REVIEW" . "orange")
+   ("DONE" . "green")
+   ("ARCHIVED" .  "blue")))
 
 ;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 ;; GNU General Public License for more details.
@@ -97,3 +119,38 @@
   "Major mode for editing Babashka code.")
 
 (provide 'ob-babashka)
+
+;; EMMS
+(require 'emms-setup)
+(emms-all)
+(emms-default-players)
+
+(setq emms-source-file-default-directory "~/Music/")
+
+(require 'emms-volume)
+(setq emms-volume-change-function 'emms-volume-mpd-change)
+(global-set-key (kbd "C-c +") 'emms-volume-mode-plus)
+(global-set-key (kbd "C-c -") 'emms-volume-mode-minus)
+
+
+(require 'emms-info-native)
+(add-to-list 'emms-info-functions 'emms-info-native)
+
+;; Choose one of these
+;;(setq emms-info-functions '(emms-info-tinytag))  ;; When using Tinytag
+;;(setq emms-info-functions '(emms-info-exiftool)) When using Exiftool
+
+;; Load cover images
+(setq emms-browser-covers 'emms-browser-cache-thumbnail-async)
+
+;; Keyboard shortcuts
+(global-set-key (kbd "<XF86AudioPrev>") 'emms-previous)
+(global-set-key (kbd "<XF86AudioNext>") 'emms-next)
+(global-set-key (kbd "<XF86AudioPlay>") 'emms-pause)
+
+
+;; El-Feed
+(setq elfeed-feeds
+       '("http://nullprogram.com/feed/"
+         "https://planet.emacslife.com/atom.xml"
+         "https://solar.lowtechmagazine.com/feeds/all-en.atom.xml"))
