@@ -4,21 +4,14 @@
 
 ;; Define package repositories
 (require 'package)
-;; (add-to-list 'package-archives
-             ;; '("marmalade" . "https://marmalade-repo.org/packages/") t)
-;; (add-to-list 'package-archives
-             ;; '("tromey" . "http://tromey.com/elpa/") t)
-
-;; (add-to-list 'package-archives
-             ;; '("melpa" . "https://melpa.org/packages/") t
-             ;; )
-
-;; (add-to-list 'package-archives
-            ;; '("melpa" . "http://melpa.milkbox.net/packages/") t)
+;(add-to-lis` 'package-archives '("marmalade" . "https://marmalade-repo.org/packages/") t)
+;(add-to-list 'package-archives '("tromey" . "http://tromey.com/elpa/") t)
+;(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+;(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
 
 (setq package-archives '(("melpa-stable" . "http://stable.melpa.org/packages/")
-                         ("melpa" . "https://melpa.org/packages/")))
-
+                         ("melpa" . "https://melpa.org/packages/")
+                         ("nongnu" . "https://elpa.nongnu.org/nongnu/")))
 
 ;; Load and activate emacs packages. Do this first so that the
 ;; packages are loaded before you start trying to modify them.
@@ -253,7 +246,12 @@
     (clojurescript . t)
     (emacs-lisp . t)
     (python . t)
+    (C . t)
     (calc . t)))
+
+(defun my-org-confirm-babel-evaluate (lang body)
+  (not (string= lang "babashka")))  ;don't ask for babashka
+(setq org-confirm-babel-evaluate #'my-org-confirm-babel-evaluate)
 
 (require 'org-tempo)
 (require 'ob-clojurescript)
@@ -295,22 +293,27 @@
  ;; If there is more than one, they won't work right.
  '(coffee-tab-width 2)
  '(custom-safe-themes
-   (quote
-    ("5ee12d8250b0952deefc88814cf0672327d7ee70b16344372db9460e9a0e3ffc" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "9e54a6ac0051987b4296e9276eecc5dfb67fdcd620191ee553f40a9b6d943e78" "52588047a0fe3727e3cd8a90e76d7f078c9bd62c0b246324e557dfa5112e0d0c" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" default)))
+   '("5ee12d8250b0952deefc88814cf0672327d7ee70b16344372db9460e9a0e3ffc" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "9e54a6ac0051987b4296e9276eecc5dfb67fdcd620191ee553f40a9b6d943e78" "52588047a0fe3727e3cd8a90e76d7f078c9bd62c0b246324e557dfa5112e0d0c" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" default))
+ '(org-babel-load-languages
+   '((clojure . t)
+     (scheme . t)
+     (shell . t)
+     (clojurescript . t)
+     (emacs-lisp . t)
+     (python . t)
+     (C . t)
+     (calc . t)))
  '(org-modules
-   (quote
-    (org-bbdb org-bibtex org-docview org-gnus org-info org-irc org-mhe org-rmail org-w3m org-drill)))
+   '(org-bbdb org-bibtex org-docview org-gnus org-info org-irc org-mhe org-rmail org-w3m org-drill))
  '(package-selected-packages
-   (quote
-    (speed-type consult-recoll elfeed async dash parseclj parseedn cider deadgrep elpher emms inf-clojure org-drill vega-view clojurescript-mode org-babel-eval-in-repl calfw-org calfw org-chef sicp cider-decompile json-mode 4clojure ag htmlize luarocks markdown-mode markdown-mode+ lua-mode tagedit sos solarized-theme smex rainbow-delimiters projectile paredit magit ipython ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking)))
+   '(web-server nov asm-blox geiser-mit guix direnv helm-dash speed-type consult-recoll elfeed async dash parseclj parseedn cider deadgrep elpher emms inf-clojure org-drill vega-view clojurescript-mode org-babel-eval-in-repl calfw-org calfw org-chef sicp cider-decompile json-mode 4clojure ag htmlize luarocks markdown-mode markdown-mode+ lua-mode tagedit sos solarized-theme smex rainbow-delimiters projectile paredit magit ipython ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking))
  '(pomodoro-break-time 17)
  '(pomodoro-work-time 57)
  '(safe-local-variable-values
-   (quote
-    ((cider-shadow-watched-builds ":server" ":client")
+   '((cider-shadow-watched-builds ":server" ":client")
      (cider-shadow-default-options . ":server")
      (cider-preferred-build-tool . shadow-cljs)
-     (cider-default-cljs-repl . shadow))))
+     (cider-default-cljs-repl . shadow)))
  '(session-use-package t nil (session)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

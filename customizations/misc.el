@@ -153,4 +153,33 @@
 (setq elfeed-feeds
        '("http://nullprogram.com/feed/"
          "https://planet.emacslife.com/atom.xml"
-         "https://solar.lowtechmagazine.com/feeds/all-en.atom.xml"))
+         "https://solar.lowtechmagazine.com/feeds/all-en.atom.xml"
+         "http://planet.clojure.in/atom.xml"
+         "https://www.moderntreasury.com/journal/rss.xml"))
+
+;(advice-add  'elfeed-show-entry :after #'+process-elfeed-entry)
+
+(defun +eww-open-in-other-window (url)
+  "Use `eww-open-in-new-buffer' in another window."
+   (interactive (list (car (eww-suggested-uris))))
+   (other-window-prefix)  ; For emacs28 -- it's a hack, but why not?
+   (eww-browse-url url :new-window))
+
+(defun +process-elfeed-entry (entry)
+  "Process each type of entry differently.
+  e.g., you may want to open HN entries in eww."
+  (let ((url (elfeed-entry-link entry)))
+    (pcase url 
+      ;((pred (string-match-p "https\\:\\/\\/www.youtube.com\\/watch")) (youtube-sub-extractor-extract-subs url))
+      (_ (+eww-open-in-other-window url)))))
+
+(setq browse-url-browser-function 'eww-browse-url
+      shr-use-colors nil
+      shr-bullet "• "
+      shr-folding-mode t
+      eww-search-prefix "https://html.duckduckgo.com/html?q="
+      url-privacy-level '(email agent cookies lastloc)
+      browse-url-secondary-browser-function 'browse-url-firefox)
+
+;; Helm-Dash
+(setq helm-dash-docsets-path "/home/nanomonkey/.local/share/Zeal/Zeal/docsets")
