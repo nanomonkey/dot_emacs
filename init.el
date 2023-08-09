@@ -11,7 +11,8 @@
 
 (setq package-archives '(("melpa-stable" . "http://stable.melpa.org/packages/")
                          ("melpa" . "https://melpa.org/packages/")
-                         ("nongnu" . "https://elpa.nongnu.org/nongnu/")))
+                         ("nongnu" . "https://elpa.nongnu.org/nongnu/")
+                         ("elpa" . "https://elpa.gnu.org/packages/")))
 
 ;; Load and activate emacs packages. Do this first so that the
 ;; packages are loaded before you start trying to modify them.
@@ -267,9 +268,18 @@
 
 ;; desktop mode for saving registers
 ;; don't use desktop mode for terminal
+;; Automatically save and restore sessions
+(setq desktop-dirname             "~/.emacs.d/desktop/"
+      desktop-base-file-name      "emacs.desktop"
+      desktop-base-lock-name      "lock"
+      desktop-path                (list desktop-dirname)
+      desktop-save                t
+      desktop-files-not-to-save   "^$" ;reload tramp paths
+      desktop-load-locked-desktop nil
+      desktop-auto-save-timeout   30)
 (when (display-graphic-p)
   (desktop-save-mode 1);; is x window
-  ())
+  (desktop-save-mode 0))
 
 ;; Add variables to desktop saving
 (add-to-list 'desktop-globals-to-save 'register-alist)
@@ -278,6 +288,12 @@
 (put 'dired-find-alternate-file 'disabled nil)
 ;; Sort Dired buffers
 (setq dired-listing-switches "-agho --group-directories-first")
+
+
+(with-eval-after-load 'org
+  (mapcar
+   (lambda (x) (add-to-list 'org-modules x t))
+   '('org-timer 'org-bbdb 'org-bibtex 'org-docview 'org-gnus 'org-info 'org-irc 'org-mhe 'org-rmail 'org-w3m 'org-drill)))
 
 ;; M-x eval-buffer
 ;; to reload this buffer
@@ -303,10 +319,8 @@
      (python . t)
      (C . t)
      (calc . t)))
- '(org-modules
-   '(org-bbdb org-bibtex org-docview org-gnus org-info org-irc org-mhe org-rmail org-w3m org-drill))
  '(package-selected-packages
-   '(web-server nov asm-blox geiser-mit guix direnv helm-dash speed-type consult-recoll elfeed async dash parseclj parseedn cider deadgrep elpher emms inf-clojure org-drill vega-view clojurescript-mode org-babel-eval-in-repl calfw-org calfw org-chef sicp cider-decompile json-mode 4clojure ag htmlize luarocks markdown-mode markdown-mode+ lua-mode tagedit sos solarized-theme smex rainbow-delimiters projectile paredit magit ipython ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking))
+   '(ulisp-repl web-server nov asm-blox geiser-mit guix direnv helm-dash speed-type consult-recoll elfeed async dash parseclj parseedn cider deadgrep elpher emms inf-clojure org-drill vega-view clojurescript-mode org-babel-eval-in-repl calfw-org calfw org-chef sicp cider-decompile json-mode 4clojure ag htmlize luarocks markdown-mode markdown-mode+ lua-mode tagedit sos solarized-theme smex rainbow-delimiters projectile paredit magit ipython ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking))
  '(pomodoro-break-time 17)
  '(pomodoro-work-time 57)
  '(safe-local-variable-values
