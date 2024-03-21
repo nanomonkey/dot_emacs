@@ -66,6 +66,42 @@
     ;; git integration
     magit))
 
+
+(require 'org-passwords)
+   (setq org-passwords-file "~/org/passwords.gpg")
+   (setq org-passwords-random-words-dictionary "/etc/dictionaries-common/words")
+
+(eval-after-load "org-passwords"
+  '(progn
+     (define-key org-passwords-mode-map
+       (kbd "C-c u")
+       'org-passwords-copy-username)
+     (define-key org-passwords-mode-map
+       (kbd "C-c p")
+       'org-passwords-copy-password)
+     (define-key org-passwords-mode-map
+       (kbd "C-c o")
+       '(lambda ()
+          (interactive)
+          (org-passwords-copy-password)
+          (org-passwords-open-url)))))
+
+(global-set-key (kbd "C-c q") 'org-passwords)
+
+
+(require 'quelpa-use-package)
+
+;; whisper.el
+
+(use-package whisper
+  :load-path "~/.emacs.d/vendor/whisper.el/"
+  :bind ("C-H-r" . whisper-run)
+  :config
+  (setq whisper-install-directory "~/git/"
+        whisper-model "base"
+        whisper-language "en"
+        whisper-translate nil))
+
 ;; Authentication
 (setq auth-sources '("~/.netrc"))
 
@@ -238,6 +274,16 @@
 (setq org-agenda-files (list "~/org/work.org"
                              "~/org/House.org"))
 
+(setq org-capture-templates
+      '(("t" "Todo" entry (file+headline "~/org/gtd.org" "Tasks")
+         "* TODO %?\n  %i\n  %a")
+        ("j" "Journal" entry (file+datetree "~/org/journal.org")
+         "* %?\nEntered on %U\n  %i\n  %a")
+        ("p" "password" entry (file "~/documents/passwords.gpg")
+         "* %^{Title}\n  %^{URL}p %^{USERNAME}p %^{PASSWORD}p")))
+
+(setq enable-recursive-minibuffers t)
+
 ;; Org babel
 (org-babel-do-load-languages
   'org-babel-load-languages
@@ -259,11 +305,36 @@
 (require 'ob-clojure) ;; necessary with above?
 (setq org-babel-clojure-backend 'cider)
 
-;; have EWW use Chromium
-(setq shr-external-browser "chromium-browser")
+
+;; (unless (package-installed-p 'quelpa)
+;;   (with-temp-buffer
+;;     (url-insert-file-contents "https://raw.githubusercontent.com/quelpa/quelpa/master/quelpa.el")
+;;     (eval-buffer)
+;;     (quelpa-self-upgrade)))
+
+;; (quelpa
+;;  '(quelpa-use-package
+;;    :fetcher git
+;;    :url "https://github.com/quelpa/quelpa-use-package.git"))
+;; (require 'quelpa-use-package)
+
+
+(unbind-key "C-z")
+(bind-keys :prefix-map personal-ops-map
+           :prefix "C-z"
+           :prefix-docstring "Personal key bindings"
+           ("v" . emacs-version))
+
+;; embedded programming with gdb
+(use-package embed
+  :quelpa (embed :fetcher github :repo "sjsch/embed-el")
+  :bind (("C-z e o" . embed-openocd-start)
+         ("C-z e O" . embed-openocd-stop)
+         ("C-z e g" . embed-openocd-gdb)
+         ("C-z e f" . embed-openocd-flash)))
 
 ;; session.el
-(require 'session)
+;(require 'session)
 (add-hook 'after-init-hook 'session-initialize)
 
 ;; desktop mode for saving registers
@@ -282,7 +353,7 @@
   (desktop-save-mode 0))
 
 ;; Add variables to desktop saving
-(add-to-list 'desktop-globals-to-save 'register-alist)
+;(add-to-list 'desktop-globals-to-save 'register-alist)
 
 ;; Open dired in same buffer
 (put 'dired-find-alternate-file 'disabled nil)
@@ -320,7 +391,7 @@
      (C . t)
      (calc . t)))
  '(package-selected-packages
-   '(ulisp-repl web-server nov asm-blox geiser-mit guix direnv helm-dash speed-type consult-recoll elfeed async dash parseclj parseedn cider deadgrep elpher emms inf-clojure org-drill vega-view clojurescript-mode org-babel-eval-in-repl calfw-org calfw org-chef sicp cider-decompile json-mode 4clojure ag htmlize luarocks markdown-mode markdown-mode+ lua-mode tagedit sos solarized-theme smex rainbow-delimiters projectile paredit magit ipython ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking))
+   '(geiser-guile crdt embed f quelpa-use-package quelpa use-package ulisp-repl web-server nov asm-blox geiser-mit guix direnv helm-dash speed-type consult-recoll elfeed async dash parseclj parseedn cider deadgrep elpher emms inf-clojure org-drill vega-view clojurescript-mode org-babel-eval-in-repl calfw-org calfw org-chef sicp cider-decompile json-mode 4clojure ag htmlize luarocks markdown-mode markdown-mode+ lua-mode tagedit sos solarized-theme smex rainbow-delimiters projectile paredit magit ipython ido-ubiquitous exec-path-from-shell clojure-mode-extra-font-locking))
  '(pomodoro-break-time 17)
  '(pomodoro-work-time 57)
  '(safe-local-variable-values
@@ -328,6 +399,10 @@
      (cider-shadow-default-options . ":server")
      (cider-preferred-build-tool . shadow-cljs)
      (cider-default-cljs-repl . shadow)))
+ '(scad-preview-image-size '(1600 . 1200))
+ '(scad-preview-refresh-delay 0.1)
+ '(scad-preview-view '("axes" (\, "scales")))
+ '(scad-preview-window-size 100)
  '(session-use-package t nil (session)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -377,11 +452,11 @@
 (global-ede-mode 1)
 
 ;; Configure arduino OS X dirs.
-(setq ede-arduino-appdir "/Applications/Arduino.app/Contents/Resources/Java")
+;(setq ede-arduino-appdir "/Applications/Arduino.app/Contents/Resources/Java")
 
 ;;Arduino-mode
 (add-to-list 'load-path "~/.emacs.d/vendor/arduino-mode")
-(setq auto-mode-alist (cons '("\\.\\(pde\\|ino\\)$" . arduino-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("\\.\\(pde\\|ino\\)$" . c++-mode) auto-mode-alist))
 (autoload 'arduino-mode "arduino-mode" "Arduino editing mode." t)
 
 ;;Calendar Framework
@@ -389,6 +464,10 @@
 (require 'calfw)
 (require 'calfw-org) ;;M-x cfw:open-org-calendar
 (setq cfw:org-agenda-schedule-args '(:timestamp))
+
+(setq calendar-latitude 37.8)
+(setq calendar-longitude -122.27)
+(setq calendar-location-name "Oakland, CA")
 
 ;; Open Scad preview
 (require 'scad-preview)

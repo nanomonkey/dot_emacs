@@ -155,7 +155,8 @@
          "https://planet.emacslife.com/atom.xml"
          "https://solar.lowtechmagazine.com/feeds/all-en.atom.xml"
          "http://planet.clojure.in/atom.xml"
-         "https://www.moderntreasury.com/journal/rss.xml"))
+         "https://www.moderntreasury.com/journal/rss.xml"
+         "https://link.chtbl.com/gh9F9d8x?id=gh9F9d8x&platform=rss"))
 
 ;(advice-add  'elfeed-show-entry :after #'+process-elfeed-entry)
 

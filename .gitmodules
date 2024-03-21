@@ -1,0 +1,3 @@
+[submodule "vendor/whisper.el"]
+	path = vendor/whisper.el
+	url = https://github.com/natrys/whisper.el.git
